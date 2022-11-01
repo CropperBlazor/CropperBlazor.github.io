@@ -1,0 +1,56 @@
+/* /Pages/CropperDemo.razor.rz.scp.css */
+.img-container[b-f9coqihhz7],
+.img-preview[b-f9coqihhz7] {
+    background-color: #f7f7f7;
+    text-align: center;
+    width: 100%;
+}
+
+.img-container[b-f9coqihhz7] {
+    max-height: 573px;
+    min-height: 200px;
+}
+
+@media (min-width: 768px) {
+    .img-container[b-f9coqihhz7] {
+        min-height: 573px;
+    }
+}
+
+.img-container > img[b-f9coqihhz7] {
+    max-width: 100%;
+}
+
+.img-preview[b-f9coqihhz7] {
+    overflow: hidden;
+}
+
+.img-preview > img[b-f9coqihhz7] {
+    max-width: 100%;
+}
+
+.preview-lg[b-f9coqihhz7] {
+    height: 9em;
+    width: 16em;
+}
+
+.preview-md[b-f9coqihhz7] {
+    height: 4.5em;
+    width: 8em;
+}
+
+.preview-sm[b-f9coqihhz7] {
+    height: 2.25em;
+    width: 4em;
+}
+
+.preview-xs[b-f9coqihhz7] {
+    height: 1.125em;
+    margin-right: 0;
+    width: 2em;
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.brand-image[b-u3iepjtnb2] {
+    height: 40px;
+    width: 40px;
+}
