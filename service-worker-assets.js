@@ -141,7 +141,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-2sNX9Lmr\/zlgwtqqCCRjMX6PU3yv2nrV9l2W4jH8tUo=",
+      "hash": "sha256-EfpwNVnRkaTcHe59q4PkqzVZqRyzmMjEbrNqXuV6XF8=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -149,11 +149,11 @@
       "url": "_framework\/Blazored.LocalStorage.dll"
     },
     {
-      "hash": "sha256-QFoKcNAdzbM6Dyi\/eY5YsSGTNeuN6RJAS1vhdH99Fq8=",
+      "hash": "sha256-UvQPPwdfuDQepjutuaATGAtuLMmk2fcKw1Q4vp5KMrc=",
       "url": "_framework\/Cropper.Blazor.Client.dll"
     },
     {
-      "hash": "sha256-f73sT89o6ozg+qKg+O6zsfyEdWqcdyewRjrVgwIHsXQ=",
+      "hash": "sha256-\/JBZIlQAeXOBf3QecQW1fgG9+lr+Voamqr0fHlAev7A=",
       "url": "_framework\/Cropper.Blazor.dll"
     },
     {
@@ -229,7 +229,7 @@
       "url": "_framework\/System.Collections.dll"
     },
     {
-      "hash": "sha256-WN4+DbE9TlAQmPlK5Fgsn9eNqUT+VQ93GBjUyh7eMAQ=",
+      "hash": "sha256-JDOFzyqnz5q2MBscXTtfoOb1XZPxWnLu\/SZa1SHImmo=",
       "url": "_framework\/System.ComponentModel.Annotations.dll"
     },
     {
@@ -277,7 +277,7 @@
       "url": "_framework\/System.ObjectModel.dll"
     },
     {
-      "hash": "sha256-a+QSZKxoMUGEvmSjTd2OBV0rAWJVjz4PEsrlQDONgAQ=",
+      "hash": "sha256-6x9qOjY7h3b+F3nFdgJoK2oe7pAGLZF0FHXDdOcHc7o=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -293,7 +293,7 @@
       "url": "_framework\/System.Runtime.CompilerServices.Unsafe.dll"
     },
     {
-      "hash": "sha256-QhKEd7sT6itbak1YGtTyCbMby6nT\/0SSEau\/l\/NAQY8=",
+      "hash": "sha256-zdvHjERsdKiw7NFtlaiN2JvBmVKWF05ygzipg+T5Ydg=",
       "url": "_framework\/System.Runtime.dll"
     },
     {
@@ -309,7 +309,7 @@
       "url": "_framework\/System.Text.Encodings.Web.dll"
     },
     {
-      "hash": "sha256-BkY8zRoT3x+5gL2IauGB65nbzPtQkci8vc\/3NtYs1tw=",
+      "hash": "sha256-enDyLJ4QnlsXro3CReErIvi+lvr\/CXBnHYa3DWclQcA=",
       "url": "_framework\/System.Text.Json.dll"
     },
     {
@@ -353,5 +353,5 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     }
   ],
-  "version": "h+z9Cf45"
+  "version": "zBM3UM7V"
 };
