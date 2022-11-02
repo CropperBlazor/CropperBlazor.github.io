@@ -141,7 +141,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-N7jmA8ZCtSdIA5SM82EKRZVZ12UZ8H2WO+ulj8cSY5o=",
+      "hash": "sha256-a2Jx+q7qb7VUvHA6AZLKcUGzh6j6yVcepx4Wra0WYbM=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -149,11 +149,11 @@
       "url": "_framework\/Blazored.LocalStorage.dll"
     },
     {
-      "hash": "sha256-rXpxjkVkH1wBHLeMmmhMvhLDp0UBVVXMxDIWNbbheXI=",
+      "hash": "sha256-bNoxN+Eb4h+2g0ogxMvwDihrObg\/Y0510oJM7CCnS+c=",
       "url": "_framework\/Cropper.Blazor.Client.dll"
     },
     {
-      "hash": "sha256-Jrpx24DbKNIg8mkW699vKtwhGDrh91FTWR9Teh8wjAM=",
+      "hash": "sha256-yHx7jckk8QwvI\/dii3mTjFyfL+vjz0aiBnS9xkWhibg=",
       "url": "_framework\/Cropper.Blazor.dll"
     },
     {
@@ -229,7 +229,7 @@
       "url": "_framework\/System.Collections.dll"
     },
     {
-      "hash": "sha256-WN4+DbE9TlAQmPlK5Fgsn9eNqUT+VQ93GBjUyh7eMAQ=",
+      "hash": "sha256-JDOFzyqnz5q2MBscXTtfoOb1XZPxWnLu\/SZa1SHImmo=",
       "url": "_framework\/System.ComponentModel.Annotations.dll"
     },
     {
@@ -277,7 +277,7 @@
       "url": "_framework\/System.ObjectModel.dll"
     },
     {
-      "hash": "sha256-a+QSZKxoMUGEvmSjTd2OBV0rAWJVjz4PEsrlQDONgAQ=",
+      "hash": "sha256-6x9qOjY7h3b+F3nFdgJoK2oe7pAGLZF0FHXDdOcHc7o=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -293,7 +293,7 @@
       "url": "_framework\/System.Runtime.CompilerServices.Unsafe.dll"
     },
     {
-      "hash": "sha256-QhKEd7sT6itbak1YGtTyCbMby6nT\/0SSEau\/l\/NAQY8=",
+      "hash": "sha256-zdvHjERsdKiw7NFtlaiN2JvBmVKWF05ygzipg+T5Ydg=",
       "url": "_framework\/System.Runtime.dll"
     },
     {
@@ -309,7 +309,7 @@
       "url": "_framework\/System.Text.Encodings.Web.dll"
     },
     {
-      "hash": "sha256-BkY8zRoT3x+5gL2IauGB65nbzPtQkci8vc\/3NtYs1tw=",
+      "hash": "sha256-enDyLJ4QnlsXro3CReErIvi+lvr\/CXBnHYa3DWclQcA=",
       "url": "_framework\/System.Text.Json.dll"
     },
     {
@@ -341,6 +341,10 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.js"
     },
     {
+      "hash": "sha256-0Vg+8l8+7F9eFOo2WNjyg4i6CPfttgmgFrihP9ORZLo=",
+      "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
+    },
+    {
       "hash": "sha256-JQWD4dNaRBtboiA0uapoe1EhAIKbg+JN2RB9\/nVapSI=",
       "url": "_content\/MudBlazor\/MudBlazor.min.css"
     },
@@ -349,5 +353,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "3RJxIvkS"
+  "version": "xOCpxtpv"
 };
