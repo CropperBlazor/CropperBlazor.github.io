@@ -141,7 +141,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-a2Jx+q7qb7VUvHA6AZLKcUGzh6j6yVcepx4Wra0WYbM=",
+      "hash": "sha256-IU2FymcfYEd+Hna+19trumTpTCE14+FXiTqMKFlGLcc=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -149,11 +149,11 @@
       "url": "_framework\/Blazored.LocalStorage.dll"
     },
     {
-      "hash": "sha256-bNoxN+Eb4h+2g0ogxMvwDihrObg\/Y0510oJM7CCnS+c=",
+      "hash": "sha256-bPd28RDT\/TPKOCRK7vTGS3Y6+NtxX7LC\/14ZRLLGBkQ=",
       "url": "_framework\/Cropper.Blazor.Client.dll"
     },
     {
-      "hash": "sha256-yHx7jckk8QwvI\/dii3mTjFyfL+vjz0aiBnS9xkWhibg=",
+      "hash": "sha256-ogUJgCUz7KmeLFI7pv1byePOnbIexWuE1u6MEUb7QUI=",
       "url": "_framework\/Cropper.Blazor.dll"
     },
     {
@@ -225,7 +225,7 @@
       "url": "_framework\/System.Collections.Concurrent.dll"
     },
     {
-      "hash": "sha256-kCPIrjCCh\/zYsUBU7YtZs20FvoGjvsELmAtOpbsOvxQ=",
+      "hash": "sha256-+rKtyXdv6O9ojwG66U9L6m\/uB8eQRhkgO\/w7Am61CpA=",
       "url": "_framework\/System.Collections.dll"
     },
     {
@@ -293,7 +293,7 @@
       "url": "_framework\/System.Runtime.CompilerServices.Unsafe.dll"
     },
     {
-      "hash": "sha256-zdvHjERsdKiw7NFtlaiN2JvBmVKWF05ygzipg+T5Ydg=",
+      "hash": "sha256-tRlgfW3PeNhqWrtqyQCeePGThBfg3FME+EpNyB7Gt9A=",
       "url": "_framework\/System.Runtime.dll"
     },
     {
@@ -325,6 +325,14 @@
       "url": "Cropper.Blazor.Client.styles.css"
     },
     {
+      "hash": "sha256-JQWD4dNaRBtboiA0uapoe1EhAIKbg+JN2RB9\/nVapSI=",
+      "url": "_content\/MudBlazor\/MudBlazor.min.css"
+    },
+    {
+      "hash": "sha256-3AKmpdrQq6Zd3gaLwhiWFwow+p\/5IhuJQRFgNX7jwHs=",
+      "url": "_content\/MudBlazor\/MudBlazor.min.js"
+    },
+    {
       "hash": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4\/sNPbaRUspOLefkCY=",
       "url": "_content\/Cropper.Blazor\/background.png"
     },
@@ -343,15 +351,7 @@
     {
       "hash": "sha256-0Vg+8l8+7F9eFOo2WNjyg4i6CPfttgmgFrihP9ORZLo=",
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
-    },
-    {
-      "hash": "sha256-JQWD4dNaRBtboiA0uapoe1EhAIKbg+JN2RB9\/nVapSI=",
-      "url": "_content\/MudBlazor\/MudBlazor.min.css"
-    },
-    {
-      "hash": "sha256-3AKmpdrQq6Zd3gaLwhiWFwow+p\/5IhuJQRFgNX7jwHs=",
-      "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "xOCpxtpv"
+  "version": "Vplk499g"
 };
