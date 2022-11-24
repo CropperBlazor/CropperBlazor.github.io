@@ -17,15 +17,15 @@
     }
 }
 
-.img-container > img[b-f9coqihhz7] {
-    max-width: 100%;
-}
-
 .img-preview[b-f9coqihhz7] {
     overflow: hidden;
 }
 
-.img-preview > img[b-f9coqihhz7] {
+.img-container[b-f9coqihhz7] >  img {
+    max-width: 100%;
+}
+
+.img-preview[b-f9coqihhz7] >  img {
     max-width: 100%;
 }
 
@@ -48,9 +48,4 @@
     height: 1.125em;
     margin-right: 0;
     width: 2em;
-}
-/* /Shared/MainLayout.razor.rz.scp.css */
-.brand-image[b-u3iepjtnb2] {
-    height: 40px;
-    width: 40px;
 }
