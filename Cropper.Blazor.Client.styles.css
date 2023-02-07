@@ -1,7 +1,7 @@
 /* /Pages/CropperDemo.razor.rz.scp.css */
 .img-container[b-f9coqihhz7],
 .img-preview[b-f9coqihhz7] {
-    background-color: #f7f7f7;
+    background-color: var(--mud-palette-background-grey);
     text-align: center;
     width: 100%;
 }
