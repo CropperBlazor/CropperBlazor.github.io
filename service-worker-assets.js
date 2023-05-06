@@ -61,11 +61,11 @@
       "url": "not-found-image.jpg"
     },
     {
-      "hash": "sha256-PMDe4AMZEaOSL4bClMZolYt4PTELQk\/1PdB22MIoUUY=",
+      "hash": "sha256-lvrggsI+yk3RL70mBO7jK+G4UGs36WVGThgPdlq3kCI=",
       "url": "overrideCropperJsInteropModule.js"
     },
     {
-      "hash": "sha256-17xxgtondtQ5+T0g+UUxSb6Gsuzmg9OZdAuXEEeixbs=",
+      "hash": "sha256-J5EL11R46pK7BuiaZZcxGPl2OKU90tTFi\/KFuWQf330=",
       "url": "overrideCropperJsInteropModule.min.js"
     },
     {
@@ -109,7 +109,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-GKl491w5ROCytAMUSTQwVN3YWiCojvXzMyOaXjbDtK8=",
+      "hash": "sha256-6kPIedYPsJuiDBRDXwAFr3zNMqRR8c9CuTmFAiD8Hrc=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -117,7 +117,7 @@
       "url": "_framework\/Blazored.LocalStorage.dll"
     },
     {
-      "hash": "sha256-NnYbgPKw8glhLiRBMugNqIBn6ymWoKZkpbO\/aaXKo0Q=",
+      "hash": "sha256-V9+lvQgU3qTUprqD0zf+KI8FTzcNgf7Bnts4o6cUGB4=",
       "url": "_framework\/Cropper.Blazor.Client.dll"
     },
     {
@@ -265,7 +265,7 @@
       "url": "_framework\/System.ObjectModel.dll"
     },
     {
-      "hash": "sha256-WzfMD\/ckakIZ2pEGcY\/Wvf8SzAh1L3Ve+bf8KYmgTUg=",
+      "hash": "sha256-\/zcsGKMQb6io1fBbEzY6oA5GZlPbqeLDqS3guKupLCY=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -273,7 +273,7 @@
       "url": "_framework\/System.Private.Uri.dll"
     },
     {
-      "hash": "sha256-FPAP89uVqSpl4Jdn5ppo7qicCjsTkwtlMewsWFUZIyo=",
+      "hash": "sha256-oX+kcdCaCvdpYl90+0qATlc9LI6sMZII+cTemsUCipY=",
       "url": "_framework\/System.Runtime.dll"
     },
     {
@@ -333,5 +333,5 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     }
   ],
-  "version": "vT8mmddc"
+  "version": "AHbNbwD2"
 };
