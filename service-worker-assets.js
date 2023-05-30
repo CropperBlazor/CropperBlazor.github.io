@@ -109,7 +109,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-2x+2yfFruIwD\/RhlmAI\/WFji4XK9xoxI4u4y9fV9Y74=",
+      "hash": "sha256-kIxs9hCwngQf4PFAssa\/K1NZpJ+IOz8Ducsj8HvfNvA=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -117,7 +117,7 @@
       "url": "_framework\/Blazored.LocalStorage.dll"
     },
     {
-      "hash": "sha256-zc240CAEccgCNjPC3zEJdcmfDMafzx1wSx0ZM14Mkfw=",
+      "hash": "sha256-xdaQdX2onWLiYwab3BxHecYwBBSElSahZrEwEZcOQqo=",
       "url": "_framework\/Cropper.Blazor.Client.dll"
     },
     {
@@ -193,7 +193,7 @@
       "url": "_framework\/Microsoft.Net.Http.Headers.dll"
     },
     {
-      "hash": "sha256-84jTlk2QeOPakkV4DK8auzXvf96\/D9DqKfOWJ7I4CcA=",
+      "hash": "sha256-T6ZH2v9xiECmFJWUehKl4rIpwmRhMwZKsuwUzsAeFog=",
       "url": "_framework\/MudBlazor.dll"
     },
     {
@@ -229,7 +229,7 @@
       "url": "_framework\/System.ComponentModel.TypeConverter.dll"
     },
     {
-      "hash": "sha256-Hn\/GRPMI5tYdeSZnty1xmj5AqMudsGfcipK5WXLyrIM=",
+      "hash": "sha256-7n8b7z3kH6zc3KG+2Kgf38P3AhI16eElQxIs95bHOSs=",
       "url": "_framework\/System.Console.dll"
     },
     {
@@ -265,7 +265,7 @@
       "url": "_framework\/System.ObjectModel.dll"
     },
     {
-      "hash": "sha256-Uj4B04fyii14YIlncdCbXkzol+7R3lVIWH0vaTeNJX8=",
+      "hash": "sha256-7mChq8wLCkXVmEpsqerRpcDC3j7UWGcMEWxuzzm\/M2I=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -305,11 +305,11 @@
       "url": "Cropper.Blazor.Client.styles.css"
     },
     {
-      "hash": "sha256-rqchcPyv1qTX6jCJrNMR5kp+uhuYiKqQZgYlNqBTzro=",
+      "hash": "sha256-7bmNDaqyaj7bFcVJ6tVt4bcHsM5+iSuU91C8Up1djZ0=",
       "url": "_content\/MudBlazor\/MudBlazor.min.css"
     },
     {
-      "hash": "sha256-lVje2iMXLxHExex2UKHHzh3PKd2bbmD4N3LtwRhxNSA=",
+      "hash": "sha256-kySqKNtfFj0tmgbuAqn6owqTKDDpA\/M6Vc5Wmm6eW54=",
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     },
     {
@@ -333,5 +333,5 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     }
   ],
-  "version": "ss297od9"
+  "version": "ZcBNgn9d"
 };
