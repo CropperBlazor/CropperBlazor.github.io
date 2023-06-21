@@ -29,6 +29,14 @@
       "url": "favicon.ico"
     },
     {
+      "hash": "sha256-NOLcqAhqpi0GZfQc7kIeZimrTbnvecUR3GGDs3L5ZtA=",
+      "url": "helper.js"
+    },
+    {
+      "hash": "sha256-jK+ylhmTGJgKB\/8rDIgt7ulBPhT0CyE74nsHZ1F1HbY=",
+      "url": "helper.min.js"
+    },
+    {
       "hash": "sha256-b6KmHpguw\/lvAExlrD+nFKfFHMZOu9jAjDoOw8a2jzE=",
       "url": "icon-192x192.png"
     },
@@ -37,7 +45,7 @@
       "url": "icon-515x512.png"
     },
     {
-      "hash": "sha256-vkXJZhuL+rVorWmlKxne1SnVD7ElBVUMgieIxabHgyo=",
+      "hash": "sha256-y2AOShwyfFL0euAb5fP2s9B+00k3ys3C9WE5hzAMD+Y=",
       "url": "index.html"
     },
     {
@@ -109,7 +117,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-kIxs9hCwngQf4PFAssa\/K1NZpJ+IOz8Ducsj8HvfNvA=",
+      "hash": "sha256-Mfl+TiNaRU1Mx7WEkLdAyh3OytuKN+6PHj+OMAiB8es=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -117,11 +125,11 @@
       "url": "_framework\/Blazored.LocalStorage.dll"
     },
     {
-      "hash": "sha256-xdaQdX2onWLiYwab3BxHecYwBBSElSahZrEwEZcOQqo=",
+      "hash": "sha256-HYa6WySQp1JaAvU\/MXGJeutSh2M6dbClffl+0hLotdg=",
       "url": "_framework\/Cropper.Blazor.Client.dll"
     },
     {
-      "hash": "sha256-rV2Gm1J2reZYVoqvyTks8SGqTQQgbYeEzlV4bJpht1I=",
+      "hash": "sha256-blEOs5z4wGjhOLReqR4FQlhoN+pP1Fgi9jzWGVeYNSE=",
       "url": "_framework\/Cropper.Blazor.dll"
     },
     {
@@ -265,7 +273,7 @@
       "url": "_framework\/System.ObjectModel.dll"
     },
     {
-      "hash": "sha256-7mChq8wLCkXVmEpsqerRpcDC3j7UWGcMEWxuzzm\/M2I=",
+      "hash": "sha256-\/+6qfwDXXMyzbC1sDTpF90707eUyIbu\/dy6LHUQeSWM=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -273,7 +281,7 @@
       "url": "_framework\/System.Private.Uri.dll"
     },
     {
-      "hash": "sha256-oX+kcdCaCvdpYl90+0qATlc9LI6sMZII+cTemsUCipY=",
+      "hash": "sha256-RJ7BnJEi4iC0aXJb\/IUobqvRoAhI34+QfSs98kZ44c0=",
       "url": "_framework\/System.Runtime.dll"
     },
     {
@@ -333,5 +341,5 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     }
   ],
-  "version": "ZcBNgn9d"
+  "version": "QQP88aT\/"
 };
