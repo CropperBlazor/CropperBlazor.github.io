@@ -117,7 +117,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-S0lb3c4piA8vwEtoegm7joS8A7G2s+Hz1WKm0sVF8tM=",
+      "hash": "sha256-CVN3Zx3nIzTSfpuAZFh8vUe1V+R\/ljrxhbl\/VHFNUSY=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -125,27 +125,27 @@
       "url": "_framework\/Blazored.LocalStorage.dll"
     },
     {
-      "hash": "sha256-+ccbq32ecMxTn8Sz\/hggFKbYnLEkdXjaK3sFcdf5wR8=",
+      "hash": "sha256-KYnrFhU\/TvLAz0tDM8NVEe7utWCugFBWdWOcoAw+LRg=",
       "url": "_framework\/Cropper.Blazor.Client.dll"
     },
     {
-      "hash": "sha256-b9EYiWqaIOhbHllEy1iNYITeC1XgxeSYma6J\/lRu8M0=",
+      "hash": "sha256-Oky25AZXJsSthclgUIJ8AOUQ3QYareWltPUvUKoCzqo=",
       "url": "_framework\/Cropper.Blazor.dll"
     },
     {
-      "hash": "sha256-uQTcsPv1gZrZxPyB+uZEqJVkAEjJTyUBQVHAFOQ4Xwk=",
+      "hash": "sha256-WoH7PSLlqjW\/9QzlWjcNWI9wHgqhyIQuD18oMzNA1\/s=",
       "url": "_framework\/Microsoft.AspNetCore.Components.dll"
     },
     {
-      "hash": "sha256-wcPyGU\/T7lzlTPNy+M4AeOL1yYc7qTSAkQwoYJPJdO0=",
+      "hash": "sha256-M6MyRHf48y\/dLuvLMq7hDOnud7Y7QV\/QYxMiQLaR+4Y=",
       "url": "_framework\/Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
-      "hash": "sha256-5\/h9mt8yiFi27T8M7ve5C3V8vhmR8wQYW86uCdkp8sE=",
+      "hash": "sha256-YLdNNH8iu2FqqTUyevpV0cQhwT1yzd0+J4SLJl2Dz8k=",
       "url": "_framework\/Microsoft.AspNetCore.Components.Web.dll"
     },
     {
-      "hash": "sha256-xkOW5Cr\/LYg26Ktzw4KQBy4sXlFa5dgyYqzHVTSqwt0=",
+      "hash": "sha256-PqMGQ60oDrgzkN3zffudbBYprIFJpZ95tvTa0Qb4g3k=",
       "url": "_framework\/Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
@@ -165,7 +165,7 @@
       "url": "_framework\/Microsoft.Extensions.Configuration.Json.dll"
     },
     {
-      "hash": "sha256-DDA5mZHa67fpsTWeHziLk+bA0KdYT10zI\/6x5btnZyw=",
+      "hash": "sha256-8PCpkEE0ZzZTUBgWwbVqDEnGiD89YaPiPB2PfSFJmsQ=",
       "url": "_framework\/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
@@ -173,7 +173,7 @@
       "url": "_framework\/Microsoft.Extensions.DependencyInjection.dll"
     },
     {
-      "hash": "sha256-KcxopK7mV\/YzbWP4QMU4s+8TdWHmnDI22f7rcSYJTh8=",
+      "hash": "sha256-HWasx9RSbTJNMUg4y5Ke3Vla5LADwC4BK0WYwFmoEaI=",
       "url": "_framework\/Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
@@ -189,11 +189,11 @@
       "url": "_framework\/Microsoft.Extensions.Primitives.dll"
     },
     {
-      "hash": "sha256-0Y\/5LvqIrkkl7S+JxgMpbEysFjwqtBTaX6lAg0j6O6g=",
+      "hash": "sha256-SxuToR7DmHF+\/jLIt7BXbu5ACVM3IDVwBqHqYEmsLjo=",
       "url": "_framework\/Microsoft.JSInterop.dll"
     },
     {
-      "hash": "sha256-3+dHa65PgCYOsUMlsJSDYPxt294+nWZxeMbopoWb+fA=",
+      "hash": "sha256-wQKd6BjANPUG9KwhmVpjtOvDwGEVx0ycJ6mrHWRi5Yg=",
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
@@ -201,7 +201,7 @@
       "url": "_framework\/Microsoft.Net.Http.Headers.dll"
     },
     {
-      "hash": "sha256-T6ZH2v9xiECmFJWUehKl4rIpwmRhMwZKsuwUzsAeFog=",
+      "hash": "sha256-iZBFERAzZXs42CiUL+IiQ9RUSmPopPLsBZHnJwrSPrg=",
       "url": "_framework\/MudBlazor.dll"
     },
     {
@@ -249,7 +249,7 @@
       "url": "_framework\/System.IO.Compression.dll"
     },
     {
-      "hash": "sha256-zxQW\/KIFrMnJg4dpFVabv9zHI5gBlQbjqr00c2u3uOs=",
+      "hash": "sha256-CziLNObQL02U1FuKk1iGL4\/2zleVXh18sFTRxJWKlzM=",
       "url": "_framework\/System.Linq.dll"
     },
     {
@@ -273,7 +273,7 @@
       "url": "_framework\/System.ObjectModel.dll"
     },
     {
-      "hash": "sha256-Qj5GfSxMr+FFi1DTVtzJBJPp7+Cb0DrNo2lmbXowq40=",
+      "hash": "sha256-UlokpKtdsnrUbkM3uqQQmNhVVDyTCdmIufooc\/JeP1I=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -317,7 +317,7 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.css"
     },
     {
-      "hash": "sha256-kySqKNtfFj0tmgbuAqn6owqTKDDpA\/M6Vc5Wmm6eW54=",
+      "hash": "sha256-tTa2A0bEeBBsVFCVPGG+V4yr6d9IiJbwAoHw\/oV1m+g=",
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     },
     {
@@ -341,5 +341,5 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     }
   ],
-  "version": "lXi1m\/UG"
+  "version": "FIADwxTb"
 };
