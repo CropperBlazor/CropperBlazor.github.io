@@ -5,7 +5,7 @@
       "url": "apple-touch-icon.png"
     },
     {
-      "hash": "sha256-03TliqOULAQrS7vddSlxbt3l3zNuHWWUg7cc1mYP3Uk=",
+      "hash": "sha256-MFVtd6HizBRna9GmQgIdX5i7XH295w\/XSGorfOM0yMY=",
       "url": "Cropper.Blazor.Client.min.css"
     },
     {
@@ -117,7 +117,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-UIJVXV+fZrVWZVo\/E6KfZ9Mzgp2ieYV26x9nwHYR3Nk=",
+      "hash": "sha256-YG6\/qigNuWQhEdf+LJLWc3BDx169Pt5fU5t8Gihf68U=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -125,7 +125,7 @@
       "url": "_framework\/Blazored.LocalStorage.dll"
     },
     {
-      "hash": "sha256-8q0sELb47nzrzmm9MncQkNBxk6VCfz9XZdnQD6EwM9Q=",
+      "hash": "sha256-ycmYcEWqxqADQ8xnN+AGV+GjlLPOsmmBk\/Lk4Vr2m44=",
       "url": "_framework\/Cropper.Blazor.Client.dll"
     },
     {
@@ -341,5 +341,5 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     }
   ],
-  "version": "WMrMW6s\/"
+  "version": "omUR9IKV"
 };
