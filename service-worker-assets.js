@@ -85,15 +85,15 @@
       "url": "service-worker.js"
     },
     {
-      "hash": "sha256-eMkr8Yf+rXSfoKKUy6sdYhkr4a2jrR6wxCeksP+D+Ao=",
+      "hash": "sha256-w5X9VzBUe8WSeB9b+uv\/pcsed1z4B9RE2KqCMhVfFVQ=",
       "url": "service-worker.published.js"
     },
     {
-      "hash": "sha256-cQRnIdbWVA0cTMdSuAtEsm9EU8Ec\/EcJqO3FPhag6Tw=",
+      "hash": "sha256-nj384acbczJroK4+iEg4Vnc+6An6dF7EJ0WsEHvZVOo=",
       "url": "sw-registrator.js"
     },
     {
-      "hash": "sha256-rSTWp8vznJem\/Z6s2iZRJlgmy5VkzWWAxlmfE1P\/\/fo=",
+      "hash": "sha256-4r1EnbOYELzYdfuaGyJ67K01z4enEY\/hXM1niedKyOs=",
       "url": "sw-registrator.min.js"
     },
     {
@@ -125,7 +125,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-ND7FfocfVILE8rPbSaHl1FKDFku+S8k6K0RR9MF4nyw=",
+      "hash": "sha256-z5s\/4KuGhMebx2CMB1buZx2GA7jzJtCS1jhaxgbCZE4=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -133,7 +133,7 @@
       "url": "_framework\/Blazored.LocalStorage.dll"
     },
     {
-      "hash": "sha256-bMo7TbZtxNwumor2W\/5dkuxeVFvsTGNafVzkQvdYMzI=",
+      "hash": "sha256-WdVNgdvt8Tgl4Pb53ozfJBNMwsHm0Wjy0KNK38G1OHU=",
       "url": "_framework\/Cropper.Blazor.Client.dll"
     },
     {
@@ -217,7 +217,7 @@
       "url": "_framework\/Microsoft.Net.Http.Headers.dll"
     },
     {
-      "hash": "sha256-q89FnzPbNsgOX5\/hmmrjvXjmrHkYVUEZQh\/IWW8EOds=",
+      "hash": "sha256-nJIHmgjPZ1vmSKWUnUDywa5dlO44bJms267lligezRY=",
       "url": "_framework\/MudBlazor.dll"
     },
     {
@@ -289,7 +289,7 @@
       "url": "_framework\/System.ObjectModel.dll"
     },
     {
-      "hash": "sha256-1TVkenhGaphtaBhi8FUqiyhZ5LuldYodFKlGMulou6o=",
+      "hash": "sha256-TDDEStTRYjKohwyarFtCOSestVDWQco\/3mTPsXQ76Ik=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -357,5 +357,5 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     }
   ],
-  "version": "kH6v4E2+"
+  "version": "5CMm7UqH"
 };
