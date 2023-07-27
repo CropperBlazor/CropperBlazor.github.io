@@ -125,7 +125,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-M97ug4b6zra2krBeN7Fe8j9ccjcdaE5LyML7kDV2T6U=",
+      "hash": "sha256-BvxMS70KJvJA4xty+cf5zAZ1hdDs\/w8puxJV4SlHlPQ=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -133,15 +133,15 @@
       "url": "_framework\/Blazored.LocalStorage.dll"
     },
     {
-      "hash": "sha256-eaAGpEBAts95Ag13QfGhmWyiZdXJs\/6ZR1Uf3MsQG+s=",
+      "hash": "sha256-2ZjQbc0h1pWfRzrVWgEg19ib+ni8YavU\/dXcxCe0VeY=",
       "url": "_framework\/Cropper.Blazor.Client.dll"
     },
     {
-      "hash": "sha256-SOJYsItTMUcW8pid+P0lnXFxJtAwM6dsKkzl2UTA+ac=",
+      "hash": "sha256-gfjmtk02b\/OspRyVSPNs+dA3lOcj17ymoO2nVU7D65w=",
       "url": "_framework\/Cropper.Blazor.dll"
     },
     {
-      "hash": "sha256-\/EvlcvJb\/WK4iNV7kwLjScUCfEek06Xk9c+F7HkSFtM=",
+      "hash": "sha256-yt1ZEF477XdSkYH3cf8o2WEELvpX\/O6wWY4GxBQZ6Nc=",
       "url": "_framework\/Microsoft.AspNetCore.Components.dll"
     },
     {
@@ -217,7 +217,7 @@
       "url": "_framework\/Microsoft.Net.Http.Headers.dll"
     },
     {
-      "hash": "sha256-nJIHmgjPZ1vmSKWUnUDywa5dlO44bJms267lligezRY=",
+      "hash": "sha256-19iPhg6bjFk8rP1OKvpVBEd5+dRQLE7gU18FZ\/DnY+I=",
       "url": "_framework\/MudBlazor.dll"
     },
     {
@@ -289,7 +289,7 @@
       "url": "_framework\/System.ObjectModel.dll"
     },
     {
-      "hash": "sha256-KZMrxmJ7LttZH3xmlC8HiTKG3LMkce\/qiWRz7IOKVYw=",
+      "hash": "sha256-Tg1OSIQFn00R4gEhduinmni00BHXiiHjlbARnp\/mOEQ=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -357,5 +357,5 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     }
   ],
-  "version": "sGvvkq8D"
+  "version": "kkPy0i2Q"
 };
