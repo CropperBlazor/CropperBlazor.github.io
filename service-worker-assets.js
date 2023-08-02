@@ -45,7 +45,7 @@
       "url": "icon-515x512.png"
     },
     {
-      "hash": "sha256-PmeMVL0FH4wq6hhX7uj4V0zt1P41paf4d\/N\/xE1ru3k=",
+      "hash": "sha256-pdUGNRhRGixWhMOcMdcZ5KdJaGxZeFl2Kws0NLCqUtw=",
       "url": "index.html"
     },
     {
@@ -357,5 +357,5 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     }
   ],
-  "version": "qv\/htKQc"
+  "version": "J7O1wmLG"
 };
