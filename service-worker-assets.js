@@ -45,6 +45,10 @@
       "url": "icon-515x512.png"
     },
     {
+      "hash": "sha256-PmeMVL0FH4wq6hhX7uj4V0zt1P41paf4d\/N\/xE1ru3k=",
+      "url": "index.html"
+    },
+    {
       "hash": "sha256-GubYyUUmYbAq7SvtePtKPUUAIFwUQqdDSUhPHn7aTyM=",
       "url": "jsObjectModule.js"
     },
@@ -121,7 +125,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-k8GGcgZF8SL+CfmCOkr4tSbLoDD7uqVQ+V5YekSV74o=",
+      "hash": "sha256-5p7W+ORvptrZ5iBi\/AdwFy8oPIS6H1wj2dTaTvZ3mQM=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -129,7 +133,7 @@
       "url": "_framework\/Blazored.LocalStorage.dll"
     },
     {
-      "hash": "sha256-y1mC6vZC\/zSbncVhzoai+vtIuicmL5Erord1h8skNkc=",
+      "hash": "sha256-SGJD+2z133fDp1AGMVun3tzO80BzSB+o2BpN4W7kKyo=",
       "url": "_framework\/Cropper.Blazor.Client.dll"
     },
     {
@@ -149,7 +153,7 @@
       "url": "_framework\/Microsoft.AspNetCore.Components.Web.dll"
     },
     {
-      "hash": "sha256-Y92Yk\/VDdYz0kCOx\/XbJFGu7pYTqRPujix3gu6DVFIA=",
+      "hash": "sha256-PqMGQ60oDrgzkN3zffudbBYprIFJpZ95tvTa0Qb4g3k=",
       "url": "_framework\/Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
@@ -353,5 +357,5 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     }
   ],
-  "version": "U4SOCzvF"
+  "version": "qv\/htKQc"
 };
