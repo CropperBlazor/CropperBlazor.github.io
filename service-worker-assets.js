@@ -5,7 +5,7 @@
       "url": "apple-touch-icon.png"
     },
     {
-      "hash": "sha256-nkJtAAmQYI7s1CnRgeOh8oCOB2Uf3+Cq9NHGoG45l\/4=",
+      "hash": "sha256-ONOqU9QqPI+AR7WoclB1TaoIhTuhdwUtPV1jcfPd4HU=",
       "url": "Cropper.Blazor.Client.min.css"
     },
     {
@@ -69,11 +69,11 @@
       "url": "not-found-image.jpg"
     },
     {
-      "hash": "sha256-lvrggsI+yk3RL70mBO7jK+G4UGs36WVGThgPdlq3kCI=",
+      "hash": "sha256-cpl6BNg1wh3U8qqeNMVmL9+AewC0Rq2EPfKeuaptWVc=",
       "url": "overrideCropperJsInteropModule.js"
     },
     {
-      "hash": "sha256-J5EL11R46pK7BuiaZZcxGPl2OKU90tTFi\/KFuWQf330=",
+      "hash": "sha256-OH4FjDqsiUm\/tatGSZUrnXkWpUWlRxyiIcWDrkpaUPA=",
       "url": "overrideCropperJsInteropModule.min.js"
     },
     {
@@ -125,7 +125,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-5p7W+ORvptrZ5iBi\/AdwFy8oPIS6H1wj2dTaTvZ3mQM=",
+      "hash": "sha256-hvsNf2wd1j84z1DSOC3vUL4UT6ygJnjycZhzaq4nAto=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -133,7 +133,7 @@
       "url": "_framework\/Blazored.LocalStorage.dll"
     },
     {
-      "hash": "sha256-SGJD+2z133fDp1AGMVun3tzO80BzSB+o2BpN4W7kKyo=",
+      "hash": "sha256-Y6fl\/AoEUBSrzSLlrqZvZYkIV3IUnP\/CYuUCn9nvNBg=",
       "url": "_framework\/Cropper.Blazor.Client.dll"
     },
     {
@@ -357,5 +357,5 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     }
   ],
-  "version": "J7O1wmLG"
+  "version": "hFZTByAH"
 };
