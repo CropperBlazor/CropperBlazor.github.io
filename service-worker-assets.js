@@ -89,6 +89,10 @@
       "url": "service-worker.published.js"
     },
     {
+      "hash": "sha256-4Kvr0w\/lubrsRmKdtRBnoVB0RKETHyBqbcWAmt7AxME=",
+      "url": "sitemap.xml"
+    },
+    {
       "hash": "sha256-nj384acbczJroK4+iEg4Vnc+6An6dF7EJ0WsEHvZVOo=",
       "url": "sw-registrator.js"
     },
@@ -357,5 +361,5 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     }
   ],
-  "version": "hFZTByAH"
+  "version": "iHn03qgD"
 };
