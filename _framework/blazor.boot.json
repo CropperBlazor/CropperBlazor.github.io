@@ -8,9 +8,9 @@
   "resources": {
     "assembly": {
       "Blazored.LocalStorage.dll": "sha256-eXVgTw72kEn74FZgDQbLtvAmXbiZDSj5gzUnxVmwowQ=",
-      "Cropper.Blazor.Client.dll": "sha256-UTHWjnsSg3TCX\/GIKEpQ2zFW4l9t2GUOSETUkak10b8=",
-      "Cropper.Blazor.dll": "sha256-MdItH8DnXhLNWyMSp65nQTx75Dxxuh0bIFdNqaJKorQ=",
-      "Cropper.Blazor.Shared.dll": "sha256-H3lIkda4NrkWQepBPLKGe4M7kdDY6FCtCjeO1ohENKw=",
+      "Cropper.Blazor.Client.dll": "sha256-VlhFIjz3yQRkDey1m\/eWwgNBU+IYaQWSyRFY3JmyNbk=",
+      "Cropper.Blazor.dll": "sha256-YKRNX\/CCqgKxxci4WdQkcGoPcV3G9oGLl8mQnix6Fvc=",
+      "Cropper.Blazor.Shared.dll": "sha256-p0AoRMpbziujCx6S1k4HrtmxGk9W5AxbE7qxffQAJ0w=",
       "Microsoft.AspNetCore.Components.dll": "sha256-\/RXJ211B4zUNaA6zklTujbe1EZ5lq4nMqlucEJ8+u3I=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-M6MyRHf48y\/dLuvLMq7hDOnud7Y7QV\/QYxMiQLaR+4Y=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-T7\/3BQfw1N4yIS5rTzC7MbL5Z4iHa6t4rdj79S5PthQ=",
