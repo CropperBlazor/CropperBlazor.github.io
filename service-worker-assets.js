@@ -165,7 +165,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-y9Ups4GYvuhWz0IsRhHOIceokb9ZO6noPyIWRx64d0s=",
+      "hash": "sha256-ELw0PpI+82+iTq50yHq7FvjNCEh81KdsIwkdsdT2nUQ=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -173,11 +173,11 @@
       "url": "_framework\/Blazored.LocalStorage.dll"
     },
     {
-      "hash": "sha256-rE4v7dzOa4Mw8rxJQUUm215Af1z1u5KSkAoeSyg2faY=",
+      "hash": "sha256-D2qkDc\/watyXRdbm+arX\/iZz0giByJzfSFXB4kIs\/7k=",
       "url": "_framework\/Cropper.Blazor.Client.dll"
     },
     {
-      "hash": "sha256-hbqlCty4DqZ\/eCaijrbFCLL45l6IgAvifyhDzSB7wws=",
+      "hash": "sha256-k8MzziOfPihlFRMOGuNjrWxA8qi4k0qgEVMEpKy+Bj0=",
       "url": "_framework\/Cropper.Blazor.dll"
     },
     {
@@ -417,5 +417,5 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     }
   ],
-  "version": "o0DyDO4p"
+  "version": "lxEOkfv1"
 };
