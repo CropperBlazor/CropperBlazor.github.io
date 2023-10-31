@@ -5,7 +5,7 @@
       "url": "apple-touch-icon.png"
     },
     {
-      "hash": "sha256-c\/nLnfzPfTs71Hcbk\/CC\/SbEdoUaY7O7YrshBlFFlU0=",
+      "hash": "sha256-Z2CBtwrW1WAxD47jUtHsukSG9NVh0cUyuaPE5nq8rK0=",
       "url": "Cropper.Blazor.Client.min.css"
     },
     {
@@ -417,5 +417,5 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     }
   ],
-  "version": "KHAiYIGR"
+  "version": "ZXUtfh67"
 };
