@@ -8,7 +8,7 @@
   "resources": {
     "assembly": {
       "Blazored.LocalStorage.dll": "sha256-5V8ovY1srbIIz7lzzMhLd3nNJ9LJ6bHoBOnLJahv8Go=",
-      "Cropper.Blazor.Client.dll": "sha256-I66WascYm4UP29SgqIroWKA4S6lDC+2vt9BVzQzqbqU=",
+      "Cropper.Blazor.Client.dll": "sha256-5miDh\/gd1s5CxRWc51Ou3w8MeqWdz9uSm3FqoZaivV8=",
       "Cropper.Blazor.dll": "sha256-uHjHp6\/FnJ4fU6U4rKyPiYfwX0aKTapzu4NCjG2uOW8=",
       "Cropper.Blazor.Shared.dll": "sha256-oMcoio0NLUAD5TwHE\/3QUDKgZrtNnRXcBu5dNp8KsHE=",
       "Microsoft.AspNetCore.Components.dll": "sha256-cY4YgFjhDD8q6pG4ubOfXe6IE\/bZ77xeidltzhr1qrQ=",
