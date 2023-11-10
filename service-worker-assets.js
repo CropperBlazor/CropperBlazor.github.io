@@ -65,7 +65,7 @@
       "url": "images\/Rivne2.jpg"
     },
     {
-      "hash": "sha256-titSg+MstNacpQpubDSFHGcpp1SDxy4QPfCkQ\/E2ITw=",
+      "hash": "sha256-Yp4rqkGSdZwUrPpiaeqOa8hN94LmJJ\/v+1j4LoccluU=",
       "url": "index.html"
     },
     {
@@ -419,6 +419,118 @@
     {
       "hash": "sha256-6arYVv1SZGsf8Fgjy7JJToLwKj+WnPjmvw2FzkvTEgo=",
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
+    },
+    {
+      "hash": "sha256-wIBVA9DtxuzZQEu5bu8EgfcHyrijlYaCd\/kZoiXvy0M=",
+      "url": "demo\/index.html"
+    },
+    {
+      "hash": "sha256-tBuHoTaB+JImB9TnCDxyXScgnzlG2LdcGGUOxALVtgw=",
+      "url": "examples\/index.html"
+    },
+    {
+      "hash": "sha256-eE9WHxVhfpVTORBkt7PWF9pueLW5PztAoCXB9Vm16sM=",
+      "url": "examples\/cropperusage\/index.html"
+    },
+    {
+      "hash": "sha256-UjNdIgrdiE+a5LL+yQuHWFWGFbGZt6Tujni12yBhT\/M=",
+      "url": "examples\/dimensions\/index.html"
+    },
+    {
+      "hash": "sha256-zobgI5sGT0ExsQZr\/QqZy4Q6HSSITK1Uhr9tqmtRb8g=",
+      "url": "examples\/viewmodes\/index.html"
+    },
+    {
+      "hash": "sha256-opU\/yUIzk3iFOEJ2s0w0g+u5kxyZjVu1POBaUj5auek=",
+      "url": "examples\/aspectratio\/index.html"
+    },
+    {
+      "hash": "sha256-EfcAoOGB5b\/6H6sOe4h9sjM7NwdCR+MXc0qlrrWWJZ8=",
+      "url": "examples\/zooming\/index.html"
+    },
+    {
+      "hash": "sha256-Bgip4jT5yWAFetr8MKBim9DmpY0h\/mGpDh9RmjpT0Kg=",
+      "url": "examples\/cropping\/index.html"
+    },
+    {
+      "hash": "sha256-uvaC9BUdB4HODCp6+fAbXw92VKURKRJ01mkbwIkd7+0=",
+      "url": "api\/index.html"
+    },
+    {
+      "hash": "sha256-AfcptlqTl8glv+MzgJ8XwxSwq\/i8fcqbYckSUd+pI7U=",
+      "url": "contract\/Options\/index.html"
+    },
+    {
+      "hash": "sha256-F57XPZmIT+kH8k9rM1ltnZjCM9ur5e6ltOsgNAR9Ff0=",
+      "url": "contract\/GetCroppedCanvasOptions\/index.html"
+    },
+    {
+      "hash": "sha256-u2uU5upWr2RB3+KV8HVJJLJiOSjHgccGq8p1sAcRYOI=",
+      "url": "contract\/SetCropBoxDataOptions\/index.html"
+    },
+    {
+      "hash": "sha256-aAfvSC02MBJOlF+uuDGJ19BqIedUX8n3RKXqrG6W\/SQ=",
+      "url": "contract\/SetCanvasDataOptions\/index.html"
+    },
+    {
+      "hash": "sha256-CwAyXocwrCAMl9tp9M2qO1lQvFc5UN6cOvgvs8KsCm8=",
+      "url": "contract\/SetDataOptions\/index.html"
+    },
+    {
+      "hash": "sha256-JJsX\/KNQwtJW3p4RgYqhLspVbAtv+pcglwQzqCoBIO4=",
+      "url": "contract\/DragMode\/index.html"
+    },
+    {
+      "hash": "sha256-Y2GJdBTYHkj03NZRNVsTUnapyETbWwXzUKfHLK2SP1A=",
+      "url": "contract\/CropEndEvent\/index.html"
+    },
+    {
+      "hash": "sha256-s4u6j4rUHxuoWDZBLolxcuOfuZDFkHtSiXWU8C+0jWo=",
+      "url": "contract\/CropMoveEvent\/index.html"
+    },
+    {
+      "hash": "sha256-HqPEo9D4HaINYQHniE8HVYS7A9cwxnXVD2Qph69RqJY=",
+      "url": "contract\/CropStartEvent\/index.html"
+    },
+    {
+      "hash": "sha256-1R2rDDoF\/FXLyP0o64KC69gn2PE48\/PMncVpQpRrnpQ=",
+      "url": "contract\/CropReadyEvent\/index.html"
+    },
+    {
+      "hash": "sha256-JUhf\/vc0wCqllKxDlyzs2xoWXy0C1fSMaiBt30jp9G0=",
+      "url": "contract\/ZoomEvent\/index.html"
+    },
+    {
+      "hash": "sha256-ONwqgoLn62+W0XwE6qUv+uLFCF228gPWiGV934V0YRo=",
+      "url": "contract\/CropperData\/index.html"
+    },
+    {
+      "hash": "sha256-gUR1tpMwHUrgcfRkVpYrOSWH8qbo2L26mHYdmfJqCMQ=",
+      "url": "contract\/ImageData\/index.html"
+    },
+    {
+      "hash": "sha256-lfHLFNz01RKXT3h9CzqFM1QELN4LPeOiOuTYq8EEPiE=",
+      "url": "contract\/ContainerData\/index.html"
+    },
+    {
+      "hash": "sha256-XwbDVog0cgmPczEwHqNaTuDDihqGtNtio6bMrSOoK08=",
+      "url": "contract\/CanvasData\/index.html"
+    },
+    {
+      "hash": "sha256-0EAS1eED4l0Jw7UtoeHISvCcETSfIg+gE3qh9xrfZx8=",
+      "url": "contract\/CropBoxData\/index.html"
+    },
+    {
+      "hash": "sha256-ksKCQEewgmUKrabmz3YUT65YxBoNUtoBsEcm9j9V\/dQ=",
+      "url": "contract\/JSEventData\/index.html"
+    },
+    {
+      "hash": "sha256-8qzzoupM5E38pS8OaP85T1bDq9taTYFa5\/o7BdAgjJ0=",
+      "url": "contract\/ViewMode\/index.html"
+    },
+    {
+      "hash": "sha256-Qo8AZIXTllXEqHMmxO4LoTqnYzcq22JPZV2k3x\/TUTM=",
+      "url": "about\/index.html"
     }
   ],
   "version": "9b9qZh7X"
