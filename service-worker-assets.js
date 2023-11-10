@@ -65,7 +65,7 @@
       "url": "images\/Rivne2.jpg"
     },
     {
-      "hash": "sha256-yA52zB1RmICI8o3dnrEhpwi8jDuo4v+DGTIywqPRa+w=",
+      "hash": "sha256-titSg+MstNacpQpubDSFHGcpp1SDxy4QPfCkQ\/E2ITw=",
       "url": "index.html"
     },
     {
@@ -165,7 +165,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-fPiqDCgI0fE+kK+aQ\/TiTMPpwpeYRsqf8KyhzxZNuAM=",
+      "hash": "sha256-Pm6ctRkb\/SjN6jjAXllFqf+0L+93rU1ZFacYG9Zu+lU=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -173,7 +173,7 @@
       "url": "_framework\/Blazored.LocalStorage.dll"
     },
     {
-      "hash": "sha256-rI2Vm1hW\/pToyklFTuAqmB374tRHnJtnloet\/v3sHX8=",
+      "hash": "sha256-I66WascYm4UP29SgqIroWKA4S6lDC+2vt9BVzQzqbqU=",
       "url": "_framework\/Cropper.Blazor.Client.dll"
     },
     {
@@ -389,6 +389,10 @@
       "url": "Cropper.Blazor.Client.styles.css"
     },
     {
+      "hash": "sha256-Z094C6tvTOKvix221ZuSPsaaNvGOp0XKqThmB4vfuOA=",
+      "url": "_content\/BlazorWasmPreRendering.Build\/BlazorWasmPreRendering.Build.lib.module.js"
+    },
+    {
       "hash": "sha256-YRt7VVv7R8QKqqxiF7U39TJJE9k7rvVd35MPHWRs7Wk=",
       "url": "_content\/MudBlazor\/MudBlazor.min.css"
     },
@@ -417,5 +421,5 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     }
   ],
-  "version": "TrOYxHkU"
+  "version": "9b9qZh7X"
 };

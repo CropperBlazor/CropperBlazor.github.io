@@ -8,7 +8,7 @@
   "resources": {
     "assembly": {
       "Blazored.LocalStorage.dll": "sha256-5V8ovY1srbIIz7lzzMhLd3nNJ9LJ6bHoBOnLJahv8Go=",
-      "Cropper.Blazor.Client.dll": "sha256-rI2Vm1hW\/pToyklFTuAqmB374tRHnJtnloet\/v3sHX8=",
+      "Cropper.Blazor.Client.dll": "sha256-I66WascYm4UP29SgqIroWKA4S6lDC+2vt9BVzQzqbqU=",
       "Cropper.Blazor.dll": "sha256-uHjHp6\/FnJ4fU6U4rKyPiYfwX0aKTapzu4NCjG2uOW8=",
       "Cropper.Blazor.Shared.dll": "sha256-oMcoio0NLUAD5TwHE\/3QUDKgZrtNnRXcBu5dNp8KsHE=",
       "Microsoft.AspNetCore.Components.dll": "sha256-cY4YgFjhDD8q6pG4ubOfXe6IE\/bZ77xeidltzhr1qrQ=",
@@ -64,7 +64,9 @@
     },
     "extensions": null,
     "lazyAssembly": null,
-    "libraryInitializers": null,
+    "libraryInitializers": {
+      "_content\/BlazorWasmPreRendering.Build\/BlazorWasmPreRendering.Build.lib.module.js": "sha256-Z094C6tvTOKvix221ZuSPsaaNvGOp0XKqThmB4vfuOA="
+    },
     "pdb": null,
     "runtime": {
       "dotnet.7.0.13.76151kug2k.js": "sha256-eRbsSkKiWKWKcMiqy13LuLSBIpzmn52qw\/6SX+1jNQ0=",
