@@ -28,8 +28,19 @@
 
 <body>
 	<div id="app">
+		<div class="master-loader">
+			<div class="logo-loader-wrapper">
+				<div class="loader-box">
+					<img src="logo.svg" class="loader-image"/>
+					<img src="logo.svg" class="loader-image"/>
+					<div class="loader-text text-gradient"></div>
+				</div>
+			</div>
+		</div>
+	
 <!-- %%-PRERENDERING-BEGIN-%% -->
-
+<div style="opacity: 0; position: fixed; z-index: -1; top: 0; left: 0; bottom: 0; right: 0;">
+    
 
 <style>
 ::-webkit-scrollbar {width: 8px;height: 8px;z-index: 1;}
@@ -276,6 +287,8 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
 <div style="display: none;"></div>
     <span class="mud-scroll-to-top hidden" style="z-index:2000;"><button type="button" class="mud-button-root mud-fab mud-fab-primary mud-fab-size-large mud-ripple" __internal_stopPropagation_onclick><span class="mud-fab-label"><svg class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"/><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg></span></button></span></div>
         
+
+</div>
 <!-- %%-PRERENDERING-END-%% -->
 </div>
 
