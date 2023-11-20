@@ -93,7 +93,7 @@
       "url": "images\/underwater-magic-world.jpeg"
     },
     {
-      "hash": "sha256-b0z7UptksSmd7UJmG2Ihu8KisLHGAfxuK1BvFyTSxzI=",
+      "hash": "sha256-847T+IFuBq73jzXuRKEUymkR52VHtJX4a0RwvoopP6M=",
       "url": "index.html"
     },
     {
@@ -449,7 +449,7 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     },
     {
-      "hash": "sha256-1Ab22htu3KW9DIAVg3KFy3gyFHuuYCeBU+Un3MMdcxE=",
+      "hash": "sha256-ax+N8jSFbtUVmfYWqvT\/sF3Z0UDAFJBj3LVWW6CSvIw=",
       "url": "demo\/index.html"
     },
     {
@@ -461,7 +461,7 @@
       "url": "examples\/cropperusage\/index.html"
     },
     {
-      "hash": "sha256-6OEV8AO5UYoKrwU3Hi3m2IZu2aQbcw9Ozf8+ydj4iuw=",
+      "hash": "sha256-aanzoEyltV1ESlfEgNDy5vJMwBkm7bk2trzP6P1mrQg=",
       "url": "examples\/viewmodes\/index.html"
     },
     {
@@ -469,15 +469,15 @@
       "url": "examples\/preview\/index.html"
     },
     {
-      "hash": "sha256-uqHKMvL61zgBIEQZw+Dvepex4TBVc5\/auvwfgJ2JnQA=",
+      "hash": "sha256-Xj\/No1zyzUj2Vr4T6QnMQDi4L5HToF3+VojlrvDof8A=",
       "url": "examples\/dimensions\/index.html"
     },
     {
-      "hash": "sha256-fU\/XaxRSdB80vv4Q7BCeoLh8qlZjfItuKTICecSfmE8=",
+      "hash": "sha256-tJU0Pu9jgAWOtt+71b1CUN\/FFJ+c\/HHXtHUG4x52DVo=",
       "url": "examples\/aspectratio\/index.html"
     },
     {
-      "hash": "sha256-i9FAbVVB6R+\/mNeK+ZOXg9QGK+xlQJbNpuMemkLJO+Q=",
+      "hash": "sha256-Ljqgmxh\/n08A2lNq86wE+ISqHaBakcAn98opqGVNoCs=",
       "url": "examples\/zooming\/index.html"
     },
     {
@@ -489,11 +489,11 @@
       "url": "examples\/replacing\/index.html"
     },
     {
-      "hash": "sha256-rhWx823GW39O3EIHLjb1xTXUY6Pq1P6A3wXV08MoKFA=",
+      "hash": "sha256-rZKxO\/VJLVZFf+ctLnuW19GjMRx6Xgw46wcYgD3dkPk=",
       "url": "api\/index.html"
     },
     {
-      "hash": "sha256-8ni+5WcpvShfJPpF8AARpNhSus0jsupAAvL6CtMi3sM=",
+      "hash": "sha256-X0aLLLKb9Zrw8QgxaTZ\/C2PXO2vuTD\/mzpuWNz1vri4=",
       "url": "contract\/Options\/index.html"
     },
     {
@@ -565,11 +565,11 @@
       "url": "contract\/ViewMode\/index.html"
     },
     {
-      "hash": "sha256-n6QtfEAOOCLTzxTc4az5jdKMBOM3kSHymzFYlpNnbVw=",
+      "hash": "sha256-8QBiR8EqnD9uzmt6u0eOvUl6EUkVBms3iBmSDDQRHEs=",
       "url": "about\/index.html"
     },
     {
-      "hash": "sha256-FOy9Tpe3MeA5Sd2aSo9IuHgMH6q4+5GZ1QwJHpcDhF4=",
+      "hash": "sha256-og2vTHPaZd19eBXGrLF0aLWPnuUiHS0jmUCKaN6jKco=",
       "url": "releases\/index.html"
     }
   ],
