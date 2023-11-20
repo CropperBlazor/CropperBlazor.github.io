@@ -11,7 +11,7 @@
     min-height: 200px;
 }
 
-@media (min-width: 768px) {
+@media (width >= 768px) {
     .img-container[b-f9coqihhz7] {
         min-height: 573px;
     }
