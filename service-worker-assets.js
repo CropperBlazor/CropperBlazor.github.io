@@ -93,7 +93,7 @@
       "url": "images\/underwater-magic-world.jpeg"
     },
     {
-      "hash": "sha256-nZoe+7oMQlocWSu6vb+rlDfrFOqKiYmuy4MwgynmZFs=",
+      "hash": "sha256-wrFM5H1Mtg2V9Efl5zRFs42us\/wI6eCvUWssgHrxQVI=",
       "url": "index.html"
     },
     {
@@ -153,7 +153,7 @@
       "url": "service-worker.published.js"
     },
     {
-      "hash": "sha256-HRXgvRraAy3XA5sdU8X9xJX4BsSkrGjgpB9e0\/npb5U=",
+      "hash": "sha256-7+S2\/SP8V2kS3OePFLSND+J7mRrDWsa2W7G9fAuD8AI=",
       "url": "sitemap.xml"
     },
     {
@@ -189,7 +189,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-DcN2hDVafKx+GDF7FxaejCqAqzQdWeIMw1JBlo8W9N4=",
+      "hash": "sha256-9io588CF4KkW+cCEtJSOGufZvbFk1wzagzIyy6r34oY=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -205,15 +205,15 @@
       "url": "_framework\/Blazored.LocalStorage.wasm"
     },
     {
-      "hash": "sha256-uQSe2pCG4U9LT0HfFul0k\/97yNpAr9cphERq1a0pNK0=",
+      "hash": "sha256-s2p46Zvx3PMxD3eJwtxy2rmQUudUQC4d5hDxMxYzHhs=",
       "url": "_framework\/Cropper.Blazor.Client.wasm"
     },
     {
-      "hash": "sha256-dLlQ7efsWan3Nm8qPXCnf3nrkpRR1xAcon7YM02VQ1c=",
+      "hash": "sha256-ZDwdJBxdM9fOv\/ubJ7PLiZ5oUXzpl2gg5z5kP0KXDJg=",
       "url": "_framework\/Cropper.Blazor.Shared.wasm"
     },
     {
-      "hash": "sha256-IaJlRf9OjNPM+Hpiflz0wJdWYdsuDFgOAVs1smcIfmU=",
+      "hash": "sha256-F+rgP5jL5V7hwiNaxsxWiB9tX\/\/1W7GxxFSRStLSx1Y=",
       "url": "_framework\/Cropper.Blazor.wasm"
     },
     {
@@ -381,7 +381,7 @@
       "url": "_framework\/System.Runtime.Serialization.Primitives.wasm"
     },
     {
-      "hash": "sha256-p2DUQGJz5lOzwsCaqY+7OUxy0Tr6TyBIdrQ6rKKvR8w=",
+      "hash": "sha256-mjaqyI6RWcbrHJyTddDFyT602xT4gU\/obnxdIXvhslY=",
       "url": "_framework\/System.Runtime.wasm"
     },
     {
@@ -449,7 +449,7 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     },
     {
-      "hash": "sha256-5qa11kPtPuv1m7eE7H51Cx6iTIfXxGL9iNWRQZ9VjpA=",
+      "hash": "sha256-Xg5R0GlCJWTM+CGBDC\/h6Zq\/V88rPIVWqq+UQKk0OdE=",
       "url": "demo\/index.html"
     },
     {
@@ -461,7 +461,7 @@
       "url": "examples\/cropperusage\/index.html"
     },
     {
-      "hash": "sha256-5r41YKKU4M\/lWKz4OVUMLoyXlDkHD7mJK4rNEniF+AA=",
+      "hash": "sha256-JFnXCKjsCt5XLfaCiZz8WfeDXXXF6QGRlmzs9ypgv2U=",
       "url": "examples\/viewmodes\/index.html"
     },
     {
@@ -469,15 +469,15 @@
       "url": "examples\/preview\/index.html"
     },
     {
-      "hash": "sha256-XgSsrC0LUs529nAp8vmZxona+qdQaBbSTmMEv84LEVo=",
+      "hash": "sha256-W2IhyHq6xpjiStRkcL9KIVAaf2O0tX8mGtTg1vNZ8FM=",
       "url": "examples\/dimensions\/index.html"
     },
     {
-      "hash": "sha256-SKCeNDq+rH2aZbOzFt8iCu2yZXF7OWz8E3dnoAwKs\/U=",
+      "hash": "sha256-cLKfrN\/TjFwGgAVy9Auc9q7ZUSSeW++G6jw7g9RFhpw=",
       "url": "examples\/aspectratio\/index.html"
     },
     {
-      "hash": "sha256-k0X1A2IWrfGGDnZgtOa4rv9cpmdBtwWpunT9+q3JO1c=",
+      "hash": "sha256-sz+VFDa5FUL6HDxEPoGtF27q9gq0xn1E5ONekWf65Mg=",
       "url": "examples\/zooming\/index.html"
     },
     {
@@ -485,7 +485,7 @@
       "url": "examples\/cropping\/index.html"
     },
     {
-      "hash": "sha256-UUvZ7nAWlyIr11Kiv3SQYdS23IqqXINT\/bgmLKBgD4M=",
+      "hash": "sha256-DuA8BTJ0I0417GLd6vMfaZf38ZOgW1nKjwTuCmdDjYc=",
       "url": "examples\/replacing\/index.html"
     },
     {
@@ -493,11 +493,11 @@
       "url": "examples\/rebuild\/index.html"
     },
     {
-      "hash": "sha256-BxNiwJE5lUNuObcOMFICqH2SNMLI2hVep96hVJZBRJs=",
+      "hash": "sha256-amCkPZyiHnJtsAapUm6d4m3RZ2wQIFp6h\/6C6v01UEY=",
       "url": "api\/index.html"
     },
     {
-      "hash": "sha256-rs\/Engdd72E8f82ZUmlqlLH2aINhxFEjJ3nLF5IzXs4=",
+      "hash": "sha256-yVchH341f9WJ6fAFsQSaYynxvRuJmAURksfQX\/gv+0o=",
       "url": "contract\/Options\/index.html"
     },
     {
@@ -569,13 +569,13 @@
       "url": "contract\/ViewMode\/index.html"
     },
     {
-      "hash": "sha256-\/FqV4NjBlSZ0a4RqUQh67wzHgb\/nufcJujP0XrX4kto=",
+      "hash": "sha256-2kikpxGgoBQ9PsM\/z36LKHEcp2ra+Z+5Nx8GcdJ7S60=",
       "url": "about\/index.html"
     },
     {
-      "hash": "sha256-fxUYSaMmYmO2xZkRgdMHIPdBJO1WauN3UotXbZsTuJE=",
+      "hash": "sha256-48C4o2VpCQmCqprrljezX9HZ1MHJTKwClExuiC2XNFw=",
       "url": "releases\/index.html"
     }
   ],
-  "version": "nc0cU+HD"
+  "version": "lUrDmfsO"
 };
