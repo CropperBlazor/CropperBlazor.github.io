@@ -93,7 +93,7 @@
       "url": "images\/underwater-magic-world.jpeg"
     },
     {
-      "hash": "sha256-Bx9zqkGqk\/Y2LIPD1fDryTIv2k9NlrLr9t+4ktoxDRk=",
+      "hash": "sha256-\/oMvr7Oo1DSIe1Ep4r53rm0okK9m9zQE3CV5YHfsyA8=",
       "url": "index.html"
     },
     {
@@ -153,7 +153,7 @@
       "url": "service-worker.published.js"
     },
     {
-      "hash": "sha256-pFEVpqsMgjHevAyD4M1o6PmXuf6Vjg3odf3rzAoGgWA=",
+      "hash": "sha256-i3fempsWl0flAImTVhH+qViwuTFypjn5d15TnlB3jjE=",
       "url": "sitemap.xml"
     },
     {
@@ -189,7 +189,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-3OkbzOMUDQ3QRZXz0qWVXXOZw6jmCGQQfHy6p6N1KvM=",
+      "hash": "sha256-4x4Ib51tFmFkapxrQ4IdhO0TgZL\/GNwxsujjDRXh6\/8=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -205,15 +205,15 @@
       "url": "_framework\/Blazored.LocalStorage.wasm"
     },
     {
-      "hash": "sha256-YVezwRHrZSUXBrvKpzGxF+cnZIfsn1o7W6fZR9m2yCM=",
+      "hash": "sha256-gfhQN7RG8saUKpSbMrJVSZUeyRKpkrNbvmIqBTto4xo=",
       "url": "_framework\/Cropper.Blazor.Client.wasm"
     },
     {
-      "hash": "sha256-rEpOeLqYxIDXB+6t1glYD7lfwAQp\/c4l0DP0Er5Jj08=",
+      "hash": "sha256-A6oNdyfU+Fsc+vA+FigbIBMC9N77YqyLnz1J4z0X44w=",
       "url": "_framework\/Cropper.Blazor.Shared.wasm"
     },
     {
-      "hash": "sha256-zVtiD7pbjTPcpcbjCpj47njJ48iX+A9wahPiky5Qn0M=",
+      "hash": "sha256-sJr72AYOo7D4z1AB4dHSiCbQB24qPLf9zRdH\/+tsUVg=",
       "url": "_framework\/Cropper.Blazor.wasm"
     },
     {
@@ -449,19 +449,19 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     },
     {
-      "hash": "sha256-MWO+WmhQyKEHHR9Ms5Ko53tNMOk\/9QRoZHP8hAs9B5s=",
+      "hash": "sha256-Grhqf35xTrVmTCDSO6Sr\/0JfLINDMp5ryLPQ\/oi\/Gm8=",
       "url": "demo\/index.html"
     },
     {
-      "hash": "sha256-PHEp+LRMdDrjunMwj3yvWW0KLbN6u8mfNC7QueTFx4A=",
+      "hash": "sha256-XtDCIPuuWqQbQNlweb5ZbWH6oCoZE5n5uCkTbRV1FDg=",
       "url": "examples\/index.html"
     },
     {
-      "hash": "sha256-mKfVf\/1HSg4vn0aVqjKwikoMlObOaW0ugllWHFvx5Rc=",
+      "hash": "sha256-BAG5uLzlgjTmxIq\/Pr60pYb+06Ek3DOAs4R4aP\/QrjE=",
       "url": "examples\/cropperusage\/index.html"
     },
     {
-      "hash": "sha256-YYCINkJgivywy\/tcP3YgDk856Lmq6Gt33WXtxsxgC4U=",
+      "hash": "sha256-vjpXaqaB0eUnl5Hu62ANMxRZ\/neZJc\/yjCBTWyRRFfU=",
       "url": "examples\/viewmodes\/index.html"
     },
     {
@@ -469,15 +469,15 @@
       "url": "examples\/preview\/index.html"
     },
     {
-      "hash": "sha256-zV8oV0fYXTib0b5liqRgJpZ6XPb6gG74KIsvEx4fKEM=",
+      "hash": "sha256-HWY5TazCJeozBB7BmIvyW1kMsdZTk9xyd\/HQjF4eda0=",
       "url": "examples\/dimensions\/index.html"
     },
     {
-      "hash": "sha256-UojG8aVGAGp9CnKDBwvSfTD1I7E8VKnJskcLIdFzdI0=",
+      "hash": "sha256-WO5tGuodAUujfa\/dlqcZtTUFLqYh4JKTFnlIUsMKxpU=",
       "url": "examples\/aspectratio\/index.html"
     },
     {
-      "hash": "sha256-jO8RslSncBwV9bPIraZ7s8mNWsuA4Bub4T\/tCCZMcXs=",
+      "hash": "sha256-1KVEIrrrhW1aYlVzXqnaoyAk7KjPDU686nzj2DVJ9FA=",
       "url": "examples\/zooming\/index.html"
     },
     {
@@ -493,11 +493,11 @@
       "url": "examples\/rebuild\/index.html"
     },
     {
-      "hash": "sha256-sOCZXqeuu1\/BUBSsOz0ujgTvXh8TiO4lSvBFa1n1LyI=",
+      "hash": "sha256-LLvlvHG83zxts3tJB6+++YgIroNB5OyMLgPUr9XlbfA=",
       "url": "api\/index.html"
     },
     {
-      "hash": "sha256-LIbqeTqO05aQ2TtUNBgoD7L6LGiFgYyLBNmTpvWkZOQ=",
+      "hash": "sha256-dGr9oY1UsiCIK3WZzESaPfGI36pI9MWJIL5aab26ViE=",
       "url": "contract\/Options\/index.html"
     },
     {
@@ -569,13 +569,13 @@
       "url": "contract\/ViewMode\/index.html"
     },
     {
-      "hash": "sha256-UDk8YGOAzBvjud0OkZW2UuM2itInnnZ3u2s+soVgbj4=",
+      "hash": "sha256-7K7KPUoCmfetheN3OoxE38FzLmkTGD\/RX6\/mtoEcuRY=",
       "url": "about\/index.html"
     },
     {
-      "hash": "sha256-kurqGQ8chRzjap7U9qCP1U+9ZUDR1NVVALOhvimBwPE=",
+      "hash": "sha256-qHqfKSdFYfHBDJlzJYuqHSN49VVAer6odFM7Yapu0xs=",
       "url": "releases\/index.html"
     }
   ],
-  "version": "TFF2oSlR"
+  "version": "gv38aoMz"
 };
