@@ -93,7 +93,7 @@
       "url": "images\/underwater-magic-world.jpeg"
     },
     {
-      "hash": "sha256-\/oMvr7Oo1DSIe1Ep4r53rm0okK9m9zQE3CV5YHfsyA8=",
+      "hash": "sha256-zcKQ+6WJL0PKCITm1vm5uuv\/SyqccEPxJGebq6rT0EM=",
       "url": "index.html"
     },
     {
@@ -153,7 +153,7 @@
       "url": "service-worker.published.js"
     },
     {
-      "hash": "sha256-i3fempsWl0flAImTVhH+qViwuTFypjn5d15TnlB3jjE=",
+      "hash": "sha256-TDKkDUsVxee+FQhJaFBu9w+cPWJLW9e2YizoT6APWtU=",
       "url": "sitemap.xml"
     },
     {
@@ -189,7 +189,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-4x4Ib51tFmFkapxrQ4IdhO0TgZL\/GNwxsujjDRXh6\/8=",
+      "hash": "sha256-ZCS6Ij+kz\/zxrKRfVEVLAHBIknTG\/Vzs78FAY9j6csg=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -205,15 +205,15 @@
       "url": "_framework\/Blazored.LocalStorage.wasm"
     },
     {
-      "hash": "sha256-gfhQN7RG8saUKpSbMrJVSZUeyRKpkrNbvmIqBTto4xo=",
+      "hash": "sha256-wMMbGOvDiIjYn225PXf67Yb\/d4LnOCdlqueLUoAlqyQ=",
       "url": "_framework\/Cropper.Blazor.Client.wasm"
     },
     {
-      "hash": "sha256-A6oNdyfU+Fsc+vA+FigbIBMC9N77YqyLnz1J4z0X44w=",
+      "hash": "sha256-visoBqrRftNxEmDslXH7\/MAtgchgBXL6jh3jQRXpl9E=",
       "url": "_framework\/Cropper.Blazor.Shared.wasm"
     },
     {
-      "hash": "sha256-sJr72AYOo7D4z1AB4dHSiCbQB24qPLf9zRdH\/+tsUVg=",
+      "hash": "sha256-RoJnLjbh\/\/uSX7OUFX\/x6ayDHPNJ3\/5JNfQGZhg2yBM=",
       "url": "_framework\/Cropper.Blazor.wasm"
     },
     {
@@ -393,7 +393,7 @@
       "url": "_framework\/System.Text.Json.wasm"
     },
     {
-      "hash": "sha256-MwejFz6OwOm1WyYUg2rysvaICpCq7nP7LKOiv36UfWc=",
+      "hash": "sha256-MPIMrOJ+Pc4HPPzSFmZqbUQj9Rn+bKO9e0VN36xckYA=",
       "url": "_framework\/System.Text.RegularExpressions.wasm"
     },
     {
@@ -449,7 +449,7 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     },
     {
-      "hash": "sha256-Grhqf35xTrVmTCDSO6Sr\/0JfLINDMp5ryLPQ\/oi\/Gm8=",
+      "hash": "sha256-M47OKr7NNNKKrNnBIvTWvRqRp3fwNv4pweRQJHn6QCY=",
       "url": "demo\/index.html"
     },
     {
@@ -461,7 +461,7 @@
       "url": "examples\/cropperusage\/index.html"
     },
     {
-      "hash": "sha256-vjpXaqaB0eUnl5Hu62ANMxRZ\/neZJc\/yjCBTWyRRFfU=",
+      "hash": "sha256-ASY0VeD+XtXVyMF2fiu5X4CaiS2Kx710WTcpnYKeRKo=",
       "url": "examples\/viewmodes\/index.html"
     },
     {
@@ -469,15 +469,15 @@
       "url": "examples\/preview\/index.html"
     },
     {
-      "hash": "sha256-HWY5TazCJeozBB7BmIvyW1kMsdZTk9xyd\/HQjF4eda0=",
+      "hash": "sha256-010qJO8xEQ3\/iIJMUCUeoQKvkJG\/0Qbg+ItvU9avCeQ=",
       "url": "examples\/dimensions\/index.html"
     },
     {
-      "hash": "sha256-WO5tGuodAUujfa\/dlqcZtTUFLqYh4JKTFnlIUsMKxpU=",
+      "hash": "sha256-fXocp\/fbcSXTos0sj+gWEKf50HD5r02e92jPsHFpVIs=",
       "url": "examples\/aspectratio\/index.html"
     },
     {
-      "hash": "sha256-1KVEIrrrhW1aYlVzXqnaoyAk7KjPDU686nzj2DVJ9FA=",
+      "hash": "sha256-bfTzAxS\/T21vE0a5WR5M1gdPtpOR6mMTE+vzJBBsrF0=",
       "url": "examples\/zooming\/index.html"
     },
     {
@@ -493,11 +493,11 @@
       "url": "examples\/rebuild\/index.html"
     },
     {
-      "hash": "sha256-LLvlvHG83zxts3tJB6+++YgIroNB5OyMLgPUr9XlbfA=",
+      "hash": "sha256-xcpdJ974A9k+\/JKyF+y32Z2dEFMW+j1uee2KnHNBalk=",
       "url": "api\/index.html"
     },
     {
-      "hash": "sha256-dGr9oY1UsiCIK3WZzESaPfGI36pI9MWJIL5aab26ViE=",
+      "hash": "sha256-OCpX7p2Zx\/okKibLMMggcjKz0AALq7kO8O0mnYB3LTU=",
       "url": "contract\/Options\/index.html"
     },
     {
@@ -569,13 +569,13 @@
       "url": "contract\/ViewMode\/index.html"
     },
     {
-      "hash": "sha256-7K7KPUoCmfetheN3OoxE38FzLmkTGD\/RX6\/mtoEcuRY=",
+      "hash": "sha256-jxTj63LvDt6t9M09ID6ldqmugIMmwtj0Bk1YIZZrpMI=",
       "url": "about\/index.html"
     },
     {
-      "hash": "sha256-qHqfKSdFYfHBDJlzJYuqHSN49VVAer6odFM7Yapu0xs=",
+      "hash": "sha256-hZ8Lep8g0UgI1awCTJJoD\/0XPAtzu6RmYSa2jL6sVRc=",
       "url": "releases\/index.html"
     }
   ],
-  "version": "gv38aoMz"
+  "version": "Aa9Mcc39"
 };
