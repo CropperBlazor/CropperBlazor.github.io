@@ -1,0 +1,597 @@
+<!DOCTYPE html><html lang="en-us"><head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+    <meta name="docsearch:language" content="en"/>
+    <meta name="docsearch:version" content="master"/>
+    <meta name="google-site-verification" content="x2SFbVPxbn1Gk2wv-POqGp4oAlzFZV7FLIXDzrOCvlY"/>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <base href="/"/>
+    <link href="manifest.json" rel="manifest"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ff5c9b"/>
+    <meta name="msapplication-TileColor" content="#110e2d"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet"/>
+    <link href="_content/Cropper.Blazor/cropper.min.css" rel="stylesheet"/>
+    <link href="Cropper.Blazor.Client.styles.css" rel="stylesheet"/>
+    <link href="Cropper.Blazor.Client.min.css" rel="stylesheet"/>
+
+<!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
+<title>Releases - Cropper.Blazor</title><meta name="keywords" content="Cropper.Blazor, Blazor.Cropper, cropper, blazor, component, crop-image, cropperjs, Cropper.js, Blazor Components, Blazor Library, Blazor Cropper, Cropper, Image, Crop, Resize, image-cropper, crop-image, csharp, blazor-cropper, .net, .net core, pwa, webassembly, releases, Releases Cropper.Blazor, Releases Cropper" />
+    <meta property="og:title" content="Releases - Cropper.Blazor" />
+    <meta name="twitter:title" content="Releases - Cropper.Blazor" />
+    <meta name="twitter:card" content="Releases - Cropper.Blazor" />
+    <meta name="twitter:image" content="https://cropperblazor.github.io/cropperblazor.png">
+    <meta property="og:url" content="https://cropperblazor.github.io/">
+    <meta property="og:site_name" content="Cropper.Blazor">
+    <meta property="og:image" content="https://cropperblazor.github.io/cropperblazor.png">
+    <meta property="og:type" content="website"><meta name="twitter:description" content="Releases Cropper.Blazor." />
+    <meta name="description" content="Releases Cropper.Blazor." />
+    <meta property="og:description" content="Releases Cropper.Blazor." />
+<!-- %%-PRERENDERING-HEADOUTLET-END-%% -->
+</head>
+
+<body>
+	<div id="app">
+		<div class="master-loader">
+			<div class="logo-loader-wrapper">
+				<div class="loader-box">
+					<img src="logo.svg" class="loader-image"/>
+					<img src="logo.svg" class="loader-image"/>
+					<div class="loader-text text-gradient"></div>
+				</div>
+			</div>
+		</div>
+	
+<!-- %%-PRERENDERING-BEGIN-%% -->
+<div style="opacity: 0; position: fixed; z-index: -1; top: 0; left: 0; bottom: 0; right: 0;">
+    
+
+<style>
+::-webkit-scrollbar {width: 8px;height: 8px;z-index: 1;}
+::-webkit-scrollbar-track {background: transparent;}
+::-webkit-scrollbar-thumb {background: #c4c4c4;border-radius: 1px;}
+::-webkit-scrollbar-thumb:hover {background: #a6a6a6;}
+html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
+</style>
+<style>
+    .mud-chart-serie:hover {
+        filter: url(#lighten);
+    }
+</style>
+
+<style>
+:root{
+--mud-palette-black: rgba(39,44,52,1);
+--mud-palette-white: rgba(255,255,255,1);
+--mud-palette-primary: rgba(0,157,234,1);
+--mud-palette-primary-rgb: 0,157,234;
+--mud-palette-primary-text: rgba(255,255,255,1);
+--mud-palette-primary-darken: rgb(0,129,194);
+--mud-palette-primary-lighten: rgb(20,177,255);
+--mud-palette-primary-hover: rgba(0,157,234,0.058823529411764705);
+--mud-palette-secondary: rgba(231,60,126,1);
+--mud-palette-secondary-rgb: 231,60,126;
+--mud-palette-secondary-text: rgba(255,255,255,1);
+--mud-palette-secondary-darken: rgb(222,27,102);
+--mud-palette-secondary-lighten: rgb(235,92,146);
+--mud-palette-secondary-hover: rgba(231,60,126,0.058823529411764705);
+--mud-palette-tertiary: rgba(30,200,165,1);
+--mud-palette-tertiary-rgb: 30,200,165;
+--mud-palette-tertiary-text: rgba(255,255,255,1);
+--mud-palette-tertiary-darken: rgb(25,169,140);
+--mud-palette-tertiary-lighten: rgb(42,223,187);
+--mud-palette-tertiary-hover: rgba(30,200,165,0.058823529411764705);
+--mud-palette-info: rgba(33,150,243,1);
+--mud-palette-info-rgb: 33,150,243;
+--mud-palette-info-text: rgba(255,255,255,1);
+--mud-palette-info-darken: rgb(12,128,223);
+--mud-palette-info-lighten: rgb(71,167,245);
+--mud-palette-info-hover: rgba(33,150,243,0.058823529411764705);
+--mud-palette-success: rgba(0,200,83,1);
+--mud-palette-success-rgb: 0,200,83;
+--mud-palette-success-text: rgba(255,255,255,1);
+--mud-palette-success-darken: rgb(0,163,68);
+--mud-palette-success-lighten: rgb(0,235,98);
+--mud-palette-success-hover: rgba(0,200,83,0.058823529411764705);
+--mud-palette-warning: rgba(255,152,0,1);
+--mud-palette-warning-rgb: 255,152,0;
+--mud-palette-warning-text: rgba(255,255,255,1);
+--mud-palette-warning-darken: rgb(214,129,0);
+--mud-palette-warning-lighten: rgb(255,167,36);
+--mud-palette-warning-hover: rgba(255,152,0,0.058823529411764705);
+--mud-palette-error: rgba(244,67,54,1);
+--mud-palette-error-rgb: 244,67,54;
+--mud-palette-error-text: rgba(255,255,255,1);
+--mud-palette-error-darken: rgb(242,28,13);
+--mud-palette-error-lighten: rgb(246,96,85);
+--mud-palette-error-hover: rgba(244,67,54,0.058823529411764705);
+--mud-palette-dark: rgba(17,14,45,1);
+--mud-palette-dark-rgb: 17,14,45;
+--mud-palette-dark-text: rgba(255,255,255,1);
+--mud-palette-dark-darken: rgb(6,5,16);
+--mud-palette-dark-lighten: rgb(26,22,67);
+--mud-palette-dark-hover: rgba(17,14,45,0.058823529411764705);
+--mud-palette-text-primary: rgba(66,66,66,1);
+--mud-palette-text-secondary: rgba(66,84,102,1);
+--mud-palette-text-disabled: rgba(0,0,0,0.3764705882352941);
+--mud-palette-action-default: rgba(0,0,0,0.5372549019607843);
+--mud-palette-action-default-hover: rgba(0,0,0,0.058823529411764705);
+--mud-palette-action-disabled: rgba(0,0,0,0.25882352941176473);
+--mud-palette-action-disabled-background: rgba(0,0,0,0.11764705882352941);
+--mud-palette-surface: rgba(255,255,255,1);
+--mud-palette-background: rgba(255,255,255,1);
+--mud-palette-background-grey: rgba(249,250,252,1);
+--mud-palette-drawer-background: rgba(255,255,255,1);
+--mud-palette-drawer-text: rgba(66,66,66,1);
+--mud-palette-drawer-icon: rgba(97,97,97,1);
+--mud-palette-appbar-background: rgba(255,255,255,0.8);
+--mud-palette-appbar-text: rgba(66,66,66,1);
+--mud-palette-lines-default: rgba(0,0,0,0.11764705882352941);
+--mud-palette-lines-inputs: rgba(189,189,189,1);
+--mud-palette-table-lines: rgba(224,224,224,1);
+--mud-palette-table-striped: rgba(0,0,0,0.0196078431372549);
+--mud-palette-table-hover: rgba(0,0,0,0.0392156862745098);
+--mud-palette-divider: rgba(224,224,224,1);
+--mud-palette-divider-light: rgba(0,0,0,0.8);
+--mud-palette-chip-default: rgba(0,0,0,0.0784313725490196);
+--mud-palette-chip-default-hover: rgba(0,0,0,0.11764705882352941);
+--mud-palette-grey-default: #4B5563;
+--mud-palette-grey-light: #9CA3AF;
+--mud-palette-grey-lighter: #adbdccff;
+--mud-palette-grey-dark: #757575;
+--mud-palette-grey-darker: #616161;
+--mud-palette-overlay-dark: rgba(33,33,33,0.4980392156862745);
+--mud-palette-overlay-light: rgba(255,255,255,0.4980392156862745);
+--mud-elevation-0: none;
+--mud-elevation-1: 0 2px 4px -1px rgba(6, 24, 44, 0.2);
+--mud-elevation-2: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+--mud-elevation-3: 0 30px 60px rgba(0,0,0,0.12);
+--mud-elevation-4: 0 6px 12px -2px rgba(50,50,93,0.25),0 3px 7px -3px rgba(0,0,0,0.3);
+--mud-elevation-5: 0 50px 100px -20px rgba(50,50,93,0.25),0 30px 60px -30px rgba(0,0,0,0.3);
+--mud-elevation-6: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+--mud-elevation-7: 0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12);
+--mud-elevation-8: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+--mud-elevation-9: 0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12);
+--mud-elevation-10: 0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12);
+--mud-elevation-11: 0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12);
+--mud-elevation-12: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12);
+--mud-elevation-13: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12);
+--mud-elevation-14: 0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12);
+--mud-elevation-15: 0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12);
+--mud-elevation-16: 0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12);
+--mud-elevation-17: 0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12);
+--mud-elevation-18: 0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12);
+--mud-elevation-19: 0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12);
+--mud-elevation-20: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12);
+--mud-elevation-21: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12);
+--mud-elevation-22: 0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12);
+--mud-elevation-23: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.30);
+--mud-elevation-24: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),12.5px 12.5px 10px rgba(0, 0, 0, 0.035),22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),100px 100px 80px rgba(0, 0, 0, 0.07);
+--mud-elevation-25: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+--mud-default-borderradius: 6px;
+--mud-drawer-width-left: 240px;
+--mud-drawer-width-right: 240px;
+--mud-drawer-width-mini-left: 56px;
+--mud-drawer-width-mini-right: 56px;
+--mud-appbar-height: 64px;
+--mud-typography-default-family: 'Public Sans','Roboto','Arial','sans-serif';
+--mud-typography-default-size: .875rem;
+--mud-typography-default-weight: 400;
+--mud-typography-default-lineheight: 1.43;
+--mud-typography-default-letterspacing: normal;
+--mud-typography-default-text-transform: none;
+--mud-typography-h1-family: 'Public Sans','Roboto','Arial','sans-serif';
+--mud-typography-h1-size: 4rem;
+--mud-typography-h1-weight: 700;
+--mud-typography-h1-lineheight: 1.167;
+--mud-typography-h1-letterspacing: -.01562em;
+--mud-typography-h1-text-transform: none;
+--mud-typography-h2-family: 'Public Sans','Roboto','Arial','sans-serif';
+--mud-typography-h2-size: 3.75rem;
+--mud-typography-h2-weight: 300;
+--mud-typography-h2-lineheight: 1.2;
+--mud-typography-h2-letterspacing: -.00833em;
+--mud-typography-h2-text-transform: none;
+--mud-typography-h3-family: 'Public Sans','Roboto','Arial','sans-serif';
+--mud-typography-h3-size: 3rem;
+--mud-typography-h3-weight: 600;
+--mud-typography-h3-lineheight: 1.8;
+--mud-typography-h3-letterspacing: 0;
+--mud-typography-h3-text-transform: none;
+--mud-typography-h4-family: 'Public Sans','Roboto','Arial','sans-serif';
+--mud-typography-h4-size: 1.8rem;
+--mud-typography-h4-weight: 700;
+--mud-typography-h4-lineheight: 1.235;
+--mud-typography-h4-letterspacing: .00735em;
+--mud-typography-h4-text-transform: none;
+--mud-typography-h5-family: 'Public Sans','Roboto','Arial','sans-serif';
+--mud-typography-h5-size: 1.8rem;
+--mud-typography-h5-weight: 700;
+--mud-typography-h5-lineheight: 2;
+--mud-typography-h5-letterspacing: 0;
+--mud-typography-h5-text-transform: none;
+--mud-typography-h6-family: 'Public Sans','Roboto','Arial','sans-serif';
+--mud-typography-h6-size: 1.125rem;
+--mud-typography-h6-weight: 700;
+--mud-typography-h6-lineheight: 2;
+--mud-typography-h6-letterspacing: .0075em;
+--mud-typography-h6-text-transform: none;
+--mud-typography-subtitle1-family: 'Public Sans','Roboto','Arial','sans-serif';
+--mud-typography-subtitle1-size: 1.1rem;
+--mud-typography-subtitle1-weight: 500;
+--mud-typography-subtitle1-lineheight: 1.75;
+--mud-typography-subtitle1-letterspacing: .00938em;
+--mud-typography-subtitle1-text-transform: none;
+--mud-typography-subtitle2-family: 'Public Sans','Roboto','Arial','sans-serif';
+--mud-typography-subtitle2-size: 1rem;
+--mud-typography-subtitle2-weight: 600;
+--mud-typography-subtitle2-lineheight: 1.8;
+--mud-typography-subtitle2-letterspacing: .00714em;
+--mud-typography-subtitle2-text-transform: none;
+--mud-typography-body1-family: 'Public Sans','Roboto','Arial','sans-serif';
+--mud-typography-body1-size: 1rem;
+--mud-typography-body1-weight: 400;
+--mud-typography-body1-lineheight: 1.5;
+--mud-typography-body1-letterspacing: .00938em;
+--mud-typography-body1-text-transform: none;
+--mud-typography-body2-family: 'Public Sans','Roboto','Arial','sans-serif';
+--mud-typography-body2-size: .875rem;
+--mud-typography-body2-weight: 400;
+--mud-typography-body2-lineheight: 1.43;
+--mud-typography-body2-letterspacing: .01071em;
+--mud-typography-body2-text-transform: none;
+--mud-typography-button-family: 'Public Sans','Roboto','Arial','sans-serif';
+--mud-typography-button-size: .875rem;
+--mud-typography-button-weight: 500;
+--mud-typography-button-lineheight: 1.75;
+--mud-typography-button-letterspacing: .02857em;
+--mud-typography-button-text-transform: none;
+--mud-typography-caption-family: 'Public Sans','Roboto','Arial','sans-serif';
+--mud-typography-caption-size: .75rem;
+--mud-typography-caption-weight: 400;
+--mud-typography-caption-lineheight: 1.66;
+--mud-typography-caption-letterspacing: .03333em;
+--mud-typography-caption-text-transform: none;
+--mud-typography-overline-family: 'Public Sans','Roboto','Arial','sans-serif';
+--mud-typography-overline-size: .75rem;
+--mud-typography-overline-weight: 400;
+--mud-typography-overline-lineheight: 2.66;
+--mud-typography-overline-letterspacing: .08333em;
+--mud-typography-overline-text-transform: none;
+--mud-zindex-drawer: 1100;
+--mud-zindex-appbar: 1300;
+--mud-zindex-dialog: 1400;
+--mud-zindex-popover: 1200;
+--mud-zindex-snackbar: 1500;
+--mud-zindex-tooltip: 1600;
+}
+</style>
+
+
+
+<div class="mud-popover-provider"><div id="popovercontent-bc626869-7fa8-44b1-be89-521da240a46c" data-ticks="0" class="mud-popover mud-popover-top-left mud-popover-anchor-top-left mud-popover-overflow-flip-onopen mud-tooltip d-flex mud-tooltip-default mud-tooltip-bottom-center" style="transition-duration:1000ms;transition-delay:0ms;"></div></div>
+
+<div id="mud-snackbar-container" class="mud-snackbar-location-bottom-right"></div>
+<div class="mud-layout cropperblazor-landingpage" style=""><header class="mud-appbar mud-appbar-fixed-top mud-elevation-0 mud-theme-transparent docs-appbar-filter"><div class="mud-toolbar mud-toolbar-gutters mud-toolbar-appbar"></div></header>
+    <header class="mud-appbar mud-appbar-fixed-top mud-elevation-25 landing-appbar"><div class="mud-toolbar mud-toolbar-gutters mud-toolbar-appbar">
+</div></header>
+    <aside class="mud-drawer mud-drawer-fixed mud-drawer-pos-left mud-drawer--closed mud-drawer--initial mud-drawer-md mud-drawer-clipped-never mud-elevation-25 mud-drawer-temporary" style=""><div class="mud-drawer-content"><div class="mud-toolbar mud-toolbar-dense docs-gray-bg pa-2"><button type="button" class="mud-button-root mud-icon-button mud-inherit-text hover:mud-inherit-hover mud-ripple mud-ripple-icon" __internal_stopPropagation_onclick><span class="mud-icon-button-label"><svg class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M18.3 5.71c-.39-.39-1.02-.39-1.41 0L12 10.59 7.11 5.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L10.59 12 5.7 16.89c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 13.41l4.89 4.89c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"/></svg></span></button>
+            <div class="flex-grow-1"></div>
+            <div class="mud-tooltip-root mud-tooltip-inline"><button type="button" class="mud-button-root mud-icon-button mud-inherit-text hover:mud-inherit-hover mud-ripple mud-ripple-icon" __internal_stopPropagation_onclick><span class="mud-icon-button-label"><svg class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><rect fill="none" height="24" width="24"/><path d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"/></svg></span></button><div id="popover-bc626869-7fa8-44b1-be89-521da240a46c" class="mud-popover-cascading-value"></div></div></div>
+        <div class="mud-navmenu mud-navmenu-primary mud-navmenu-margin-dense mud-navmenu-rounded pa-2"><div class="mud-nav-item mud-ripple"><a href="demo" rel="" class="mud-nav-link"><svg class="mud-icon-root mud-icon-default mud-svg-icon mud-icon-size-medium mud-nav-link-icon mud-nav-link-icon-default" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"/><path d="M17 15h2V7c0-1.1-.9-2-2-2H9v2h8v8zM7 17V1H5v4H1v2h4v10c0 1.1.9 2 2 2h10v4h2v-4h4v-2H7z"/></svg><div class="mud-nav-link-text">Demo</div></a></div>
+            <div class="mud-nav-item mud-ripple"><a href="examples" rel="" class="mud-nav-link"><svg class="mud-icon-root mud-icon-default mud-svg-icon mud-icon-size-medium mud-nav-link-icon mud-nav-link-icon-default" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 1l-5 5v11l5-4.5V1zM1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5V6c-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6zm22 13.5V6c-.6-.45-1.25-.75-2-1v13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5v2c1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5v-1.1z"/></svg><div class="mud-nav-link-text">Examples</div></a></div>
+            <div class="mud-nav-item mud-ripple"><a href="api" rel="" class="mud-nav-link"><svg class="mud-icon-root mud-icon-default mud-svg-icon mud-icon-size-medium mud-nav-link-icon mud-nav-link-icon-default" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><rect fill="none" height="24" width="24"/><path d="M14,12l-2,2l-2-2l2-2L14,12z M12,6l2.12,2.12l2.5-2.5L12,1L7.38,5.62l2.5,2.5L12,6z M6,12l2.12-2.12l-2.5-2.5L1,12 l4.62,4.62l2.5-2.5L6,12z M18,12l-2.12,2.12l2.5,2.5L23,12l-4.62-4.62l-2.5,2.5L18,12z M12,18l-2.12-2.12l-2.5,2.5L12,23l4.62-4.62 l-2.5-2.5L12,18z"/></g></svg><div class="mud-nav-link-text">Api</div></a></div>
+            <div class="mud-nav-item mud-ripple"><a href="about" rel="" class="mud-nav-link"><svg class="mud-icon-root mud-icon-default mud-svg-icon mud-icon-size-medium mud-nav-link-icon mud-nav-link-icon-default" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"/><path d="M11.5 2C6.81 2 3 5.81 3 10.5S6.81 19 11.5 19h.5v3c4.86-2.34 8-7 8-11.5C20 5.81 16.19 2 11.5 2zm1 14.5h-2v-2h2v2zm0-3.5h-2c0-3.25 3-3 3-5 0-1.1-.9-2-2-2s-2 .9-2 2h-2c0-2.21 1.79-4 4-4s4 1.79 4 4c0 2.5-3 2.75-3 5z"/></svg><div class="mud-nav-link-text">About</div></a></div>
+            <div class="mud-nav-item mud-ripple"><a href="releases" rel="" class="mud-nav-link active" aria-current="page"><svg class="mud-icon-root mud-icon-default mud-svg-icon mud-icon-size-medium mud-nav-link-icon mud-nav-link-icon-default" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"/><path d="m23 12-2.44-2.78.34-3.68-3.61-.82-1.89-3.18L12 3 8.6 1.54 6.71 4.72l-3.61.81.34 3.68L1 12l2.44 2.78-.34 3.69 3.61.82 1.89 3.18L12 21l3.4 1.46 1.89-3.18 3.61-.82-.34-3.68L23 12zm-10 5h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg><div class="mud-nav-link-text">Releases</div></a></div></div></div></aside>
+
+    <div class="mud-main-content">
+
+
+<div class="mud-container mud-container-maxwidth-lg mt-5 px-4"><div class="docs-page-header mt-6 mb-12"><h3 class="mud-typography mud-typography-h3">Releases</h3>
+        <p class="mud-typography mud-typography-body1"> </p></div>
+    <div class="docs-page-content"><div class="mud-grid mud-grid-spacing-xs-3 justify-start docs-github-releases"><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-4"><div class="docs-sticky-info"><h5 class="mud-typography mud-typography-h5 mud-typography-display-inline">
+                                Version
+                            </h5>
+                            <h5 class="mud-typography mud-typography-h5 mud-primary-text mud-typography-display-inline"><b>1.3.0</b></h5>
+                            <h6 class="mud-typography mud-typography-subtitle1">
+                                Released on November 17, 2023</h6></div></div>
+                    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-8"><div class="docs-github-release-body"><h6 class="mud<li>typography mud-typography-h6">New Features</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Added support dotnet 8 version for NuGet Cropper.Blazor package <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/266">PR#266</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+<li>When an image replacement (ReplaceAsync method) is done in the cropper component, this change can now be retrieved via Src, previously it was unchanged in this case <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/263">PR#263</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li></div></div><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-4"><div class="docs-sticky-info"><h5 class="mud-typography mud-typography-h5 mud-typography-display-inline">
+                                Version
+                            </h5>
+                            <h5 class="mud-typography mud-typography-h5 mud-primary-text mud-typography-display-inline"><b>1.2.7</b></h5>
+                            <h6 class="mud-typography mud-typography-subtitle1">
+                                Released on November 14, 2023</h6></div></div>
+                    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-8"><div class="docs-github-release-body"><h5 class="mud<li>typography mud-typography-h5">What's Changed</h5><ul class="mt-3 mb-6 px-6"></ul></li>
+
+<h6 class="mud<li>typography mud-typography-h6">New Features</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Fix default values cropper component, options and  GetCroppedCanvasOptions <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/256">PR#256</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+<li>Rename "IsAvaibleInitCropper" to "IsAvailableInitCropper" parameter cropper component</li>
+<li>Increase coverage in unit tests <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/239">PR#239</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+
+<h6 class="mud<li>typography mud-typography-h6">Other changes </h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Docs: Fix loader styles <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/243">PR#243</a> by <a target="_blank" href="https://github.com/ColdForeign" class="mud-link mud-default-text mud-link-underline-hover"><b>@ColdForeign</b></a></li>
+<li>Docs: Support and create cropper examples by <a target="_blank" href="https://github.com/ColdForeign" class="mud-link mud-default-text mud-link-underline-hover"><b>@ColdForeign,</b></a> <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li></div></div><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-4"><div class="docs-sticky-info"><h5 class="mud-typography mud-typography-h5 mud-typography-display-inline">
+                                Version
+                            </h5>
+                            <h5 class="mud-typography mud-typography-h5 mud-primary-text mud-typography-display-inline"><b>1.2.6</b></h5>
+                            <h6 class="mud-typography mud-typography-subtitle1">
+                                Released on October 09, 2023</h6></div></div>
+                    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-8"><div class="docs-github-release-body"><h5 class="mud<li>typography mud-typography-h5">What's Changed</h5><ul class="mt-3 mb-6 px-6"></ul></li>
+
+<h6 class="mud<li>typography mud-typography-h6">New Features</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Updated cropper.js library version to 1.6.1 and fix an issue where some CSS styles were incompatible with old browsers; updated NuGet package dependencies <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/235">PR#235</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+
+<h6 class="mud<li>typography mud-typography-h6">Other changes </h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Docs: added comprehensive documentation and practical examples <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/225">PR#225</a> by <a target="_blank" href="https://github.com/ColdForeign" class="mud-link mud-default-text mud-link-underline-hover"><b>@ColdForeign</b></a> </li>
+<li>Docs: added API documentation for library by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li></div></div><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-4"><div class="docs-sticky-info"><h5 class="mud-typography mud-typography-h5 mud-typography-display-inline">
+                                Version
+                            </h5>
+                            <h5 class="mud-typography mud-typography-h5 mud-primary-text mud-typography-display-inline"><b>1.2.5</b></h5>
+                            <h6 class="mud-typography mud-typography-subtitle1">
+                                Released on September 12, 2023</h6></div></div>
+                    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-8"><div class="docs-github-release-body"><h5 class="mud<li>typography mud-typography-h5">What's Changed</h5><ul class="mt-3 mb-6 px-6"></ul></li>
+
+<h6 class="mud<li>typography mud-typography-h6">New Features</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Updated cropper.js library version to 1.6.0 and include a rounded option to the GetCroppedCanvas method <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/212">PR#212</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+
+<h6 class="mud<li>typography mud-typography-h6">Other Changes</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Docs: Demo site fix event settings, bug fixes <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/189">PR#189</a> by <a target="_blank" href="https://github.com/ColdForeign</li>" class="mud-link mud-default-text mud-link-underline-hover"><b>@ColdForeign</li></b></a></div></div><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-4"><div class="docs-sticky-info"><h5 class="mud-typography mud-typography-h5 mud-typography-display-inline">
+                                Version
+                            </h5>
+                            <h5 class="mud-typography mud-typography-h5 mud-primary-text mud-typography-display-inline"><b>1.2.4</b></h5>
+                            <h6 class="mud-typography mud-typography-subtitle1">
+                                Released on July 29, 2023</h6></div></div>
+                    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-8"><div class="docs-github-release-body"><h5 class="mud<li>typography mud-typography-h5">What's Changed</h5><ul class="mt-3 mb-6 px-6"></ul></li>
+
+<h6 class="mud<li>typography mud-typography-h6">Bug Fixes</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+
+<li>Fixed multiple croppers are not isolated <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/issues/168">Issue#168</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+<li>Reset the image preview programmatically when image is removed for multiple croppers <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/issues/177">Issue#177</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+
+<h6 class="mud<li>typography mud-typography-h6">Other Changes</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Docs: Demo site UI/UX improvements, bug fixes <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/181">PR#181</a> by <a target="_blank" href="https://github.com/ColdForeign" class="mud-link mud-default-text mud-link-underline-hover"><b>@ColdForeign</b></a></li>
+<li>Docs: Fixed caching of the demo site in the worker service <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/181">PR#181</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+<li>Docs: Added API for cropper component in demo site by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+<li>Docs/SEO: add indexing demo site in Google search by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+<li>GitHub: Attached issue template, releases for library <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/181">PR#181</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li></div></div><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-4"><div class="docs-sticky-info"><h5 class="mud-typography mud-typography-h5 mud-typography-display-inline">
+                                Version
+                            </h5>
+                            <h5 class="mud-typography mud-typography-h5 mud-primary-text mud-typography-display-inline"><b>1.2.3</b></h5>
+                            <h6 class="mud-typography mud-typography-subtitle1">
+                                Released on July 29, 2023</h6></div></div>
+                    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-8"><div class="docs-github-release-body"><h5 class="mud<li>typography mud-typography-h5">What's Changed</h5><ul class="mt-3 mb-6 px-6"></ul></li>
+
+<h6 class="mud<li>typography mud-typography-h6">Features </h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Extended "GetCroppedCanvasDataURLAsync" method in CropperComponent by additional parameters, namely image format and quality <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/175">PR#175</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+<li>Extended "Preview" option with string selector (already existed before this version), ElementReference or list ElementReference <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/175">PR#175</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+<li>Updated webcompiler <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/175">PR#175</a> by <a target="_blank" href="https://github.com/ColdForeign" class="mud-link mud-default-text mud-link-underline-hover"><b>@ColdForeign</b></a> </li>
+
+<h6 class="mud<li>typography mud-typography-h6">Other Changes</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Docs: Adding cropper view figures for demo site <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/175">PR#175</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li></div></div><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-4"><div class="docs-sticky-info"><h5 class="mud-typography mud-typography-h5 mud-typography-display-inline">
+                                Version
+                            </h5>
+                            <h5 class="mud-typography mud-typography-h5 mud-primary-text mud-typography-display-inline"><b>1.2.2</b></h5>
+                            <h6 class="mud-typography mud-typography-subtitle1">
+                                Released on July 29, 2023</h6></div></div>
+                    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-8"><div class="docs-github-release-body"><h5 class="mud<li>typography mud-typography-h5">What's Changed</h5><ul class="mt-3 mb-6 px-6"></ul></li>
+
+<h6 class="mud<li>typography mud-typography-h6">Bug Fixes </h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Fixed "OnLoadImage" callback for replaced image with "IsAvaibleInitCropper" parameter for cropper component <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/issues/150">Issue#150</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+</div></div><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-4"><div class="docs-sticky-info"><h5 class="mud-typography mud-typography-h5 mud-typography-display-inline">
+                                Version
+                            </h5>
+                            <h5 class="mud-typography mud-typography-h5 mud-primary-text mud-typography-display-inline"><b>1.2.1</b></h5>
+                            <h6 class="mud-typography mud-typography-subtitle1">
+                                Released on July 29, 2023</h6></div></div>
+                    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-8"><div class="docs-github-release-body"><h5 class="mud<li>typography mud-typography-h5">What's Changed</h5><ul class="mt-3 mb-6 px-6"></ul></li>
+
+<h6 class="mud<li>typography mud-typography-h6">Features </h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Added replace image functionality <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/152">PR#152</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+<li>Added overriding local/global path as options for CropperJSInterop.min.js module <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/152">PR#152</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+
+<h6 class="mud<li>typography mud-typography-h6">Other Changes</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Docs: Adding cropper capabilities to the demo site, including dimensions settings, aspect ratio settings, zoom ratio settings, downloading a cropped image for demo site <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/152">PR#152</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li></div></div><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-4"><div class="docs-sticky-info"><h5 class="mud-typography mud-typography-h5 mud-typography-display-inline">
+                                Version
+                            </h5>
+                            <h5 class="mud-typography mud-typography-h5 mud-primary-text mud-typography-display-inline"><b>1.2.0</b></h5>
+                            <h6 class="mud-typography mud-typography-subtitle1">
+                                Released on July 29, 2023</h6></div></div>
+                    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-8"><div class="docs-github-release-body"><h5 class="mud<li>typography mud-typography-h5">What's Changed</h5><ul class="mt-3 mb-6 px-6"></ul></li>
+
+<h6 class="mud<li>typography mud-typography-h6">Features </h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Incorporate JavaScript information into OnReadyEvent, OnCropStartEvent, OnCropEndEvent, OnCropEvent, OnZoomEvent, OnCropMoveEvent events for cropper component <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/128">PR#128</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+<li>Added overriding custom cropper events <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/128">PR#128</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+<li>Added dependabot pipeline into project <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/128">PR#128</a> by <a target="_blank" href="https://github.com/ColdForeign" class="mud-link mud-default-text mud-link-underline-hover"><b>@ColdForeign</b></a> </li>
+<li>Added CancellationToken for each demand on methods cropper component <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/128">PR#128</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+<li>Added "GetCroppedCanvasAsync" method for cropper component <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/121">PR#121</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+
+<h6 class="mud<li>typography mud-typography-h6">Bug Fixes</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Fix destroy method of Cropper is invoked even on pages where we do not use Cropper.Blazor <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/issues/113">Issue#113</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+
+<h6 class="mud<li>typography mud-typography-h6">Other Changes</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Docs: Adding cropper platform example projects <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/128">PR#128</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+<li>Code refactoring <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/128">PR#128</a> by <a target="_blank" href="https://github.com/ColdForeign" class="mud-link mud-default-text mud-link-underline-hover"><b>@ColdForeign</b></a> </li></div></div><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-4"><div class="docs-sticky-info"><h5 class="mud-typography mud-typography-h5 mud-typography-display-inline">
+                                Version
+                            </h5>
+                            <h5 class="mud-typography mud-typography-h5 mud-primary-text mud-typography-display-inline"><b>1.1.4</b></h5>
+                            <h6 class="mud-typography mud-typography-subtitle1">
+                                Released on July 29, 2023</h6></div></div>
+                    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-8"><div class="docs-github-release-body"><h5 class="mud<li>typography mud-typography-h5">What's Changed</h5><ul class="mt-3 mb-6 px-6"></ul></li>
+
+<h6 class="mud<li>typography mud-typography-h6">Features </h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Update NuGet packages. Update web-compiler <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/112">PR#112</a> by <a target="_blank" href="https://github.com/ColdForeign" class="mud-link mud-default-text mud-link-underline-hover"><b>@ColdForeign</b></a> </li>
+
+<h6 class="mud<li>typography mud-typography-h6">Bug Fixes</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Changed default value for "FillColor" option in GetCroppedCanvasOptions as transparent <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/issues/118">Issue#118</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+<li>Clear redundant resources on "DisposeAsync" method cropper component <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/117">PR#117</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+</div></div><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-4"><div class="docs-sticky-info"><h5 class="mud-typography mud-typography-h5 mud-typography-display-inline">
+                                Version
+                            </h5>
+                            <h5 class="mud-typography mud-typography-h5 mud-primary-text mud-typography-display-inline"><b>1.1.3</b></h5>
+                            <h6 class="mud-typography mud-typography-subtitle1">
+                                Released on July 29, 2023</h6></div></div>
+                    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-8"><div class="docs-github-release-body"><h5 class="mud<li>typography mud-typography-h5">What's Changed</h5><ul class="mt-3 mb-6 px-6"></ul></li>
+
+<h6 class="mud<li>typography mud-typography-h6">Bug Fixes</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Failed to fetch dynamically imported cropper module <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/issues/114">Issue#114</a></li>
+
+<h6 class="mud<li>typography mud-typography-h6">Other Changes</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Docs: Adding cropper platform example projects <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/115">PR#115</a> by <a target="_blank" href="https://github.com/MaxymGorn</li>" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</li></b></a></div></div><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-4"><div class="docs-sticky-info"><h5 class="mud-typography mud-typography-h5 mud-typography-display-inline">
+                                Version
+                            </h5>
+                            <h5 class="mud-typography mud-typography-h5 mud-primary-text mud-typography-display-inline"><b>1.1.2</b></h5>
+                            <h6 class="mud-typography mud-typography-subtitle1">
+                                Released on July 29, 2023</h6></div></div>
+                    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-8"><div class="docs-github-release-body"><h5 class="mud<li>typography mud-typography-h5">What's Changed</h5><ul class="mt-3 mb-6 px-6"></ul></li>
+
+<h6 class="mud<li>typography mud-typography-h6">Features </h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Аdd XML comments for library files <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/108">PR#108</a> by <a target="_blank" href="https://github.com/ColdForeign" class="mud-link mud-default-text mud-link-underline-hover"><b>@ColdForeign,</b></a> <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+
+<h6 class="mud<li>typography mud-typography-h6">Other Changes</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Docs: Demo site UI/UX improvements, bug fixes <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/109">PR#109</a> by <a target="_blank" href="https://github.com/ColdForeign</li>" class="mud-link mud-default-text mud-link-underline-hover"><b>@ColdForeign</li></b></a></div></div><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-4"><div class="docs-sticky-info"><h5 class="mud-typography mud-typography-h5 mud-typography-display-inline">
+                                Version
+                            </h5>
+                            <h5 class="mud-typography mud-typography-h5 mud-primary-text mud-typography-display-inline"><b>1.1.1</b></h5>
+                            <h6 class="mud-typography mud-typography-subtitle1">
+                                Released on July 29, 2023</h6></div></div>
+                    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-8"><div class="docs-github-release-body"><h5 class="mud<li>typography mud-typography-h5">What's Changed</h5><ul class="mt-3 mb-6 px-6"></ul></li>
+
+<h6 class="mud<li>typography mud-typography-h6">Features </h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Update Cropper.js to v1.5.13 <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/103">PR#103</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+<li>Extend options properties for cropper with nullable flags <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/103">PR#103</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li></div></div><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-4"><div class="docs-sticky-info"><h5 class="mud-typography mud-typography-h5 mud-typography-display-inline">
+                                Version
+                            </h5>
+                            <h5 class="mud-typography mud-typography-h5 mud-primary-text mud-typography-display-inline"><b>1.1.0</b></h5>
+                            <h6 class="mud-typography mud-typography-subtitle1">
+                                Released on November 20, 2023</h6></div></div>
+                    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-8"><div class="docs-github-release-body"><h5 class="mud<li>typography mud-typography-h5">What's Changed</h5><ul class="mt-3 mb-6 px-6"></ul></li>
+
+<h6 class="mud<li>typography mud-typography-h6">New Features</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Added support dotnet 7 version for NuGet Cropper.Blazor package <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/97">PR#97</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+<li>Setups CI/CD for .NET 7 <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/97">PR#97</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+
+<h6 class="mud<li>typography mud-typography-h6">Other Changes</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>GitHub: Attached PR template <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/95">PR#95</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li></div></div><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-4"><div class="docs-sticky-info"><h5 class="mud-typography mud-typography-h5 mud-typography-display-inline">
+                                Version
+                            </h5>
+                            <h5 class="mud-typography mud-typography-h5 mud-primary-text mud-typography-display-inline"><b>1.0.2</b></h5>
+                            <h6 class="mud-typography mud-typography-subtitle1">
+                                Released on July 29, 2023</h6></div></div>
+                    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-8"><div class="docs-github-release-body"><h5 class="mud<li>typography mud-typography-h5">What's Changed</h5><ul class="mt-3 mb-6 px-6"></ul></li>
+
+<h6 class="mud<li>typography mud-typography-h6">New Features</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Added support list input attributes for cropper by <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/91">PR#91</a> <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+<li>Added additional setups CI/CD <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/91, https://github.com/CropperBlazor/Cropper.Blazor/pull/88">PR#91</a>, <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/91, https://github.com/CropperBlazor/Cropper.Blazor/pull/88">PR#88</a> by <a target="_blank" href="https://github.com/ColdForeign" class="mud-link mud-default-text mud-link-underline-hover"><b>@ColdForeign,</b></a> <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li>
+
+<h6 class="mud<li>typography mud-typography-h6">Other Changes</h6><ul class="mt-3 mb-6 px-6"></ul></li>
+<li>Supported docs <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/90">PR#90</a> by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </li></div></div><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-4"><div class="docs-sticky-info"><h5 class="mud-typography mud-typography-h5 mud-typography-display-inline">
+                                Version
+                            </h5>
+                            <h5 class="mud-typography mud-typography-h5 mud-primary-text mud-typography-display-inline"><b>1.0.1</b></h5>
+                            <h6 class="mud-typography mud-typography-subtitle1">
+                                Released on July 27, 2023</h6></div></div>
+                    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-8"><div class="docs-github-release-body">Tuning and fixing Nuget package packaging <a target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/pull/86">PR#86</a> by <a target="_blank" href="https://github.com/ColdForeign" class="mud-link mud-default-text mud-link-underline-hover"><b>@ColdForeign,</b></a> <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> </div></div><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-4"><div class="docs-sticky-info"><h5 class="mud-typography mud-typography-h5 mud-typography-display-inline">
+                                Version
+                            </h5>
+                            <h5 class="mud-typography mud-typography-h5 mud-primary-text mud-typography-display-inline"><b>1.0.0</b></h5>
+                            <h6 class="mud-typography mud-typography-subtitle1">
+                                Released on July 27, 2023</h6></div></div>
+                    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-md-8"><div class="docs-github-release-body">First Release of Cropper.Blazor by <a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn,</b></a> <a target="_blank" href="https://github.com/ColdForeign" class="mud-link mud-default-text mud-link-underline-hover"><b>@ColdForeign</b></a> 
+
+<h5 class="mud<li>typography mud-typography-h5">New Contributors</h5><ul class="mt-3 mb-6 px-6"></ul></li>
+<li><a target="_blank" href="https://github.com/MaxymGorn" class="mud-link mud-default-text mud-link-underline-hover"><b>@MaxymGorn</b></a> made their first contribution in <a class="text-with-dots" target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/commit/e8a1039061a2171bb6fd67933704f28a235c572f">e8a1039061a2171bb6fd67933704f28a235c572f</a></li>
+<li><a target="_blank" href="https://github.com/ColdForeign" class="mud-link mud-default-text mud-link-underline-hover"><b>@ColdForeign</b></a> made their first contribution in <a class="text-with-dots" target="_blank" rel="noopener" style="color: var(--mud-palette-primary);" href="https://github.com/CropperBlazor/Cropper.Blazor/commit/78c50bcf2f551983f0579da58d586f8e2891e908">78c50bcf2f551983f0579da58d586f8e2891e908</a></li></div></div></div></div></div>
+        <div class="mud-container mud-container-maxwidth-lg"><div class="section-container mud-text-secondary pb-8 mt-16"><div class="mud-grid mud-grid-spacing-xs-3 justify-start docs-footer"><div class="mud-grid-item mud-grid-item-xs-6 mud-grid-item-sm-3"><div class="d-flex flex-column"><div class="d-flex align-center mb-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 650" class="mr-2" style="width:24px;"><g><linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="84.1612" y1="565.8389" x2="411.8388" y2="238.1612"><stop offset="0" style="stop-color:#E73C7E"></stop>
+            <stop offset="0.15" style="stop-color:#E73C7E"></stop>
+            <stop offset="0.5" style="stop-color:#746CB4"></stop>
+            <stop offset="0.85" style="stop-color:#009DEA"></stop>
+            <stop offset="1" style="stop-color:#009DEA"></stop></linearGradient>
+        <path fill="url(#gradient)" d="M628,459.5H192.5c-1.1,0-2-0.9-2-2V22c0-6.9-5.6-12.5-12.5-12.5H93c-6.9,0-12.5,5.6-12.5,12.5v56.5
+		c0,1.1-0.9,2-2,2H22c-6.9,0-12.5,5.6-12.5,12.5v85c0,6.9,5.6,12.5,12.5,12.5h56.5c1.1,0,2,0.9,2,2V557c0,6.9,5.6,12.5,12.5,12.5
+		h364.5c1.1,0,2,0.9,2,2V628c0,6.9,5.6,12.5,12.5,12.5h85c6.9,0,12.5-5.6,12.5-12.5v-56.5c0-1.1,0.9-2,2-2H628
+		c6.9,0,12.5-5.6,12.5-12.5v-85C640.5,465.1,634.9,459.5,628,459.5z M80.5,163.5c0,1.1-0.9,2-2,2h-42c-1.1,0-2-0.9-2-2v-56
+		c0-1.1,0.9-2,2-2h42c1.1,0,2,0.9,2,2V163.5z M544.5,613.5c0,1.1-0.9,2-2,2h-56c-1.1,0-2-0.9-2-2v-42c0-1.1,0.9-2,2-2h56
+		c1.1,0,2,0.9,2,2V613.5z M615.5,542.5c0,1.1-0.9,2-2,2h-506c-1.1,0-2-0.9-2-2v-506c0-1.1,0.9-2,2-2h56c1.1,0,2,0.9,2,2V472
+		c0,6.9,5.6,12.5,12.5,12.5h435.5c1.1,0,2,0.9,2,2V542.5z M484.5,178v249c0,6.9-5.6,12.5-12.5,12.5s-12.5-5.6-12.5-12.5V192.5
+		c0-1.1-0.9-2-2-2H223c-6.9,0-12.5-5.6-12.5-12.5s5.6-12.5,12.5-12.5h249C478.9,165.5,484.5,171.1,484.5,178z M569.5,93v334
+		c0,6.9-5.6,12.5-12.5,12.5s-12.5-5.6-12.5-12.5V107.5c0-1.1-0.9-2-2-2H223c-6.9,0-12.5-5.6-12.5-12.5s5.6-12.5,12.5-12.5h334
+		C563.9,80.5,569.5,86.1,569.5,93z"></path>
+        <linearGradient id="anim-gradient" gradientUnits="userSpaceOnUse" x1="78.5111" y1="571.4889" x2="571.4889" y2="78.5111"><stop offset="0" style="stop-color:#009DEA"><animate attributeName="stop-color" values="#009DEA; #E73C7E; #009DEA" dur="3s" repeatCount="indefinite"></animate></stop>
+            <stop offset="1" style="stop-color:#E73C7E"><animate attributeName="stop-color" values="#E73C7E; #009DEA; #E73C7E" dur="3s" repeatCount="indefinite"></animate></stop></linearGradient>
+        <path fill="url(#anim-gradient)" d="M178,9.5c6.9,0,12.5,5.6,12.5,12.5v435.5c0,1.1,0.9,2,2,2H628c6.9,0,12.5,5.6,12.5,12.5v85
+		c0,6.9-5.6,12.5-12.5,12.5h-56.5c-1.1,0-2,0.9-2,2V628c0,6.9-5.6,12.5-12.5,12.5h-85c-6.9,0-12.5-5.6-12.5-12.5v-56.5
+		c0-1.1-0.9-2-2-2H93c-6.9,0-12.5-5.6-12.5-12.5V192.5c0-1.1-0.9-2-2-2H22c-6.9,0-12.5-5.6-12.5-12.5V93c0-6.9,5.6-12.5,12.5-12.5
+		h56.5c1.1,0,2-0.9,2-2V22c0-6.9,5.6-12.5,12.5-12.5H178 M107.5,544.5h506c1.1,0,2-0.9,2-2v-56c0-1.1-0.9-2-2-2H178
+		c-6.9,0-12.5-5.6-12.5-12.5V36.5c0-1.1-0.9-2-2-2h-56c-1.1,0-2,0.9-2,2v506C105.5,543.6,106.4,544.5,107.5,544.5 M36.5,165.5h42
+		c1.1,0,2-0.9,2-2v-56c0-1.1-0.9-2-2-2h-42c-1.1,0-2,0.9-2,2v56C34.5,164.6,35.4,165.5,36.5,165.5 M486.5,615.5h56c1.1,0,2-0.9,2-2
+		v-42c0-1.1-0.9-2-2-2h-56c-1.1,0-2,0.9-2,2v42C484.5,614.6,485.4,615.5,486.5,615.5 M557,80.5c6.9,0,12.5,5.6,12.5,12.5v334
+		c0,6.9-5.6,12.5-12.5,12.5s-12.5-5.6-12.5-12.5V107.5c0-1.1-0.9-2-2-2H223c-6.9,0-12.5-5.6-12.5-12.5s5.6-12.5,12.5-12.5H557
+		 M472,165.5c6.9,0,12.5,5.6,12.5,12.5v249c0,6.9-5.6,12.5-12.5,12.5s-12.5-5.6-12.5-12.5V192.5c0-1.1-0.9-2-2-2H223
+		c-6.9,0-12.5-5.6-12.5-12.5s5.6-12.5,12.5-12.5H472 M178,1.5H93c-11.3,0-20.5,9.2-20.5,20.5v50.5H22C10.7,72.5,1.5,81.7,1.5,93v85
+		c0,11.3,9.2,20.5,20.5,20.5h50.5V557c0,11.3,9.2,20.5,20.5,20.5h358.5V628c0,11.3,9.2,20.5,20.5,20.5h85c11.3,0,20.5-9.2,20.5-20.5
+		v-50.5H628c11.3,0,20.5-9.2,20.5-20.5v-85c0-11.3-9.2-20.5-20.5-20.5H198.5V22C198.5,10.7,189.3,1.5,178,1.5L178,1.5z M113.5,42.5
+		h44V472c0,11.3,9.2,20.5,20.5,20.5h429.5v44h-494V42.5L113.5,42.5z M42.5,113.5h30v44h-30V113.5L42.5,113.5z M492.5,577.5h44v30
+		h-44V577.5L492.5,577.5z M557,72.5H223c-11.3,0-20.5,9.2-20.5,20.5s9.2,20.5,20.5,20.5h313.5V427c0,11.3,9.2,20.5,20.5,20.5
+		s20.5-9.2,20.5-20.5V93C577.5,81.7,568.3,72.5,557,72.5L557,72.5z M472,157.5H223c-11.3,0-20.5,9.2-20.5,20.5s9.2,20.5,20.5,20.5
+		h228.5V427c0,11.3,9.2,20.5,20.5,20.5s20.5-9.2,20.5-20.5V178C492.5,166.7,483.3,157.5,472,157.5L472,157.5z"></path></g></svg>
+                    <a href="/" class="mud-typography mud-link mud-inherit-text mud-link-underline-none mud-typography-subtitle2">Cropper.Blazor</a></div></div>
+            <div class="d-flex mt-4"><a aria-label="github" type="button" href="https://github.com/Cropper.Blazor/Cropper.Blazor" target="_blank" rel="noopener" class="mud-button-root mud-icon-button mud-inherit-text hover:mud-inherit-hover mud-ripple mud-ripple-icon mud-icon-button-edge-start me-2"><span class="mud-icon-button-label"><svg class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"/></svg></span></a></div></div>
+        <div class="mud-grid-item mud-grid-item-xs-6 mud-grid-item-sm-3 d-flex flex-column"><a href="/demo" class="mud-typography mud-link mud-inherit-text mud-link-underline-none mud-typography-subtitle2 mb-3">Demo</a></div>
+        <div class="mud-grid-item mud-grid-item-xs-6 mud-grid-item-sm-3 d-flex flex-column"><a href="/examples" class="mud-typography mud-link mud-inherit-text mud-link-underline-none mud-typography-subtitle2 mb-3">Examples</a></div>
+        <div class="mud-grid-item mud-grid-item-xs-6 mud-grid-item-sm-3 d-flex flex-column"><a href="/api" class="mud-typography mud-link mud-inherit-text mud-link-underline-none mud-typography-subtitle2 mb-3">API</a></div>
+        <div class="mud-grid-item mud-grid-item-xs-6 mud-grid-item-sm-3 d-flex flex-column"><a href="/releases" class="mud-typography mud-link mud-inherit-text mud-link-underline-none mud-typography-subtitle2 mb-3">Releases</a></div>
+        <div class="mud-grid-item mud-grid-item-xs-6 mud-grid-item-sm-3 d-flex flex-column"><a href="/about" class="mud-typography mud-link mud-inherit-text mud-link-underline-none mud-typography-subtitle2 mb-3">About</a></div>
+        <div class="mud-grid-item mud-grid-item-xs-12"><div class="mud-toolbar mud-toolbar-dense"><p class="mud-typography mud-typography-body1">Copyright © 2022-2023 Cropper.Blazor.</p></div></div></div></div></div>
+        <span class="mud-scroll-to-top hidden" style="z-index:2000;"><button type="button" class="mud-button-root mud-fab mud-fab-primary mud-fab-size-large mud-ripple" __internal_stopPropagation_onclick><span class="mud-fab-label"><svg class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"/><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg></span></button></span></div></div>
+        
+
+</div>
+<!-- %%-PRERENDERING-END-%% -->
+</div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="decode.min.js"></script>
+    <script src="_framework/blazor.webassembly.js" autostart="false"></script>
+    <script>
+        Blazor.start({
+            loadBootResource: function (type, name, defaultUri, integrity) {
+                // For framework resources, use the precompressed .br files for faster downloads
+                // This is needed only because GitHub pages doesn't natively support Brotli (or even gzip for .dll files)
+                if (type !== 'dotnetjs' && location.hostname !== 'localhost') {
+                    return (async function () {
+                        const response = await fetch(defaultUri + '.br', { cache: 'no-cache' });
+                        if (!response.ok) {
+                            throw new Error(response.statusText);
+                        }
+                        const originalResponseBuffer = await response.arrayBuffer();
+                        const originalResponseArray = new Int8Array(originalResponseBuffer);
+                        const decompressedResponseArray = BrotliDecode(originalResponseArray);
+                        const contentType = type === 'dotnetwasm' ? 'application/wasm' : 'application/octet-stream';
+                        return new Response(decompressedResponseArray, { headers: { 'content-type': contentType } });
+                    })();
+                }
+            }
+        });
+    </script>
+    <script src="_content/MudBlazor/MudBlazor.min.js"></script>
+    <script src="_content/Cropper.Blazor/cropper.min.js"></script>
+    <script src="overrideCropperJsInteropModule.min.js"></script>
+    <script src="jsObjectModule.min.js"></script>
+    <script src="helper.min.js"></script>
+    <script src="sw-registrator.min.js"></script>
+
+
+
+</body></html>
