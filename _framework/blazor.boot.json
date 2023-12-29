@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Cropper.Blazor.Client",
   "resources": {
-    "hash": "sha256-bu6NbXvJEazzUKURt1k3MT+LUBAgTjh6t6AIh2u5DxI=",
+    "hash": "sha256-VhXnSXgqZ9k9zZqW7Qz3kfnBpgDvq5lhNWi1d6P22nE=",
     "jsModuleNative": {
       "dotnet.native.8.0.0.jtupzy2epc.js": "sha256-nIIqM4n4JaKKDfAY2pvhp/MezpJiq9iH5ifektE1qXE="
     },
@@ -18,9 +18,9 @@
     },
     "assembly": {
       "Blazored.LocalStorage.wasm": "sha256-xHBGFCMjDjvvTwtMvgaMBNmQk9JdVhGmws2/GMZlxrI=",
-      "Cropper.Blazor.Client.wasm": "sha256-fYac9o7Z2doOvUfXiDuCs3RkIK1CK5IiiabL0D6wnE0=",
-      "Cropper.Blazor.Shared.wasm": "sha256-7SAfX3Kj+EmN1vrxJrn7uNzZim7sot4ocToW2bBsVlM=",
-      "Cropper.Blazor.wasm": "sha256-10xfWCquDOYtn7dJ2PVg/G/DQ7pZ5nUdpRgu9fskqiM=",
+      "Cropper.Blazor.Client.wasm": "sha256-pzF1fnT581suyTJm9eyAj7CweBc09Ee1muYaoOPSc2o=",
+      "Cropper.Blazor.Shared.wasm": "sha256-tUMH7LgVFgb/MLUDkMDIjUqyZT+70C3U92iX+C3PQso=",
+      "Cropper.Blazor.wasm": "sha256-jDjFpYIasLJj8w6V7FKuZ2U2+nzk+M30FQMH8oZTMYc=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-2nTE7xIjIqqDRFhRSyD/0OaBW4xvomBEGMZPKpzy7gY=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-M3GafJQbpS/1bvJ6D1zZfCBJ6pVUX2O8yI6dYotnN1I=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-AoItfNNPvdnhRYEv4Sxfb1+MvWwUDmDs0LTMRilioNI=",
@@ -62,7 +62,7 @@
       "System.Private.Xml.wasm": "sha256-S4dYuWAcCoqzHpGy3gB2r/hutiD3oDnDN52mA3QsI/U=",
       "System.Runtime.InteropServices.JavaScript.wasm": "sha256-TAtIMM4NMjNrLChnEM9FoIlR3eVDVC5v/KP+4FwGQxE=",
       "System.Runtime.Serialization.Primitives.wasm": "sha256-c9NNMjKEo+z8q8jJxr4TXSslJEZ4oKAb7omOxzUIovE=",
-      "System.Runtime.wasm": "sha256-mjaqyI6RWcbrHJyTddDFyT602xT4gU/obnxdIXvhslY=",
+      "System.Runtime.wasm": "sha256-XRE7RtQdLzkSFmhqE4rfBqc5R8RN4+AQvX8Xny5k9fY=",
       "System.Text.Encodings.Web.wasm": "sha256-roAD9oxlySPskG/f0YnoUDWlRpxhu89rnf8M89edL/o=",
       "System.Text.Json.wasm": "sha256-zR2KwV6eGIjeKrxB+GPBJBuTS6EI720d5JWTkmYI1ko=",
       "System.Text.RegularExpressions.wasm": "sha256-MPIMrOJ+Pc4HPPzSFmZqbUQj9Rn+bKO9e0VN36xckYA=",
