@@ -1,199 +1,199 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cropperblazor.github.io/about</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/demo</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api/CanvasData</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api/ContainerData</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api/CropBoxData</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api/CropEndEvent</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api/CropMoveEvent</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api/CropReadyEvent</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api/CropStartEvent</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api/CropperData</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api/DragMode</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api/GetCroppedCanvasOptions</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api/ImageData</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api/JSEventData</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api/Options</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api/SetCanvasDataOptions</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api/SetCropBoxDataOptions</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api/SetDataOptions</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api/ViewMode</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api/ZoomEvent</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/releases</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/api</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/examples/viewmodes</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/examples/rebuild</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/examples/preview</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/examples/zooming</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/examples/dimensions</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/examples/cropping</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/examples</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/examples/cropperusage</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/examples/aspectratio</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cropperblazor.github.io/examples/replacing</loc>
-    <lastmod>2024-01-02T12:07:31+00:00</lastmod>
+    <lastmod>2024-01-02T14:08:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
