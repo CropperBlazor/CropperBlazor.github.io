@@ -93,7 +93,7 @@
       "url": "images\/underwater-magic-world.jpeg"
     },
     {
-      "hash": "sha256-BlMFDQbfliut4Q3I4Dw7VQx8SMY+XOkc9dsBr3Gpdlo=",
+      "hash": "sha256-RUmuxl0L0j3cYil4NWBGFIqZNzfI3hgXCA2V\/Ygoc9k=",
       "url": "index.html"
     },
     {
@@ -153,7 +153,7 @@
       "url": "service-worker.published.js"
     },
     {
-      "hash": "sha256-UcDiUfe3GNrR+O\/O4STuZC84azm9nsCDt+04ZYWUGfQ=",
+      "hash": "sha256-WkHyU9oZmySPVGilAqtuHWoz2\/9Tx8nL1mb2tOqe+e0=",
       "url": "sitemap.xml"
     },
     {
@@ -189,7 +189,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-KlwkAWw0MvrWBPqa5H71ZTfPer1mT5Wi8Zl37ROKG9o=",
+      "hash": "sha256-BInDOoRo94i+OjFtse1w3Dd8jjbL\/MfBbDZbjYmvhI4=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -205,15 +205,15 @@
       "url": "_framework\/Blazored.LocalStorage.wasm"
     },
     {
-      "hash": "sha256-SIx5sWpaw9qY\/pj2+oEmwln+h3DEg3Dax4xhKi3FKis=",
+      "hash": "sha256-bGxZB\/qp1U32XeEIyQEm83jMCuhYsC\/M8\/5iFRh4avA=",
       "url": "_framework\/Cropper.Blazor.Client.wasm"
     },
     {
-      "hash": "sha256-qKDIsmkglBo0cQvNLDCcpQgDqG3f7lrTaF5JSkIPUko=",
+      "hash": "sha256-x2u9Jp\/gaPasK2dDBKIAjrgdmC2kvzMmk0QKNCc5pYA=",
       "url": "_framework\/Cropper.Blazor.Shared.wasm"
     },
     {
-      "hash": "sha256-At8CShm4PHfmhWLtuyUah\/cg06uCC\/7VDyFLvupvFZI=",
+      "hash": "sha256-FBNc9Mv7LXFaPPRHYtd0MCP00do+rUZCnoaG37yjWcI=",
       "url": "_framework\/Cropper.Blazor.wasm"
     },
     {
@@ -453,15 +453,15 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     },
     {
-      "hash": "sha256-dIxrOGBDQ87L4IAA8fGQhFe8\/Ss6VvzeoVKhLieu2JY=",
+      "hash": "sha256-mMPoPj\/nKLmOl89ZUkAzyfmdpoErAQXYW6myK\/qnono=",
       "url": "demo\/index.html"
     },
     {
-      "hash": "sha256-C7hcyAoaKjwAw9uYSGK45aw+CIbtXPmWrQ0u4\/keb4g=",
+      "hash": "sha256-Ez\/iDpF2h2TcbhpIfEKrdLL8PG\/y4\/LxZcjNMQzH0W8=",
       "url": "examples\/cropperusage\/index.html"
     },
     {
-      "hash": "sha256-bUB5RR57nJSEdezVaqKY1uFlMpIL0ZbO5UkUatvaABc=",
+      "hash": "sha256-qwojLy3erTLYkwpB5ToalKcpJYw2RZYRKIhrr6vz0n0=",
       "url": "examples\/viewmodes\/index.html"
     },
     {
@@ -469,19 +469,19 @@
       "url": "examples\/preview\/index.html"
     },
     {
-      "hash": "sha256-NfHg276VHRiX62R6A+hsZMBKrFb+Fr1ffwKNrIYyd58=",
+      "hash": "sha256-qk2J7g4MHJdmU01FtcfJgtCHveOke\/5UDmitV4WVPw8=",
       "url": "examples\/dimensions\/index.html"
     },
     {
-      "hash": "sha256-3cCosb21GmLXvPBiTZxX5Jr1JYHtoO\/iIwPVMuNEwLs=",
+      "hash": "sha256-pPb5N9W\/gBSM1hySSxwb3U32wDTQwTCpnjIZnpJwWFQ=",
       "url": "examples\/aspectratio\/index.html"
     },
     {
-      "hash": "sha256-bE9fcAUa6868TUdXvMwtC4tDsqhX4Q4oljInLuounTc=",
+      "hash": "sha256-+\/LPd3DfK8b83j3ZIg4MHmTOe47ktKxmCRKhcKdxL9c=",
       "url": "examples\/zooming\/index.html"
     },
     {
-      "hash": "sha256-apW\/Hj+vjd17f65Slu0gQ2n\/M6ZFC14ihNGxMv48Tig=",
+      "hash": "sha256-ALyoqN6xxNC+QOujviQ5socvilxibl37O6jXz2Q9JhI=",
       "url": "examples\/cropping\/index.html"
     },
     {
@@ -489,11 +489,11 @@
       "url": "examples\/replacing\/index.html"
     },
     {
-      "hash": "sha256-AHOOG5vFT3jYz9dTUh9oxE8R284lGT7Ga9wlvxAWe0Y=",
+      "hash": "sha256-ZlGdeKR4Y4pqZhLmxFcY97ZVfFZjZ9vJ1f3PFs9IvZw=",
       "url": "examples\/rebuild\/index.html"
     },
     {
-      "hash": "sha256-n\/KD9KDtZcGmWx5elahCNILWMj0tc1VeebYM4o\/nGt0=",
+      "hash": "sha256-Ac8I9lWiwHyicMBeOe9V3sA4yVjpcTNxkVgOv3pcrPY=",
       "url": "api\/index.html"
     },
     {
@@ -505,7 +505,7 @@
       "url": "api\/DragMode\/index.html"
     },
     {
-      "hash": "sha256-w3Z8qSMLRlf6h0FwHKPxaNK7RaUAV1unooMUK\/tJtrI=",
+      "hash": "sha256-F0tcsHD\/cJBfcw9KrwqEZKsj8Gz7NNdHVtfnqf2G63w=",
       "url": "api\/Options\/index.html"
     },
     {
@@ -569,7 +569,7 @@
       "url": "api\/JSEventData\/index.html"
     },
     {
-      "hash": "sha256-vzERmu6XPJddNovRk0Aaf\/RnuUXVls271\/9eWK3l2yQ=",
+      "hash": "sha256-s3yIZdRZPyqhleBfR0Smg1nX2TXBIvBGgpl4j66\/ZHc=",
       "url": "about\/index.html"
     },
     {
@@ -577,5 +577,5 @@
       "url": "releases\/index.html"
     }
   ],
-  "version": "qQ85EIyA"
+  "version": "zFgC0p8C"
 };

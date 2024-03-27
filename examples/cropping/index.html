@@ -447,7 +447,8 @@ CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span class="htmlEntity">&lt;</span>
     <button type="button" class="mud-button-root mud-icon-button mud-secondary-text hover:mud-secondary-hover mud-ripple mud-ripple-icon copy-code-button" __internal_stopPropagation_onclick><span class="mud-icon-button-label"><svg class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"/></svg></span></button></div></code>
                     <br>
                     <div role="alert" class="mud-alert mud-alert-text-info mud-elevation-0 mt-3 text-anywhere-wrap"><div class="mud-alert-position justify-sm-start"><div class="mud-alert-icon mud-alert-icon-left"><svg class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg></div><div class="mud-alert-message"><b>Note:</b>
-                        Don't use <a rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL" target="_blank" class="mud-typography mud-link mud-primary-text mud-link-underline-hover mud-typography-body1 warning-color">InvokeAsync&lt;string&gt;(&quot;toDataURL&quot;)</a> and <a rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL" target="_blank" class="mud-typography mud-link mud-primary-text mud-link-underline-hover mud-typography-body1 warning-color">InvokeAsync&lt;string&gt;(&quot;toDataURL&quot;, type)</a> methods due to image quality was little lost through
+                        Don't use <a rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL" target="_blank" class="mud-typography mud-link mud-primary-text mud-link-underline-hover mud-typography-body1 warning-color">InvokeAsync&lt;string&gt;(&quot;toDataURL&quot;)</a> 
+                        and <a rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL" target="_blank" class="mud-typography mud-link mud-primary-text mud-link-underline-hover mud-typography-body1 warning-color">InvokeAsync&lt;string&gt;(&quot;toDataURL&quot;, type)</a> methods due to image quality was little lost through
                         default value <a rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL#encoderoptions" target="_blank" class="mud-typography mud-link mud-primary-text mud-link-underline-hover mud-typography-body1">encoderOptions</a>.
                         In addition, different browsers have different image encoder compression, usually it is 92 or 80 percent of the full image quality.
                     </div></div></div></p></div>
@@ -823,6 +824,140 @@ CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span class="htmlEntity">&lt;</span>
             <span class="comment">// }</span>
             <span class="comment">// In our case, we need to pass the same data, but without the percent sign (%)</span>
             <span class="keyword">new</span> <span class="keyword">int</span>[] { <span class="number">50</span>, <span class="number">0</span>, <span class="number">100</span>, <span class="number">38</span>, <span class="number">82</span>, <span class="number">100</span>, <span class="number">18</span>, <span class="number">100</span>, <span class="number">0</span>, <span class="number">38</span> });
+    }
+}
+</pre></div>
+</div>
+</div>
+    <button type="button" class="mud-button-root mud-icon-button mud-secondary-text hover:mud-secondary-hover mud-ripple mud-ripple-icon copy-code-button" __internal_stopPropagation_onclick><span class="mud-icon-button-label"><svg class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"/></svg></span></button></div></div>
+
+        <div class="docs-page-section"><div id="preparing-the-image-for-uploading-to-the-server" class="docs-section-header"><h5 class="mud-typography mud-typography-h5"><b>Preparing the image for uploading to the server</b></h5><p class="mud-typography mud-typography-body1 mb-5">
+                    With the <code style="" class="docs-code docs-code-primary docs-code-warning">Decode</code> extension method
+                    in <code style="" class="docs-code docs-code-primary ">DataUrlDecoder</code> static class
+                    from the <code style="" class="docs-code docs-code-primary ">Cropper.Blazor.Extensions</code> namespace,
+                    you can decode the data url into a Base64 image data and outs the media type.
+                    <br><br>
+                    <code style="" class="docs-code docs-code-primary docs-code-warning">Decode</code> method have following argument:
+                    <div class="mud-list mud-list-padding"><div tabindex="0" class="mud-list-item mud-list-item-gutters" __internal_stopPropagation_onclick><div class="mud-list-item-icon"><svg class="mud-icon-root mud-svg-icon mud-primary-text mud-icon-size-small" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2z"/></svg></div><div class="mud-list-item-text "><p class="mud-typography mud-typography-body1"><code style="" class="docs-code docs-code-primary ">dataUrl (required)</code> - The data url to be decoded (e.g. data:image/png;base64,SGVsbG8gd29ybGQ=).
+                        </p></div></div></div>
+                    If the parsing data url was unsuccessful, we throw the following <code style="" class="docs-code docs-code-primary docs-code-warning">ArgumentException</code> exception with the following message:
+                    <code style="" class="docs-code docs-code-primary ">Could not parse &#x27;{dataUrl}&#x27; as &#x27;&quot;data:(?&lt;type&gt;.&#x2B;?),(?&lt;data&gt;.&#x2B;)&quot;&#x27; data URL pattern.</code>
+                    <br>
+                    <div role="alert" class="mud-alert mud-alert-text-info mud-elevation-0 my-3"><div class="mud-alert-position justify-sm-start"><div class="mud-alert-icon mud-alert-icon-left"><svg class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg></div><div class="mud-alert-message">
+                        Note: This method is available as of version 1.3.1 of the Cropper.Blazor NuGet package.
+                    </div></div></div></p></div>
+            <div class="docs-section-content outlined show-code"><div class="mud-toolbar mud-toolbar-gutters docs-section-content-toolbar outlined"><div class="flex-grow-1"></div><button type="button" class="mud-button-root mud-button mud-button-text mud-button-text-default mud-button-text-size-small mud-ripple" __internal_stopPropagation_onclick><span class="mud-button-label"><span class="mud-button-icon-start mud-button-icon-size-small"><svg class="mud-icon-root mud-svg-icon mud-icon-size-small" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><rect fill="none" height="24" width="24"/><path d="M19.17,12l-3.88-3.88c-0.39-0.39-0.39-1.02,0-1.41l0,0c0.39-0.39,1.02-0.39,1.41,0l4.59,4.59c0.39,0.39,0.39,1.02,0,1.41 l-2.88,2.88L17,14.17L19.17,12z M2.1,4.93l3.49,3.49l-2.88,2.88c-0.39,0.39-0.39,1.02,0,1.41l4.59,4.59c0.39,0.39,1.02,0.39,1.41,0 l0,0c0.39-0.39,0.39-1.02,0-1.41L4.83,12L7,9.83L19.07,21.9c0.39,0.39,1.02,0.39,1.41,0l0,0c0.39-0.39,0.39-1.02,0-1.41L3.51,3.51 c-0.39-0.39-1.02-0.39-1.41,0l0,0C1.71,3.91,1.71,4.54,2.1,4.93z"/></svg></span>Hide code</span></button></div><div class="docs-section-content-inner relative d-flex flex-grow-1 flex-wrap justify-center align-center px-8 pb-8 pt-2"><div class="img-container"><img class="big-img" src="icon-515x512.png" /></div><div class="button">
+        Get decoded image data
+    </div><style>
+    .big-img {
+        max-height: 400px;
+
+        /* This rule is very important, please don't ignore this */
+        max-width: 100%;
+    }
+
+    .img-container {
+        max-height: 400px;
+        width: 100%;
+    }
+
+    /* Means that the cropped image will take up 100% of the width of its containing element */
+    .cropped-img-container {
+        width: 100%;
+    }
+
+    /* These styles are just needed for a nice button and don't related with cropper component */
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+    }
+</style></div></div><div class="docs-section-source outlined show-code"><div class="docs-section-source-container"><div class="mud-codeblock">
+<div class="html"><pre>
+<span class="atSign">@</span>using Cropper.Blazor.Extensions;
+<span class="atSign">@</span>using Cropper.Blazor.Models;
+
+<span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">img-container</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
+    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">CropperComponent</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">big-img</span><span class="quot">"</span> <span class="htmlAttributeName">Src</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">icon-515x512.png</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>ref</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropperComponent</span><span class="quot">"</span> <span class="htmlAttributeName">Options</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">new Blazor.Models.Options()</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
+<span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
+
+<span class="atSign">@</span>if (decodedImageData is { base64ImageData: null, mediaType: null })
+{
+    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">button</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>onclick</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">GetDecodedImageDataAsync</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
+        Get decoded image data
+    <span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
+}
+else
+{
+    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudText</span> <span class="htmlAttributeName">Typo</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="enum">Typo</span><span class="enumValue">.body2</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
+        Media type: <span class="atSign">@</span>decodedImageData!.mediaType
+    <span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudText</span><span class="htmlTagDelimiter">></span>
+    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudText</span> <span class="htmlAttributeName">Typo</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="enum">Typo</span><span class="enumValue">.body2</span><span class="quot">"</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">text-with-dots</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
+        Base64: <span class="atSign">@</span>decodedImageData!.base64ImageData
+    <span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudText</span><span class="htmlTagDelimiter">></span>
+    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudText</span> <span class="htmlAttributeName">Typo</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="enum">Typo</span><span class="enumValue">.body2</span><span class="quot">"</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">text-with-dots</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
+        Data URL: <span class="atSign">@</span>croppedCanvasDataURL
+    <span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudText</span><span class="htmlTagDelimiter">></span>
+}
+
+<span class="atSign">@</span>* Make sure the size of the image fits perfectly into the container *<span class="atSign">@</span>
+<span class="htmlTagDelimiter"><</span><span class="htmlElementName">style</span><span class="htmlTagDelimiter">></span>
+    .big-img {
+        max-height: 400px;
+
+        /* This rule is very important, please don't ignore this */
+        max-width: 100%;
+    }
+
+    .img-container {
+        max-height: 400px;
+        width: 100%;
+    }
+
+    /* Means that the cropped image will take up 100% of the width of its containing element */
+    .cropped-img-container {
+        width: 100%;
+    }
+
+    /* These styles are just needed for a nice button and don't related with cropper component */
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+    }
+<span class="htmlTagDelimiter"></</span><span class="htmlElementName">style</span><span class="htmlTagDelimiter">></span>
+</pre></div>
+<div class="csharp"><pre>
+<span class="atSign">@</span>code {
+    <span class="keyword">private</span> CropperComponent? cropperComponent = <span class="keyword">null</span>!;
+    <span class="keyword">private</span> <span class="keyword">string</span> croppedCanvasDataURL;
+    <span class="keyword">private</span> (<span class="keyword">string</span> base64ImageData, <span class="keyword">string</span> mediaType) decodedImageData;
+
+    <span class="keyword">public</span> <span class="keyword">async</span> Task GetDecodedImageDataAsync()
+    {
+        GetCroppedCanvasOptions getCroppedCanvasOptions = <span class="keyword">new</span> GetCroppedCanvasOptions
+        {
+            MaxHeight = <span class="number">4096</span>,
+            MaxWidth = <span class="number">4096</span>,
+            ImageSmoothingQuality = ImageSmoothingQuality.High.ToEnumString()
+        };
+
+        croppedCanvasDataURL = <span class="keyword">await</span> cropperComponent!.GetCroppedCanvasDataURLAsync(getCroppedCanvasOptions);
+        decodedImageData = croppedCanvasDataURL.Decode();
     }
 }
 </pre></div>
