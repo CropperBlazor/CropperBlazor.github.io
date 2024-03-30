@@ -339,7 +339,7 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
 <span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">img-container</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
     <span class="htmlTagDelimiter"><</span><span class="htmlElementName">CropperComponent</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">big-img</span><span class="quot">"</span>
                       <span class="htmlAttributeName">Src</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">images/Landscape-Color.jpg</span><span class="quot">"</span>
-                      <span class="htmlAttributeName"><span class="atSign">@</span>ref</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropperComponent</span><span class="quot">"</span>
+                      <span class="htmlAttributeName"><span class="atSign">@</span>ref</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">CropperComponent</span><span class="quot">"</span>
                       <span class="htmlAttributeName">Options</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">new Blazor.Models.Options()</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
 <span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
 
@@ -380,7 +380,7 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
 </pre></div>
 <div class="csharp"><pre>
 <span class="atSign">@</span>code {
-    <span class="keyword">private</span> CropperComponent? cropperComponent = <span class="keyword">null</span>!;
+    <span class="keyword">private</span> CropperComponent? CropperComponent = <span class="keyword">null</span>!;
 
     <span class="comment">/* This property is only needed to display the 'Replace image' block. */</span>
     <span class="keyword">private</span> <span class="keyword">bool</span> IsReplaced = <span class="keyword">false</span>;
@@ -389,13 +389,14 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
     {
         IsReplaced = <span class="keyword">true</span>;
 
-        <span class="keyword">await</span> cropperComponent!.ReplaceAsync(<span class="string">"images/raspberry.jpg"</span>, <span class="keyword">true</span>);
+        <span class="keyword">await</span> CropperComponent!.ReplaceAsync(<span class="string">"images/raspberry.jpg"</span>, <span class="keyword">true</span>);
 
         <span class="comment">// Releases an existing object URL which was previously created by calling URL.</span>
         <span class="comment">// Call this method when you've finished using an object URL to let the browser know not to keep the reference to the file any longer.</span>
-        <span class="comment">// For certain platforms based on WebView2 in Windows Forms and WPF Blazor Hybrids, the 'RevokeObjectUrlAsync(oldSrc)' method does not work correctly in this place.</span>
-        <span class="comment">// We recommend clearing redundant Blob resources (old src) in the 'OnLoadImageEvent' event of cropper component.</span>
-        <span class="comment">// cropperComponent!.RevokeObjectUrlAsync(oldSrc);</span>
+        <span class="comment">// For certain platforms based on WebView in MAUI, Windows Forms and WPF Blazor Hybrids, the 'RevokeObjectUrlAsync(OldSrc)' method does not work correctly in this place.</span>
+        <span class="comment">// Note: from version 1.3.2 of the Cropper.Blazor NuGet package and 'IsAvailableInitCropper = false' triggers the 'OnLoadImageEvent' event after a successful image replacement. Previously it only worked with 'IsAvailableInitCropper = true'</span>
+        <span class="comment">// We recommend clearing redundant Blob resources (old src) in the 'OnLoadImageEvent' event of cropper component or use equivalent "Rebuild cropper" functionality instead of replace functionality with 'hasSameSize = false' argument.</span>
+        <span class="comment">// cropperComponent!.RevokeObjectUrlAsync(OldSrc);</span>
     }
 }
 </pre></div>
