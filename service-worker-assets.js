@@ -93,7 +93,7 @@
       "url": "images\/underwater-magic-world.jpeg"
     },
     {
-      "hash": "sha256-tI+gPmJoMh5RHeyHaqA86aI7y3dFdUdwSUkt+M5mmcU=",
+      "hash": "sha256-xOkZX4BkTLCvCmdRTtkKA4NXOorhy5ltYJQe7ZGUVsQ=",
       "url": "index.html"
     },
     {
@@ -153,7 +153,7 @@
       "url": "service-worker.published.js"
     },
     {
-      "hash": "sha256-URmSzIMPBSTBPrNHRGeIK3H9P89T4p62pIqtATDncqo=",
+      "hash": "sha256-zII0V+BiFS4Ec1DV8qqG1Ata3ltsn0weZTWTUU02nwM=",
       "url": "sitemap.xml"
     },
     {
@@ -197,7 +197,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-4yPxdhN7sY37KOE2Q9miVEKJJRat1MwVH+hi1ACTdPs=",
+      "hash": "sha256-AxtFFvGeNQiygdQeojIogjp3KxxorGeRLMgN8xXjGck=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -205,15 +205,15 @@
       "url": "_framework\/Blazored.LocalStorage.wasm"
     },
     {
-      "hash": "sha256-cWUAjs6woOar3x\/0vJDCzUE1AMtuLCqsBwvP2BgbwoE=",
+      "hash": "sha256-sBBQwiGtelg1dRGC2T6+cBDNMzxrNEn9IG+lEsoUulo=",
       "url": "_framework\/Cropper.Blazor.Client.wasm"
     },
     {
-      "hash": "sha256-ZCoRL09OT1y8lLzyla3P7GK4cCLLcpLzb+cJl0vi69Q=",
+      "hash": "sha256-X2jL0uaL19CVbM+PkphDp5U0Qo7f+lEzHzDuivmDK2c=",
       "url": "_framework\/Cropper.Blazor.Shared.wasm"
     },
     {
-      "hash": "sha256-HyfLcf3hM3k04Y3pRZqpNFWIE5VOyNEEsDkCZvDc6qU=",
+      "hash": "sha256-6d6BLkRZEV\/izWL85x3r1nBYr62YM9QwVK6pMfC8boQ=",
       "url": "_framework\/Cropper.Blazor.wasm"
     },
     {
@@ -457,7 +457,7 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     },
     {
-      "hash": "sha256-OlP3P+iY2E8nW7HGMgdsdxMPtLSboZYRJbEwU981TIE=",
+      "hash": "sha256-CTnAewsyE4t\/+gVNIb74RBVnML+iepiLlYfMeBAvW3w=",
       "url": "demo\/index.html"
     },
     {
@@ -465,7 +465,7 @@
       "url": "examples\/cropperusage\/index.html"
     },
     {
-      "hash": "sha256-T4v43sGRAMU4yyiBIHgg3PwPIwWl461oeD6XmmN1yZQ=",
+      "hash": "sha256-Dn6PD7kL6OfUyRL3jl1QoBkRf\/wJ6\/GBojPUgHZMwuo=",
       "url": "examples\/viewmodes\/index.html"
     },
     {
@@ -473,15 +473,15 @@
       "url": "examples\/preview\/index.html"
     },
     {
-      "hash": "sha256-JUVoaArzafTmbN3\/hKKaiZgsCttexAPHaxi\/bkCb3Ys=",
+      "hash": "sha256-Guferzw9Dp+2TURBxDvdZkUmo9nSpzqoVE73hQ6UBCc=",
       "url": "examples\/dimensions\/index.html"
     },
     {
-      "hash": "sha256-RXFA1C9A6YQdiXD3SRmZubqwdwzuH9WTRWcU1N3W8G0=",
+      "hash": "sha256-Gjg5nElhtx9syYLW599qyB2fqcAinyuLPmogTBKAieI=",
       "url": "examples\/aspectratio\/index.html"
     },
     {
-      "hash": "sha256-1KjSzBNV2XdlCFBngCAJsSTocWPAYUzmLEKHe0hBWNI=",
+      "hash": "sha256-68MvgMcJ2l2dTfRH0XFpQJUmFbw7deI2Vm9E\/\/2deLw=",
       "url": "examples\/zooming\/index.html"
     },
     {
@@ -497,7 +497,7 @@
       "url": "examples\/rebuild\/index.html"
     },
     {
-      "hash": "sha256-gaL5gVmzlFHjFAERhGzetACKmd2gf7X1K95X6Gg3l0I=",
+      "hash": "sha256-Pee10rIXfJAD2m1Q0NxpMOnkot1Q2JeCMTrL935tTxM=",
       "url": "api\/index.html"
     },
     {
@@ -513,7 +513,7 @@
       "url": "api\/CropperComponentType\/index.html"
     },
     {
-      "hash": "sha256-lSi9EccErKoyWmctx1dUSV77WDm+8uB98BDbfdCHvhw=",
+      "hash": "sha256-j1PlE6mGy+nIXnA5JIYB5\/imF34R4bEjzxvKfnn3N2c=",
       "url": "api\/Options\/index.html"
     },
     {
@@ -577,7 +577,7 @@
       "url": "api\/JSEventData\/index.html"
     },
     {
-      "hash": "sha256-Zf5nPOuVy3q4eD0TJNXMjpkygaJaGSs0jepzn6yuo08=",
+      "hash": "sha256-ejFcXlqE1kcldf2r2QkF5TCL79ehx8ucCRlxv9PpMLE=",
       "url": "about\/index.html"
     },
     {
@@ -585,5 +585,5 @@
       "url": "releases\/index.html"
     }
   ],
-  "version": "svzNdpp0"
+  "version": "nCFvvBzr"
 };
