@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-UEScq2kWtvTh08USlBUumN7NUO5BeQz6v\/h1m3jVrSE=",
+      "hash": "sha256-wtbgGILg+Q\/sFbM5tPeFfwuvRqwcnNqe8Pp3agq1Rj8=",
       "url": "apple-touch-icon.png"
     },
     {
@@ -9,7 +9,7 @@
       "url": "Cropper.Blazor.Client.min.css"
     },
     {
-      "hash": "sha256-PTS9894DzfPFb6SUDwzciTRXM909\/wi8EHB\/nKA7aSs=",
+      "hash": "sha256-KbKl04AvUi9hNlAaEYAnJSixZ4PTMkNibCsDOcrPqT8=",
       "url": "cropperblazor.png"
     },
     {
@@ -17,11 +17,11 @@
       "url": "decode.min.js"
     },
     {
-      "hash": "sha256-mxFTMTi3jlcV\/Meb\/lWgkqHeqmhFNDd+FjcVvULV1kw=",
+      "hash": "sha256-IwwdVbCT8sT1qImkGeWPwBWGTUpOdKZwpn\/0rLfjyIk=",
       "url": "favicon-16x16.png"
     },
     {
-      "hash": "sha256-YSD\/7rgtaIqeMZhwSU6RWbxb4sAjiv9HSijc4JbhbDQ=",
+      "hash": "sha256-G5ovHOBK2psI8vrb36D1u3hG2viNANjjw7V2\/eysPSo=",
       "url": "favicon-32x32.png"
     },
     {
@@ -37,11 +37,11 @@
       "url": "helper.min.js"
     },
     {
-      "hash": "sha256-b6KmHpguw\/lvAExlrD+nFKfFHMZOu9jAjDoOw8a2jzE=",
+      "hash": "sha256-GEaRxDDV9RQ5FgWpWL\/4wu1vc2XciWobPQG6Tv5Rwxc=",
       "url": "icon-192x192.png"
     },
     {
-      "hash": "sha256-23Tl5N7kmEL8V3XUJ9hNenJ6vZ1bSmfokvGraepBGZM=",
+      "hash": "sha256-iDxdBpGrcpzeo0FMcVSatBTdL8CMQ5ZBb4WP4Zcshjs=",
       "url": "icon-515x512.png"
     },
     {
@@ -57,7 +57,7 @@
       "url": "images\/dolphin.jpg"
     },
     {
-      "hash": "sha256-Gt9ezbF5294ORQlaTsqU+c71rOkhlALUJau0HVKscJg=",
+      "hash": "sha256-pa+vQY2P9rw4nhA+KqGiP\/wyFVMI5n9dYkcHB32LGeo=",
       "url": "images\/error300px.png"
     },
     {
@@ -93,7 +93,7 @@
       "url": "images\/underwater-magic-world.jpeg"
     },
     {
-      "hash": "sha256-Fhdq41KuMbi2WUfymfOfSIdQEyU8nSI+jrs1RhzY4uU=",
+      "hash": "sha256-Lw3A6wWUMW9enkXI4wH70KlXufitBztQbX06nRBBUxw=",
       "url": "index.html"
     },
     {
@@ -113,7 +113,7 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-kqMVEjIb9yesMWbGiW2I8nM3ShjN\/kiefrRFj\/yeSxA=",
+      "hash": "sha256-HyfmO118JDIFREvMfsWDW2socvJQQbLApZntNmqQDNI=",
       "url": "mstile-150x150.png"
     },
     {
@@ -121,7 +121,7 @@
       "url": "not-found-image.jpg"
     },
     {
-      "hash": "sha256-qMaoGXehDjeYACW6qeiQY+gVuKinlvaF5w\/uKe96d7Y=",
+      "hash": "sha256-mvl09cqujjqVuZGs9tpzaut9S7\/Irnu9gFNtPBPCUPU=",
       "url": "not-found-image.png"
     },
     {
@@ -153,7 +153,7 @@
       "url": "service-worker.published.js"
     },
     {
-      "hash": "sha256-aByL6p11QTpTKHT40u\/TW0jqHrefSUyASgwngSf734o=",
+      "hash": "sha256-GPe1i1R2PfrnF0bYOtZXgL9i3yaNDEsw4SfhrjBfl5o=",
       "url": "sitemap.xml"
     },
     {
@@ -197,7 +197,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-nasngPhLNTh+cgS8ZDD8Im6r63UgvMc1nKTygnFi+BM=",
+      "hash": "sha256-uJwU1xhMY8MmAIiPFu4JoJiMHHPj+bp+BwHg2SwqgZY=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -205,15 +205,15 @@
       "url": "_framework\/Blazored.LocalStorage.wasm"
     },
     {
-      "hash": "sha256-GnDPxjb8YgGucS7CfdLPblkJOXT4LVsT1Evn4u0UER8=",
+      "hash": "sha256-bONaB9d7ndozn1Oq0ZwKcKRdqb9l0rXGqe+bV1dIPu0=",
       "url": "_framework\/Cropper.Blazor.Client.wasm"
     },
     {
-      "hash": "sha256-qevz9f5eqof4x+hdUNPkM\/OlIrT9C9AMcJI2vKMbUxI=",
+      "hash": "sha256-d9qyvA9x6T+LCiOlhr+vKkSO5kj73Coc3Dx5hlmBuIY=",
       "url": "_framework\/Cropper.Blazor.Shared.wasm"
     },
     {
-      "hash": "sha256-k2VDf5nDuPxnLM9S2nIc9EnKL7MqJKAecjfX7eet7Hg=",
+      "hash": "sha256-aVrdOKkSO0x4wOkLoDWQq7aV53E1jp\/JDX1YcEsPcdw=",
       "url": "_framework\/Cropper.Blazor.wasm"
     },
     {
@@ -437,7 +437,7 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     },
     {
-      "hash": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4\/sNPbaRUspOLefkCY=",
+      "hash": "sha256-S4JPCTz+5APvrCuCOzU0YcM1DOKnUytq8wHS1IYQr88=",
       "url": "_content\/Cropper.Blazor\/background.png"
     },
     {
@@ -457,7 +457,7 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     },
     {
-      "hash": "sha256-i9BZy019IWPBQ51l9You8EfMZlx4nn0V0s7vqvZRzvs=",
+      "hash": "sha256-VGSICqMT8DHetSSF8\/YtxDUjbCty\/Ex8+QiSXytdWdU=",
       "url": "demo\/index.html"
     },
     {
@@ -465,7 +465,7 @@
       "url": "examples\/cropperusage\/index.html"
     },
     {
-      "hash": "sha256-3L0P3Yv36rI4vWgqHKelSaAr5FZ6xQ2wsxzwns1sykA=",
+      "hash": "sha256-WWe3Q4hzu3drgiI1n+3PWbNQ4jTV7Vr943SCMhT8d4o=",
       "url": "examples\/viewmodes\/index.html"
     },
     {
@@ -473,15 +473,15 @@
       "url": "examples\/preview\/index.html"
     },
     {
-      "hash": "sha256-r5\/zhvxG7VoJR7E1WFMAYXHU4\/NcyLvPVmKGI7kLM74=",
+      "hash": "sha256-9VT2Z90\/cFcO\/udq0oxA+tfmFbSjdvzLfe9vw8Hkbvc=",
       "url": "examples\/dimensions\/index.html"
     },
     {
-      "hash": "sha256-K\/lt3Q64871ni5tXFbeyPYpGSLezwUrFW3NJT4sbl4E=",
+      "hash": "sha256-D2h1CDEDPbqX5YaWoHJPMbeowrUCuGpGELepZN4+9A0=",
       "url": "examples\/aspectratio\/index.html"
     },
     {
-      "hash": "sha256-lTosesk3lDM76pmZuLEnERPsf5Vh2rPC96Cy3WUpZ2Q=",
+      "hash": "sha256-Hvp6WIrD2HMQeZwFc2SLhL5303ml03RsBI\/X7kKrQk8=",
       "url": "examples\/zooming\/index.html"
     },
     {
@@ -497,7 +497,7 @@
       "url": "examples\/rebuild\/index.html"
     },
     {
-      "hash": "sha256-I2akP6k2eugYVlmUyyviRGFO1JQKBJmaALKpyawUBp0=",
+      "hash": "sha256-iV+iU8O+oihXR0CX8y0wC0nIm7oOHsabphQA9OJv+GI=",
       "url": "api\/index.html"
     },
     {
@@ -513,7 +513,7 @@
       "url": "api\/CropperComponentType\/index.html"
     },
     {
-      "hash": "sha256-7tkMMnRvf0wGuefoMLym6+P3sKGDCw2l34lNkHL3aKw=",
+      "hash": "sha256-3h4oId0WXpDgGO8FmqxdL\/qo7CGlHoL6WDk7xlUg+EQ=",
       "url": "api\/Options\/index.html"
     },
     {
@@ -577,7 +577,7 @@
       "url": "api\/JSEventData\/index.html"
     },
     {
-      "hash": "sha256-5415MfOcCE0LcrifmOT0wZiaVlPXwQo3P6MNhK43W7s=",
+      "hash": "sha256-0AWxOVVYv3K4FW8S+rzZ8sRGVis65RCsjdUiuwgsk8Q=",
       "url": "about\/index.html"
     },
     {
@@ -585,5 +585,5 @@
       "url": "releases\/index.html"
     }
   ],
-  "version": "ZFjgP7Zc"
+  "version": "KYGBHzI2"
 };
