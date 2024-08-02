@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Cropper.Blazor.Client",
   "resources": {
-    "hash": "sha256-dmff+1updhHIkTiQeMRJFvMnXiEVljRAxh8P/PeVPIM=",
+    "hash": "sha256-RCfhEC1TWammPYxZSZZzk2oA+AyP6jR3vJZo0tfqAs8=",
     "jsModuleNative": {
       "dotnet.native.8.0.7.pvkr2na9g4.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
     },
@@ -18,9 +18,9 @@
     },
     "assembly": {
       "Blazored.LocalStorage.wasm": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=",
-      "Cropper.Blazor.Client.wasm": "sha256-D7sRjjm0BZI+n+VNDYFTkbTygppB2ge6MjUkv0Vcu1k=",
-      "Cropper.Blazor.Shared.wasm": "sha256-9pE5p1AGfPl2CFKbZtNwWm4YgrAF32iKk0v8W+PzyEU=",
-      "Cropper.Blazor.wasm": "sha256-r2HiyLyZJtO5Ws5ZZppbGbgMxW++3DO5qawhTQ7e7yA=",
+      "Cropper.Blazor.Client.wasm": "sha256-cWUAjs6woOar3x/0vJDCzUE1AMtuLCqsBwvP2BgbwoE=",
+      "Cropper.Blazor.Shared.wasm": "sha256-ZCoRL09OT1y8lLzyla3P7GK4cCLLcpLzb+cJl0vi69Q=",
+      "Cropper.Blazor.wasm": "sha256-HyfLcf3hM3k04Y3pRZqpNFWIE5VOyNEEsDkCZvDc6qU=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-TH9t55hhPiwEWEKPMgKzN713ohMRR0rxDyxMtjvf7GI=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-swLNPHALwtJfK6lfHMV11t3qh6IHpc0MKgNVxeb7Z4k=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-lfzdXdK28hV+v3KMW5mE3gGuIa6yajwah5pDGQ+duxE=",
