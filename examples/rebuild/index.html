@@ -1,25 +1,25 @@
 <!DOCTYPE html><html lang="en-us"><head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"/>
-    <meta name="robots" content="index, follow"/>
-    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
-    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
-    <meta name="docsearch:language" content="en"/>
-    <meta name="docsearch:version" content="master"/>
-    <meta name="google-site-verification" content="x2SFbVPxbn1Gk2wv-POqGp4oAlzFZV7FLIXDzrOCvlY"/>
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-    <base href="/"/>
-    <link href="manifest.json" rel="manifest"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ff5c9b"/>
-    <meta name="msapplication-TileColor" content="#110e2d"/>
-    <meta name="theme-color" content="#ffffff"/>
-    <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet"/>
-    <link href="_content/Cropper.Blazor/cropper.min.css" rel="stylesheet"/>
-    <link href="Cropper.Blazor.Client.styles.css" rel="stylesheet"/>
-    <link href="Cropper.Blazor.Client.min.css" rel="stylesheet"/>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"/>
+	<meta name="robots" content="index, follow"/>
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+	<meta name="docsearch:language" content="en"/>
+	<meta name="docsearch:version" content="master"/>
+	<meta name="google-site-verification" content="x2SFbVPxbn1Gk2wv-POqGp4oAlzFZV7FLIXDzrOCvlY"/>
+	<link rel="icon" type="image/x-icon" href="favicon.ico"/>
+	<base href="/"/>
+	<link href="manifest.json" rel="manifest"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#ff5c9b"/>
+	<meta name="msapplication-TileColor" content="#110e2d"/>
+	<meta name="theme-color" content="#ffffff"/>
+	<link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet"/>
+	<link href="_content/Cropper.Blazor/cropper.min.css" rel="stylesheet"/>
+	<link href="Cropper.Blazor.Client.styles.css" rel="stylesheet"/>
+	<link href="Cropper.Blazor.Client.min.css" rel="stylesheet"/>
 
 <!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
 <title>Rebuild cropper component - Cropper.Blazor</title><meta name="keywords" content="Cropper.Blazor, Blazor.Cropper, cropper, blazor, component, crop-image, cropperjs, Cropper.js, Blazor Components, Blazor Library, Blazor Cropper, Cropper, Image, Crop, Resize, image-cropper, crop-image, csharp, blazor-cropper, .net, .net core, pwa, webassembly, blazor image editor, image editor, blazor image, free image cropper, online cropper, photo cropper, avatar cropper, photo cropper, image cropper, resize image, photo resizer, blazor online cropper, blazor free image cropper, blazor photo cropper, blazor avatar cropper, blazor photo cropper, blazor image cropper, blazor resize image, blazor photo resizer, Rebuild cropper component, Rebuild cropper component Cropper.Blazor, Rebuild cropper component Cropper, Rebuild Cropper.Blazor, Rebuild Cropper, Rebuild, Rebuild the cropper" />
@@ -341,25 +341,25 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
     }
 </style></div></div><div class="docs-section-source outlined show-code"><div class="docs-section-source-container"><div class="mud-codeblock">
 <div class="html"><pre>
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">img-container</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">CropperComponent</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">big-img</span><span class="quot">"</span>
-                      <span class="htmlAttributeName">Src</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="sharpVariable"><span class="atSign">@</span>src</span><span class="quot">"</span>
-                      <span class="htmlAttributeName">ErrorLoadImageSrc</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue"><span class="atSign">@</span>_errorLoadImageSrc</span><span class="quot">"</span>
-                      <span class="htmlAttributeName">ErrorLoadImageClass</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropper-error-load center</span><span class="quot">"</span>
-                      <span class="htmlAttributeName">IsAvailableInitCropper</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="sharpVariable"><span class="atSign">@</span>IsAvailableInitCropper</span><span class="quot">"</span>
-                      <span class="htmlAttributeName">IsErrorLoadImage</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="sharpVariable"><span class="atSign">@</span>IsErrorLoadImage</span><span class="quot">"</span>
-                      <span class="htmlAttributeName">OnErrorLoadImageEvent</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">OnErrorLoadImageEvent</span><span class="quot">"</span>
-                      <span class="htmlAttributeName"><span class="atSign">@</span>ref</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropperComponent</span><span class="quot">"</span>
-                      <span class="htmlAttributeName">Options</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">new Blazor.Models.Options()</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">div</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">img-container</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+    <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">CropperComponent</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">big-img</span><span class="quot">&quot;</span>
+                      <span class="html-attribute-name">Src</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="sharp-variable"><span class="at-sign">&#64;</span>src</span><span class="quot">&quot;</span>
+                      <span class="html-attribute-name">ErrorLoadImageSrc</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value"><span class="at-sign">&#64;</span>_errorLoadImageSrc</span><span class="quot">&quot;</span>
+                      <span class="html-attribute-name">ErrorLoadImageClass</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">cropper-error-load center</span><span class="quot">&quot;</span>
+                      <span class="html-attribute-name">IsAvailableInitCropper</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="sharp-variable"><span class="at-sign">&#64;</span>IsAvailableInitCropper</span><span class="quot">&quot;</span>
+                      <span class="html-attribute-name">IsErrorLoadImage</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="sharp-variable"><span class="at-sign">&#64;</span>IsErrorLoadImage</span><span class="quot">&quot;</span>
+                      <span class="html-attribute-name">OnErrorLoadImageEvent</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">OnErrorLoadImageEvent</span><span class="quot">&quot;</span>
+                      <span class="html-attribute-name"><span class="at-sign">&#64;</span>ref</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">cropperComponent</span><span class="quot">&quot;</span>
+                      <span class="html-attribute-name">Options</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">new Blazor.Models.Options()</span><span class="quot">&quot;</span> <span class="html-tag-delimiter">/&gt;</span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">div</span><span class="html-tag-delimiter">&gt;</span>
 
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">InputFile</span> <span class="htmlAttributeName">id</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">imageRebuildInput</span><span class="quot">"</span> <span class="htmlAttributeName">OnChange</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">RebuildImageAsync</span><span class="quot">"</span> <span class="htmlAttributeName">accept</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">image/*</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">InputFile</span> <span class="html-attribute-name">id</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">imageRebuildInput</span><span class="quot">&quot;</span> <span class="html-attribute-name">OnChange</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">RebuildImageAsync</span><span class="quot">&quot;</span> <span class="html-attribute-name">accept</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">image/*</span><span class="quot">&quot;</span> <span class="html-tag-delimiter">/&gt;</span>
 
-<span class="atSign">@</span>* Make sure the size of the image fits perfectly into the container *<span class="atSign">@</span>
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">style</span><span class="htmlTagDelimiter">></span>
+<span class="at-sign">&#64;</span>* Make sure the size of the image fits perfectly into the container *<span class="at-sign">&#64;</span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">style</span><span class="html-tag-delimiter">&gt;</span>
     .big-img {
         max-height: 400px;
-        /* This rule is very important, please don't ignore this */
+        /* This rule is very important, please don&#39;t ignore this */
         max-width: 100%;
     }
 
@@ -368,7 +368,7 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
         width: 100%;
     }
 
-    /* These styles are just needed for a nice button and don't related with cropper component */
+    /* These styles are just needed for a nice button and don&#39;t related with cropper component */
     #imageRebuildInput {
         display: inline-block;
         padding: 10px 20px;
@@ -392,14 +392,14 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
         margin-left: auto;
         margin-right: auto;
     }
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">style</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">style</span><span class="html-tag-delimiter">&gt;</span>
 </pre></div>
 <div class="csharp"><pre>
-<span class="atSign">@</span>code {
-    <span class="keyword">private</span> <span class="keyword">readonly</span> <span class="keyword">string</span> _errorLoadImageSrc = <span class="string">"not-found-image.jpg"</span>;
+<span class="at-sign">&#64;</span>code {
+    <span class="keyword">private</span> <span class="keyword">readonly</span> <span class="keyword">string</span> _errorLoadImageSrc = <span class="string">&quot;not-found-image.jpg&quot;</span>;
     <span class="keyword">private</span> <span class="keyword">bool</span> IsErrorLoadImage { <span class="keyword">get</span>; <span class="keyword">set</span>; } = <span class="keyword">false</span>;
     <span class="keyword">private</span> <span class="keyword">bool</span> IsAvailableInitCropper { <span class="keyword">get</span>; <span class="keyword">set</span>; } = <span class="keyword">true</span>;
-    <span class="keyword">private</span> <span class="keyword">string</span> src = <span class="string">"images/underwater-magic-world.jpeg"</span>;
+    <span class="keyword">private</span> <span class="keyword">string</span> src = <span class="string">&quot;images/underwater-magic-world.jpeg&quot;</span>;
     <span class="keyword">private</span> CropperComponent? cropperComponent = <span class="keyword">null</span>!;
 
     <span class="keyword">public</span> <span class="keyword">async</span> Task RebuildImageAsync(InputFileChangeEventArgs inputFileChangeEventArgs)
@@ -447,40 +447,40 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
 <!-- %%-PRERENDERING-END-%% -->
 </div>
 
-    <div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
-    </div>
-    <script src="decode.min.js"></script>
-    <script src="_framework/blazor.webassembly.js" autostart="false"></script>
-    <script>
-        Blazor.start({
-            loadBootResource: function (type, name, defaultUri, integrity) {
-                // For framework resources, use the precompressed .br files for faster downloads
-                // This is needed only because GitHub pages doesn't natively support Brotli (or even gzip for .dll files)
-                if (type !== 'dotnetjs' && location.hostname !== 'localhost') {
-                    return (async function () {
-                        const response = await fetch(defaultUri + '.br', { cache: 'no-cache' });
-                        if (!response.ok) {
-                            throw new Error(response.statusText);
-                        }
-                        const originalResponseBuffer = await response.arrayBuffer();
-                        const originalResponseArray = new Int8Array(originalResponseBuffer);
-                        const decompressedResponseArray = BrotliDecode(originalResponseArray);
-                        const contentType = type === 'dotnetwasm' ? 'application/wasm' : 'application/octet-stream';
-                        return new Response(decompressedResponseArray, { headers: { 'content-type': contentType } });
-                    })();
-                }
-            }
-        });
-    </script>
-    <script src="_content/MudBlazor/MudBlazor.min.js"></script>
-    <script src="_content/Cropper.Blazor/cropper.min.js"></script>
-    <script src="overrideCropperJsInteropModule.min.js"></script>
-    <script src="jsObjectModule.min.js"></script>
-    <script src="helper.min.js"></script>
-    <script src="sw-registrator.min.js"></script>
+	<div id="blazor-error-ui">
+		An unhandled error has occurred.
+		<a href="" class="reload">Reload</a>
+		<a class="dismiss">🗙</a>
+	</div>
+	<script src="decode.min.js"></script>
+	<script src="_framework/blazor.webassembly.js" autostart="false"></script>
+	<script>
+		Blazor.start({
+			loadBootResource: function (type, name, defaultUri, integrity) {
+				// For framework resources, use the precompressed .br files for faster downloads
+				// This is needed only because GitHub pages doesn't natively support Brotli (or even gzip for .dll files)
+				if (type !== 'dotnetjs' && location.hostname !== 'localhost') {
+					return (async function () {
+						const response = await fetch(defaultUri + '.br', { cache: 'no-cache' });
+						if (!response.ok) {
+							throw new Error(response.statusText);
+						}
+						const originalResponseBuffer = await response.arrayBuffer();
+						const originalResponseArray = new Int8Array(originalResponseBuffer);
+						const decompressedResponseArray = BrotliDecode(originalResponseArray);
+						const contentType = type === 'dotnetwasm' ? 'application/wasm' : 'application/octet-stream';
+						return new Response(decompressedResponseArray, { headers: { 'content-type': contentType } });
+					})();
+				}
+			}
+		});
+	</script>
+	<script src="_content/MudBlazor/MudBlazor.min.js"></script>
+	<script src="_content/Cropper.Blazor/cropper.min.js"></script>
+	<script src="overrideCropperJsInteropModule.min.js"></script>
+	<script src="jsObjectModule.min.js"></script>
+	<script src="helper.min.js"></script>
+	<script src="sw-registrator.min.js"></script>
 
 
 

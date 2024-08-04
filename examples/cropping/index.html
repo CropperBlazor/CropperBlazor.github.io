@@ -1,25 +1,25 @@
 <!DOCTYPE html><html lang="en-us"><head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"/>
-    <meta name="robots" content="index, follow"/>
-    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
-    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
-    <meta name="docsearch:language" content="en"/>
-    <meta name="docsearch:version" content="master"/>
-    <meta name="google-site-verification" content="x2SFbVPxbn1Gk2wv-POqGp4oAlzFZV7FLIXDzrOCvlY"/>
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-    <base href="/"/>
-    <link href="manifest.json" rel="manifest"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ff5c9b"/>
-    <meta name="msapplication-TileColor" content="#110e2d"/>
-    <meta name="theme-color" content="#ffffff"/>
-    <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet"/>
-    <link href="_content/Cropper.Blazor/cropper.min.css" rel="stylesheet"/>
-    <link href="Cropper.Blazor.Client.styles.css" rel="stylesheet"/>
-    <link href="Cropper.Blazor.Client.min.css" rel="stylesheet"/>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"/>
+	<meta name="robots" content="index, follow"/>
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+	<meta name="docsearch:language" content="en"/>
+	<meta name="docsearch:version" content="master"/>
+	<meta name="google-site-verification" content="x2SFbVPxbn1Gk2wv-POqGp4oAlzFZV7FLIXDzrOCvlY"/>
+	<link rel="icon" type="image/x-icon" href="favicon.ico"/>
+	<base href="/"/>
+	<link href="manifest.json" rel="manifest"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#ff5c9b"/>
+	<meta name="msapplication-TileColor" content="#110e2d"/>
+	<meta name="theme-color" content="#ffffff"/>
+	<link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet"/>
+	<link href="_content/Cropper.Blazor/cropper.min.css" rel="stylesheet"/>
+	<link href="Cropper.Blazor.Client.styles.css" rel="stylesheet"/>
+	<link href="Cropper.Blazor.Client.min.css" rel="stylesheet"/>
 
 <!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
 <title>Crop image - Cropper.Blazor</title><meta name="keywords" content="Cropper.Blazor, Blazor.Cropper, cropper, blazor, component, crop-image, cropperjs, Cropper.js, Blazor Components, Blazor Library, Blazor Cropper, Cropper, Image, Crop, Resize, image-cropper, crop-image, csharp, blazor-cropper, .net, .net core, pwa, webassembly, blazor image editor, image editor, blazor image, free image cropper, online cropper, photo cropper, avatar cropper, photo cropper, image cropper, resize image, photo resizer, blazor online cropper, blazor free image cropper, blazor photo cropper, blazor avatar cropper, blazor photo cropper, blazor image cropper, blazor resize image, blazor photo resizer, Cropper.Blazor URL, Cropper URL, cropped image, Crop image, Crop image Cropper.Blazor, Crop image Cropper, Crop Cropper.Blazor, Crop Cropper, image Cropper.Blazor, image Cropper, image, Crop a round image, round image, Crop a polygon image, polygon image" />
@@ -351,25 +351,25 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
     }
 </style></div></div><div class="docs-section-source outlined show-code"><div class="docs-section-source-container"><div class="mud-codeblock">
 <div class="html"><pre>
-<span class="atSign">@</span>using Cropper.Blazor.Extensions;
-<span class="atSign">@</span>using Cropper.Blazor.Models;
+<span class="at-sign">&#64;</span>using Cropper.Blazor.Extensions;
+<span class="at-sign">&#64;</span>using Cropper.Blazor.Models;
 
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">img-container</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">CropperComponent</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">big-img</span><span class="quot">"</span> <span class="htmlAttributeName">Src</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">images/budir-church-bu-akirkja-iceland.jpg</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>ref</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropperComponent</span><span class="quot">"</span> <span class="htmlAttributeName">Options</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">new Blazor.Models.Options()</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">div</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">img-container</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+    <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">CropperComponent</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">big-img</span><span class="quot">&quot;</span> <span class="html-attribute-name">Src</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">images/budir-church-bu-akirkja-iceland.jpg</span><span class="quot">&quot;</span> <span class="html-attribute-name"><span class="at-sign">&#64;</span>ref</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">cropperComponent</span><span class="quot">&quot;</span> <span class="html-attribute-name">Options</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">new Blazor.Models.Options()</span><span class="quot">&quot;</span> <span class="html-tag-delimiter">/&gt;</span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">div</span><span class="html-tag-delimiter">&gt;</span>
 
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">button</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>onclick</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">GetCroppedCanvasDataURLAsync</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">div</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">button</span><span class="quot">&quot;</span> <span class="html-attribute-name"><span class="at-sign">&#64;</span>onclick</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">GetCroppedCanvasDataURLAsync</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
     Get cropped image
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">div</span><span class="html-tag-delimiter">&gt;</span>
 
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">img</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropped-img-container</span><span class="quot">"</span> <span class="htmlAttributeName">src</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="sharpVariable"><span class="atSign">@</span>croppedCanvasDataURL</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">img</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">cropped-img-container</span><span class="quot">&quot;</span> <span class="html-attribute-name">src</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="sharp-variable"><span class="at-sign">&#64;</span>croppedCanvasDataURL</span><span class="quot">&quot;</span> <span class="html-tag-delimiter">/&gt;</span>
 
-<span class="atSign">@</span>* Make sure the size of the image fits perfectly into the container *<span class="atSign">@</span>
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">style</span><span class="htmlTagDelimiter">></span>
+<span class="at-sign">&#64;</span>* Make sure the size of the image fits perfectly into the container *<span class="at-sign">&#64;</span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">style</span><span class="html-tag-delimiter">&gt;</span>
     .big-img {
         max-height: 400px;
 
-        /* This rule is very important, please don't ignore this */
+        /* This rule is very important, please don&#39;t ignore this */
         max-width: 100%;
     }
 
@@ -383,7 +383,7 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
         width: 100%;
     }
 
-    /* These styles are just needed for a nice button and don't related with cropper component */
+    /* These styles are just needed for a nice button and don&#39;t related with cropper component */
     .button {
         display: inline-block;
         padding: 10px 20px;
@@ -396,10 +396,10 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
         font-size: 16px;
         cursor: pointer;
     }
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">style</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">style</span><span class="html-tag-delimiter">&gt;</span>
 </pre></div>
 <div class="csharp"><pre>
-<span class="atSign">@</span>code {
+<span class="at-sign">&#64;</span>code {
     <span class="keyword">private</span> CropperComponent? cropperComponent = <span class="keyword">null</span>!;
     <span class="keyword">private</span> <span class="keyword">string</span> croppedCanvasDataURL;
 
@@ -407,8 +407,8 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
     {
         GetCroppedCanvasOptions getCroppedCanvasOptions = <span class="keyword">new</span> GetCroppedCanvasOptions
         {
-            MaxHeight = <span class="number">4096</span>,
-            MaxWidth = <span class="number">4096</span>,
+            MaxHeight = <span>4096</span>,
+            MaxWidth = <span>4096</span>,
             ImageSmoothingQuality = ImageSmoothingQuality.High.ToEnumString()
         };
 
@@ -440,7 +440,7 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
                     <br><br>
                     <code style="" class="docs-code docs-code-primary mud-width-full"><div class="docs-section-source outlined show-code"><div class="docs-section-source-container"><div class="mud-codeblock">
 <div class="html"><pre>
-CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span class="htmlEntity">&lt;</span>string<span class="htmlEntity">&gt;</span>("toDataURL", type, encoderOptions);
+CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span>&amp;lt;</span>string<span>&amp;gt;</span>(&quot;toDataURL&quot;, type, encoderOptions);
 </pre></div>
 </div>
 </div>
@@ -492,24 +492,24 @@ CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span class="htmlEntity">&lt;</span>
     }
 </style></div></div><div class="docs-section-source outlined show-code"><div class="docs-section-source-container"><div class="mud-codeblock">
 <div class="html"><pre>
-<span class="atSign">@</span>using Cropper.Blazor.Extensions;
-<span class="atSign">@</span>using Cropper.Blazor.Models;
+<span class="at-sign">&#64;</span>using Cropper.Blazor.Extensions;
+<span class="at-sign">&#64;</span>using Cropper.Blazor.Models;
 
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">img-container</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">CropperComponent</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">big-img</span><span class="quot">"</span> <span class="htmlAttributeName">Src</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">images/budir-church-bu-akirkja-iceland.jpg</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>ref</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropperComponent</span><span class="quot">"</span> <span class="htmlAttributeName">Options</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">new Blazor.Models.Options()</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">div</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">img-container</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+    <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">CropperComponent</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">big-img</span><span class="quot">&quot;</span> <span class="html-attribute-name">Src</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">images/budir-church-bu-akirkja-iceland.jpg</span><span class="quot">&quot;</span> <span class="html-attribute-name"><span class="at-sign">&#64;</span>ref</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">cropperComponent</span><span class="quot">&quot;</span> <span class="html-attribute-name">Options</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">new Blazor.Models.Options()</span><span class="quot">&quot;</span> <span class="html-tag-delimiter">/&gt;</span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">div</span><span class="html-tag-delimiter">&gt;</span>
 
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">button</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>onclick</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">GetCroppedCanvasAsync</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">div</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">button</span><span class="quot">&quot;</span> <span class="html-attribute-name"><span class="at-sign">&#64;</span>onclick</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">GetCroppedCanvasAsync</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
     Get cropped image
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">div</span><span class="html-tag-delimiter">&gt;</span>
 
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">img</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropped-img-container</span><span class="quot">"</span> <span class="htmlAttributeName">src</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="sharpVariable"><span class="atSign">@</span>croppedCanvasDataURL</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">img</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">cropped-img-container</span><span class="quot">&quot;</span> <span class="html-attribute-name">src</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="sharp-variable"><span class="at-sign">&#64;</span>croppedCanvasDataURL</span><span class="quot">&quot;</span> <span class="html-tag-delimiter">/&gt;</span>
 
-<span class="atSign">@</span>* Make sure the size of the image fits perfectly into the container *<span class="atSign">@</span>
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">style</span><span class="htmlTagDelimiter">></span>
+<span class="at-sign">&#64;</span>* Make sure the size of the image fits perfectly into the container *<span class="at-sign">&#64;</span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">style</span><span class="html-tag-delimiter">&gt;</span>
     .big-img {
         max-height: 400px;
-        /* This rule is very important, please don't ignore this */
+        /* This rule is very important, please don&#39;t ignore this */
         max-width: 100%;
     }
 
@@ -523,7 +523,7 @@ CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span class="htmlEntity">&lt;</span>
         width: 100%;
     }
 
-    /* These styles are just needed for a nice button and don't related with cropper component */
+    /* These styles are just needed for a nice button and don&#39;t related with cropper component */
     .button {
         display: inline-block;
         padding: 10px 20px;
@@ -536,10 +536,10 @@ CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span class="htmlEntity">&lt;</span>
         font-size: 16px;
         cursor: pointer;
     }
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">style</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">style</span><span class="html-tag-delimiter">&gt;</span>
 </pre></div>
 <div class="csharp"><pre>
-<span class="atSign">@</span>code {
+<span class="at-sign">&#64;</span>code {
     <span class="keyword">private</span> CropperComponent? cropperComponent = <span class="keyword">null</span>!;
     <span class="keyword">private</span> <span class="keyword">string</span> croppedCanvasDataURL;
 
@@ -547,15 +547,15 @@ CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span class="htmlEntity">&lt;</span>
     {
         GetCroppedCanvasOptions getCroppedCanvasOptions = <span class="keyword">new</span> GetCroppedCanvasOptions
         {
-            MaxHeight = <span class="number">4096</span>,
-            MaxWidth = <span class="number">4096</span>,
+            MaxHeight = <span>4096</span>,
+            MaxWidth = <span>4096</span>,
             ImageSmoothingQuality = ImageSmoothingQuality.High.ToEnumString()
         };
 
         <span class="comment">// Get a reference to a JavaScript cropped canvas object.</span>
         CroppedCanvas croppedCanvas = <span class="keyword">await</span> cropperComponent!.GetCroppedCanvasAsync(getCroppedCanvasOptions);
         <span class="comment">// Invoke toDataURL JavaScript function from the canvas object.</span>
-        croppedCanvasDataURL = <span class="keyword">await</span> croppedCanvas!.JSRuntimeObjectRef.InvokeAsync<<span class="keyword">string</span>>(<span class="string">"toDataURL"</span>, <span class="string">"image/png"</span>, <span class="number">1</span>);
+        croppedCanvasDataURL = <span class="keyword">await</span> croppedCanvas!.JSRuntimeObjectRef.InvokeAsync&lt;<span class="keyword">string</span>&gt;(<span class="string">&quot;toDataURL&quot;</span>, <span class="string">&quot;image/png&quot;</span>, <span>1</span>);
     }
 }
 </pre></div>
@@ -612,21 +612,21 @@ CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span class="htmlEntity">&lt;</span>
     }
 </style></div></div><div class="docs-section-source outlined show-code"><div class="docs-section-source-container"><div class="mud-codeblock">
 <div class="html"><pre>
-<span class="atSign">@</span>using Cropper.Blazor.Extensions;
-<span class="atSign">@</span>using Cropper.Blazor.Models;
+<span class="at-sign">&#64;</span>using Cropper.Blazor.Extensions;
+<span class="at-sign">&#64;</span>using Cropper.Blazor.Models;
 
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">img-container cropper-face-circle</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">CropperComponent</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">big-img</span><span class="quot">"</span> <span class="htmlAttributeName">Src</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">images/lone-tree.jpg</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>ref</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropperComponent</span><span class="quot">"</span> <span class="htmlAttributeName">Options</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">new Blazor.Models.Options()</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">div</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">img-container cropper-face-circle</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+    <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">CropperComponent</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">big-img</span><span class="quot">&quot;</span> <span class="html-attribute-name">Src</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">images/lone-tree.jpg</span><span class="quot">&quot;</span> <span class="html-attribute-name"><span class="at-sign">&#64;</span>ref</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">cropperComponent</span><span class="quot">&quot;</span> <span class="html-attribute-name">Options</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">new Blazor.Models.Options()</span><span class="quot">&quot;</span> <span class="html-tag-delimiter">/&gt;</span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">div</span><span class="html-tag-delimiter">&gt;</span>
 
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">button</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>onclick</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">GetCroppedCanvasAsync</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">div</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">button</span><span class="quot">&quot;</span> <span class="html-attribute-name"><span class="at-sign">&#64;</span>onclick</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">GetCroppedCanvasAsync</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
     Get cropped image
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">div</span><span class="html-tag-delimiter">&gt;</span>
 
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">img</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropped-img-container</span><span class="quot">"</span> <span class="htmlAttributeName">src</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="sharpVariable"><span class="atSign">@</span>croppedCanvasDataURL</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">img</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">cropped-img-container</span><span class="quot">&quot;</span> <span class="html-attribute-name">src</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="sharp-variable"><span class="at-sign">&#64;</span>croppedCanvasDataURL</span><span class="quot">&quot;</span> <span class="html-tag-delimiter">/&gt;</span>
 
-<span class="atSign">@</span>* Make sure the size of the image fits perfectly into the container *<span class="atSign">@</span>
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">style</span><span class="htmlTagDelimiter">></span>
+<span class="at-sign">&#64;</span>* Make sure the size of the image fits perfectly into the container *<span class="at-sign">&#64;</span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">style</span><span class="html-tag-delimiter">&gt;</span>
     .cropper-face {
         opacity: 25%;
     }
@@ -637,7 +637,7 @@ CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span class="htmlEntity">&lt;</span>
 
     .big-img {
         max-height: 400px;
-        /* This rule is very important, please don't ignore this */
+        /* This rule is very important, please don&#39;t ignore this */
         max-width: 100%;
     }
 
@@ -651,7 +651,7 @@ CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span class="htmlEntity">&lt;</span>
         width: 100%;
     }
 
-    /* These styles are just needed for a nice button and don't related with cropper component */
+    /* These styles are just needed for a nice button and don&#39;t related with cropper component */
     .button {
         display: inline-block;
         padding: 10px 20px;
@@ -664,10 +664,10 @@ CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span class="htmlEntity">&lt;</span>
         font-size: 16px;
         cursor: pointer;
     }
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">style</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">style</span><span class="html-tag-delimiter">&gt;</span>
 </pre></div>
 <div class="csharp"><pre>
-<span class="atSign">@</span>code {
+<span class="at-sign">&#64;</span>code {
     [Inject] <span class="keyword">private</span> IJSRuntime? JSRuntime { <span class="keyword">get</span>; <span class="keyword">set</span>; }
 
     <span class="keyword">private</span> CropperComponent? cropperComponent = <span class="keyword">null</span>!;
@@ -677,15 +677,15 @@ CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span class="htmlEntity">&lt;</span>
     {
         GetCroppedCanvasOptions getCroppedCanvasOptions = <span class="keyword">new</span> GetCroppedCanvasOptions
         {
-            MaxHeight = <span class="number">4096</span>,
-            MaxWidth = <span class="number">4096</span>,
+            MaxHeight = <span>4096</span>,
+            MaxWidth = <span>4096</span>,
             ImageSmoothingQuality = ImageSmoothingQuality.High.ToEnumString()
         };
 
         <span class="comment">// Get a reference to a JavaScript cropped canvas object.</span>
         CroppedCanvas croppedCanvas = <span class="keyword">await</span> cropperComponent!.GetCroppedCanvasAsync(getCroppedCanvasOptions);
         <span class="comment">// Invoke toDataURL JavaScript function from the canvas object.</span>
-        croppedCanvasDataURL = <span class="keyword">await</span> JSRuntime!.InvokeAsync<<span class="keyword">string</span>>(<span class="string">"window.getEllipseImage"</span>, croppedCanvas!.JSRuntimeObjectRef);
+        croppedCanvasDataURL = <span class="keyword">await</span> JSRuntime!.InvokeAsync&lt;<span class="keyword">string</span>&gt;(<span class="string">&quot;window.getEllipseImage&quot;</span>, croppedCanvas!.JSRuntimeObjectRef);
     }
 }
 </pre></div>
@@ -742,21 +742,21 @@ CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span class="htmlEntity">&lt;</span>
     }
 </style></div></div><div class="docs-section-source outlined show-code"><div class="docs-section-source-container"><div class="mud-codeblock">
 <div class="html"><pre>
-<span class="atSign">@</span>using Cropper.Blazor.Extensions;
-<span class="atSign">@</span>using Cropper.Blazor.Models;
+<span class="at-sign">&#64;</span>using Cropper.Blazor.Extensions;
+<span class="at-sign">&#64;</span>using Cropper.Blazor.Models;
 
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">img-container cropper-face-pentagon</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">CropperComponent</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">big-img</span><span class="quot">"</span> <span class="htmlAttributeName">Src</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">images/Mushrooms.jpg</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>ref</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropperComponent</span><span class="quot">"</span> <span class="htmlAttributeName">Options</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">new Blazor.Models.Options()</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">div</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">img-container cropper-face-pentagon</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+    <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">CropperComponent</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">big-img</span><span class="quot">&quot;</span> <span class="html-attribute-name">Src</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">images/Mushrooms.jpg</span><span class="quot">&quot;</span> <span class="html-attribute-name"><span class="at-sign">&#64;</span>ref</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">cropperComponent</span><span class="quot">&quot;</span> <span class="html-attribute-name">Options</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">new Blazor.Models.Options()</span><span class="quot">&quot;</span> <span class="html-tag-delimiter">/&gt;</span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">div</span><span class="html-tag-delimiter">&gt;</span>
 
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">button</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>onclick</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">GetCroppedCanvasAsync</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">div</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">button</span><span class="quot">&quot;</span> <span class="html-attribute-name"><span class="at-sign">&#64;</span>onclick</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">GetCroppedCanvasAsync</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
     Get cropped image
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">div</span><span class="html-tag-delimiter">&gt;</span>
 
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">img</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropped-img-container</span><span class="quot">"</span> <span class="htmlAttributeName">src</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="sharpVariable"><span class="atSign">@</span>croppedCanvasDataURL</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">img</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">cropped-img-container</span><span class="quot">&quot;</span> <span class="html-attribute-name">src</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="sharp-variable"><span class="at-sign">&#64;</span>croppedCanvasDataURL</span><span class="quot">&quot;</span> <span class="html-tag-delimiter">/&gt;</span>
 
-<span class="atSign">@</span>* Make sure the size of the image fits perfectly into the container *<span class="atSign">@</span>
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">style</span><span class="htmlTagDelimiter">></span>
+<span class="at-sign">&#64;</span>* Make sure the size of the image fits perfectly into the container *<span class="at-sign">&#64;</span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">style</span><span class="html-tag-delimiter">&gt;</span>
     .cropper-face {
         opacity: 25%;
     }
@@ -767,7 +767,7 @@ CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span class="htmlEntity">&lt;</span>
 
     .big-img {
         max-height: 400px;
-        /* This rule is very important, please don't ignore this */
+        /* This rule is very important, please don&#39;t ignore this */
         max-width: 100%;
     }
 
@@ -781,7 +781,7 @@ CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span class="htmlEntity">&lt;</span>
         width: 100%;
     }
 
-    /* These styles are just needed for a nice button and don't related with cropper component */
+    /* These styles are just needed for a nice button and don&#39;t related with cropper component */
     .button {
         display: inline-block;
         padding: 10px 20px;
@@ -794,10 +794,10 @@ CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span class="htmlEntity">&lt;</span>
         font-size: 16px;
         cursor: pointer;
     }
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">style</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">style</span><span class="html-tag-delimiter">&gt;</span>
 </pre></div>
 <div class="csharp"><pre>
-<span class="atSign">@</span>code {
+<span class="at-sign">&#64;</span>code {
     [Inject] <span class="keyword">private</span> IJSRuntime? JSRuntime { <span class="keyword">get</span>; <span class="keyword">set</span>; }
 
     <span class="keyword">private</span> CropperComponent? cropperComponent = <span class="keyword">null</span>!;
@@ -807,23 +807,23 @@ CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span class="htmlEntity">&lt;</span>
     {
         GetCroppedCanvasOptions getCroppedCanvasOptions = <span class="keyword">new</span> GetCroppedCanvasOptions
         {
-            MaxHeight = <span class="number">4096</span>,
-            MaxWidth = <span class="number">4096</span>,
+            MaxHeight = <span>4096</span>,
+            MaxWidth = <span>4096</span>,
             ImageSmoothingQuality = ImageSmoothingQuality.High.ToEnumString()
         };
 
         <span class="comment">// Get a reference to a JavaScript cropped canvas object.</span>
         CroppedCanvas croppedCanvas = <span class="keyword">await</span> cropperComponent!.GetCroppedCanvasAsync(getCroppedCanvasOptions);
         <span class="comment">// Invoke toDataURL JavaScript function from the canvas object.</span>
-        croppedCanvasDataURL = <span class="keyword">await</span> JSRuntime!.InvokeAsync<<span class="keyword">string</span>>(
-            <span class="string">"window.getPolygonImage"</span>,
+        croppedCanvasDataURL = <span class="keyword">await</span> JSRuntime!.InvokeAsync&lt;<span class="keyword">string</span>&gt;(
+            <span class="string">&quot;window.getPolygonImage&quot;</span>,
             croppedCanvas!.JSRuntimeObjectRef,
             <span class="comment">// Defines a polygon using an SVG fill rule and a set of vertices previously defined in the following format styles:</span>
             <span class="comment">// .img-container.cropper-face-pentagon.cropper-container.cropper-crop-box.cropper-face {</span>
             <span class="comment">//     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);</span>
             <span class="comment">// }</span>
             <span class="comment">// In our case, we need to pass the same data, but without the percent sign (%)</span>
-            <span class="keyword">new</span> <span class="keyword">int</span>[] { <span class="number">50</span>, <span class="number">0</span>, <span class="number">100</span>, <span class="number">38</span>, <span class="number">82</span>, <span class="number">100</span>, <span class="number">18</span>, <span class="number">100</span>, <span class="number">0</span>, <span class="number">38</span> });
+            <span class="keyword">new</span> <span class="keyword">int</span>[] { <span>50</span>, <span>0</span>, <span>100</span>, <span>38</span>, <span>82</span>, <span>100</span>, <span>18</span>, <span>100</span>, <span>0</span>, <span>38</span> });
     }
 }
 </pre></div>
@@ -881,38 +881,38 @@ CroppedCanvas.JSRuntimeObjectRef.InvokeAsync<span class="htmlEntity">&lt;</span>
     }
 </style></div></div><div class="docs-section-source outlined show-code"><div class="docs-section-source-container"><div class="mud-codeblock">
 <div class="html"><pre>
-<span class="atSign">@</span>using Cropper.Blazor.Extensions;
-<span class="atSign">@</span>using Cropper.Blazor.Models;
+<span class="at-sign">&#64;</span>using Cropper.Blazor.Extensions;
+<span class="at-sign">&#64;</span>using Cropper.Blazor.Models;
 
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">img-container</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">CropperComponent</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">big-img</span><span class="quot">"</span> <span class="htmlAttributeName">Src</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">icon-515x512.png</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>ref</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropperComponent</span><span class="quot">"</span> <span class="htmlAttributeName">Options</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">new Blazor.Models.Options()</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">div</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">img-container</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+    <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">CropperComponent</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">big-img</span><span class="quot">&quot;</span> <span class="html-attribute-name">Src</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">icon-515x512.png</span><span class="quot">&quot;</span> <span class="html-attribute-name"><span class="at-sign">&#64;</span>ref</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">cropperComponent</span><span class="quot">&quot;</span> <span class="html-attribute-name">Options</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">new Blazor.Models.Options()</span><span class="quot">&quot;</span> <span class="html-tag-delimiter">/&gt;</span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">div</span><span class="html-tag-delimiter">&gt;</span>
 
-<span class="atSign">@</span>if (decodedImageData is { base64ImageData: null, mediaType: null })
+<span class="at-sign">&#64;</span>if (decodedImageData is { base64ImageData: null, mediaType: null })
 {
-    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">button</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>onclick</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">GetDecodedImageDataAsync</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
+    <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">div</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">button</span><span class="quot">&quot;</span> <span class="html-attribute-name"><span class="at-sign">&#64;</span>onclick</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">GetDecodedImageDataAsync</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
         Get decoded image data
-    <span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
+    <span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">div</span><span class="html-tag-delimiter">&gt;</span>
 }
 else
 {
-    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudText</span> <span class="htmlAttributeName">Typo</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="enum">Typo</span><span class="enumValue">.body2</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-        Media type: <span class="atSign">@</span>decodedImageData!.mediaType
-    <span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudText</span><span class="htmlTagDelimiter">></span>
-    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudText</span> <span class="htmlAttributeName">Typo</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="enum">Typo</span><span class="enumValue">.body2</span><span class="quot">"</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">text-with-dots</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-        Base64: <span class="atSign">@</span>decodedImageData!.base64ImageData
-    <span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudText</span><span class="htmlTagDelimiter">></span>
-    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudText</span> <span class="htmlAttributeName">Typo</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="enum">Typo</span><span class="enumValue">.body2</span><span class="quot">"</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">text-with-dots</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-        Data URL: <span class="atSign">@</span>croppedCanvasDataURL
-    <span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudText</span><span class="htmlTagDelimiter">></span>
+    <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudText</span> <span class="html-attribute-name">Typo</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="enum">Typo</span><span class="enum-value">.body2</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+        Media type: <span class="at-sign">&#64;</span>decodedImageData!.mediaType
+    <span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">MudText</span><span class="html-tag-delimiter">&gt;</span>
+    <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudText</span> <span class="html-attribute-name">Typo</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="enum">Typo</span><span class="enum-value">.body2</span><span class="quot">&quot;</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">text-with-dots</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+        Base64: <span class="at-sign">&#64;</span>decodedImageData!.base64ImageData
+    <span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">MudText</span><span class="html-tag-delimiter">&gt;</span>
+    <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudText</span> <span class="html-attribute-name">Typo</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="enum">Typo</span><span class="enum-value">.body2</span><span class="quot">&quot;</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">text-with-dots</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+        Data URL: <span class="at-sign">&#64;</span>croppedCanvasDataURL
+    <span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">MudText</span><span class="html-tag-delimiter">&gt;</span>
 }
 
-<span class="atSign">@</span>* Make sure the size of the image fits perfectly into the container *<span class="atSign">@</span>
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">style</span><span class="htmlTagDelimiter">></span>
+<span class="at-sign">&#64;</span>* Make sure the size of the image fits perfectly into the container *<span class="at-sign">&#64;</span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">style</span><span class="html-tag-delimiter">&gt;</span>
     .big-img {
         max-height: 400px;
 
-        /* This rule is very important, please don't ignore this */
+        /* This rule is very important, please don&#39;t ignore this */
         max-width: 100%;
     }
 
@@ -926,7 +926,7 @@ else
         width: 100%;
     }
 
-    /* These styles are just needed for a nice button and don't related with cropper component */
+    /* These styles are just needed for a nice button and don&#39;t related with cropper component */
     .button {
         display: inline-block;
         padding: 10px 20px;
@@ -939,10 +939,10 @@ else
         font-size: 16px;
         cursor: pointer;
     }
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">style</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">style</span><span class="html-tag-delimiter">&gt;</span>
 </pre></div>
 <div class="csharp"><pre>
-<span class="atSign">@</span>code {
+<span class="at-sign">&#64;</span>code {
     <span class="keyword">private</span> CropperComponent? cropperComponent = <span class="keyword">null</span>!;
     <span class="keyword">private</span> <span class="keyword">string</span> croppedCanvasDataURL;
     <span class="keyword">private</span> (<span class="keyword">string</span> base64ImageData, <span class="keyword">string</span> mediaType) decodedImageData;
@@ -951,8 +951,8 @@ else
     {
         GetCroppedCanvasOptions getCroppedCanvasOptions = <span class="keyword">new</span> GetCroppedCanvasOptions
         {
-            MaxHeight = <span class="number">4096</span>,
-            MaxWidth = <span class="number">4096</span>,
+            MaxHeight = <span>4096</span>,
+            MaxWidth = <span>4096</span>,
             ImageSmoothingQuality = ImageSmoothingQuality.High.ToEnumString()
         };
 
@@ -974,40 +974,40 @@ else
 <!-- %%-PRERENDERING-END-%% -->
 </div>
 
-    <div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
-    </div>
-    <script src="decode.min.js"></script>
-    <script src="_framework/blazor.webassembly.js" autostart="false"></script>
-    <script>
-        Blazor.start({
-            loadBootResource: function (type, name, defaultUri, integrity) {
-                // For framework resources, use the precompressed .br files for faster downloads
-                // This is needed only because GitHub pages doesn't natively support Brotli (or even gzip for .dll files)
-                if (type !== 'dotnetjs' && location.hostname !== 'localhost') {
-                    return (async function () {
-                        const response = await fetch(defaultUri + '.br', { cache: 'no-cache' });
-                        if (!response.ok) {
-                            throw new Error(response.statusText);
-                        }
-                        const originalResponseBuffer = await response.arrayBuffer();
-                        const originalResponseArray = new Int8Array(originalResponseBuffer);
-                        const decompressedResponseArray = BrotliDecode(originalResponseArray);
-                        const contentType = type === 'dotnetwasm' ? 'application/wasm' : 'application/octet-stream';
-                        return new Response(decompressedResponseArray, { headers: { 'content-type': contentType } });
-                    })();
-                }
-            }
-        });
-    </script>
-    <script src="_content/MudBlazor/MudBlazor.min.js"></script>
-    <script src="_content/Cropper.Blazor/cropper.min.js"></script>
-    <script src="overrideCropperJsInteropModule.min.js"></script>
-    <script src="jsObjectModule.min.js"></script>
-    <script src="helper.min.js"></script>
-    <script src="sw-registrator.min.js"></script>
+	<div id="blazor-error-ui">
+		An unhandled error has occurred.
+		<a href="" class="reload">Reload</a>
+		<a class="dismiss">🗙</a>
+	</div>
+	<script src="decode.min.js"></script>
+	<script src="_framework/blazor.webassembly.js" autostart="false"></script>
+	<script>
+		Blazor.start({
+			loadBootResource: function (type, name, defaultUri, integrity) {
+				// For framework resources, use the precompressed .br files for faster downloads
+				// This is needed only because GitHub pages doesn't natively support Brotli (or even gzip for .dll files)
+				if (type !== 'dotnetjs' && location.hostname !== 'localhost') {
+					return (async function () {
+						const response = await fetch(defaultUri + '.br', { cache: 'no-cache' });
+						if (!response.ok) {
+							throw new Error(response.statusText);
+						}
+						const originalResponseBuffer = await response.arrayBuffer();
+						const originalResponseArray = new Int8Array(originalResponseBuffer);
+						const decompressedResponseArray = BrotliDecode(originalResponseArray);
+						const contentType = type === 'dotnetwasm' ? 'application/wasm' : 'application/octet-stream';
+						return new Response(decompressedResponseArray, { headers: { 'content-type': contentType } });
+					})();
+				}
+			}
+		});
+	</script>
+	<script src="_content/MudBlazor/MudBlazor.min.js"></script>
+	<script src="_content/Cropper.Blazor/cropper.min.js"></script>
+	<script src="overrideCropperJsInteropModule.min.js"></script>
+	<script src="jsObjectModule.min.js"></script>
+	<script src="helper.min.js"></script>
+	<script src="sw-registrator.min.js"></script>
 
 
 

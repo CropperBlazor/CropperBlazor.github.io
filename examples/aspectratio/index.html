@@ -1,25 +1,25 @@
 <!DOCTYPE html><html lang="en-us"><head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"/>
-    <meta name="robots" content="index, follow"/>
-    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
-    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
-    <meta name="docsearch:language" content="en"/>
-    <meta name="docsearch:version" content="master"/>
-    <meta name="google-site-verification" content="x2SFbVPxbn1Gk2wv-POqGp4oAlzFZV7FLIXDzrOCvlY"/>
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-    <base href="/"/>
-    <link href="manifest.json" rel="manifest"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ff5c9b"/>
-    <meta name="msapplication-TileColor" content="#110e2d"/>
-    <meta name="theme-color" content="#ffffff"/>
-    <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet"/>
-    <link href="_content/Cropper.Blazor/cropper.min.css" rel="stylesheet"/>
-    <link href="Cropper.Blazor.Client.styles.css" rel="stylesheet"/>
-    <link href="Cropper.Blazor.Client.min.css" rel="stylesheet"/>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"/>
+	<meta name="robots" content="index, follow"/>
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+	<meta name="docsearch:language" content="en"/>
+	<meta name="docsearch:version" content="master"/>
+	<meta name="google-site-verification" content="x2SFbVPxbn1Gk2wv-POqGp4oAlzFZV7FLIXDzrOCvlY"/>
+	<link rel="icon" type="image/x-icon" href="favicon.ico"/>
+	<base href="/"/>
+	<link href="manifest.json" rel="manifest"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#ff5c9b"/>
+	<meta name="msapplication-TileColor" content="#110e2d"/>
+	<meta name="theme-color" content="#ffffff"/>
+	<link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet"/>
+	<link href="_content/Cropper.Blazor/cropper.min.css" rel="stylesheet"/>
+	<link href="Cropper.Blazor.Client.styles.css" rel="stylesheet"/>
+	<link href="Cropper.Blazor.Client.min.css" rel="stylesheet"/>
 
 <!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
 <title>Aspect Ratio - Cropper.Blazor</title><meta name="keywords" content="Cropper.Blazor, Blazor.Cropper, cropper, blazor, component, crop-image, cropperjs, Cropper.js, Blazor Components, Blazor Library, Blazor Cropper, Cropper, Image, Crop, Resize, image-cropper, crop-image, csharp, blazor-cropper, .net, .net core, pwa, webassembly, blazor image editor, image editor, blazor image, free image cropper, online cropper, photo cropper, avatar cropper, photo cropper, image cropper, resize image, photo resizer, blazor online cropper, blazor free image cropper, blazor photo cropper, blazor avatar cropper, blazor photo cropper, blazor image cropper, blazor resize image, blazor photo resizer, Aspect Ratio, Aspect Ratio Cropper.Blazor, Aspect Ratio Cropper, Aspect Cropper.Blazor, Aspect Cropper, Ratio Cropper.Blazor, Ratio Cropper, Change aspect ratio, Change ratio, Initial aspect ratio, Initial ratio, Min and Max ratio, Min ratio, Max ratio" />
@@ -326,34 +326,34 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
     }
 </style></div></div><div class="docs-section-source outlined show-code"><div class="docs-section-source-container"><div class="mud-codeblock">
 <div class="html"><pre>
-<span class="atSign">@</span>using Cropper.Blazor.Models;
+<span class="at-sign">&#64;</span>using Cropper.Blazor.Models;
 
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">img-container</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">CropperComponent</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">big-img</span><span class="quot">"</span> <span class="htmlAttributeName">Options</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropperOptions</span><span class="quot">"</span>
-                      <span class="htmlAttributeName">Src</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">images/dolphin.jpg</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">div</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">img-container</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+    <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">CropperComponent</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">big-img</span><span class="quot">&quot;</span> <span class="html-attribute-name">Options</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">cropperOptions</span><span class="quot">&quot;</span>
+                      <span class="html-attribute-name">Src</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">images/dolphin.jpg</span><span class="quot">&quot;</span> <span class="html-tag-delimiter">/&gt;</span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">div</span><span class="html-tag-delimiter">&gt;</span>
 </pre></div>
 <div class="csharp"><pre>
-<span class="atSign">@</span>code {
+<span class="at-sign">&#64;</span>code {
     <span class="keyword">private</span> Options cropperOptions = <span class="keyword">new</span> Options
     {
-        AspectRatio = (<span class="keyword">decimal</span>)<span class="number">16</span> / <span class="number">9</span>,
+        AspectRatio = (<span class="keyword">decimal</span>)<span>16</span> / <span>9</span>,
         ViewMode = ViewMode.Vm3
     };
 }
 
-<style>
+&lt;style&gt;
     .big-img {
         max-height: 400px;
-        <span class="comment">/* This rule is very important, please don't ignore this */</span>
-        max-width: <span class="number">100</span>%;
+        <span class="comment">/* This rule is very important, please don&#39;t ignore this */</span>
+        max-width: <span>100</span>%;
     }
 
     .img-container {
         max-height: 400px;
         max-width: 800px;
     }
-</style>
+&lt;/style&gt;
 </pre></div>
 </div>
 </div>
@@ -364,10 +364,10 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
                     <code style="" class="docs-code docs-code-primary docs-code-warning">SetAspectRatio</code> method.
                 </p></div>
             <div class="docs-section-content outlined show-code"><div class="mud-toolbar mud-toolbar-gutters docs-section-content-toolbar outlined"><div class="flex-grow-1"></div><button type="button" class="mud-button-root mud-button mud-button-text mud-button-text-default mud-button-text-size-small mud-ripple" __internal_stopPropagation_onclick><span class="mud-button-label"><span class="mud-button-icon-start mud-button-icon-size-small"><svg class="mud-icon-root mud-svg-icon mud-icon-size-small" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><rect fill="none" height="24" width="24"/><path d="M19.17,12l-3.88-3.88c-0.39-0.39-0.39-1.02,0-1.41l0,0c0.39-0.39,1.02-0.39,1.41,0l4.59,4.59c0.39,0.39,0.39,1.02,0,1.41 l-2.88,2.88L17,14.17L19.17,12z M2.1,4.93l3.49,3.49l-2.88,2.88c-0.39,0.39-0.39,1.02,0,1.41l4.59,4.59c0.39,0.39,1.02,0.39,1.41,0 l0,0c0.39-0.39,0.39-1.02,0-1.41L4.83,12L7,9.83L19.07,21.9c0.39,0.39,1.02,0.39,1.41,0l0,0c0.39-0.39,0.39-1.02,0-1.41L3.51,3.51 c-0.39-0.39-1.02-0.39-1.41,0l0,0C1.71,3.91,1.71,4.54,2.1,4.93z"/></svg></span>Hide code</span></button></div><div class="docs-section-content-inner relative d-flex flex-grow-1 flex-wrap justify-center align-center px-8 pb-8 pt-2"><div class="mud-grid mud-grid-spacing-xs-3 justify-start"><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-sm-8 mud-grid-item-md-8 mud-grid-item-lg-8"><div class="mud-paper mud-elevation-1 pa-2" style=""><div class="img-container"><img class="big-img" src="images/Rivne2.jpg" /></div></div></div>
-    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-sm-4 mud-grid-item-md-4 mud-grid-item-lg-4"><div class="mud-paper mud-elevation-1 pa-2" style=""><div id="numericField_2a442d43" class="mud-input-control mud-input-input-control mud-input-number-control mud-input-showspin mb-2"><div class="mud-input-control-input-container"><div class="mud-input mud-input-text mud-input-adorned-end mud-input-underline mud-shrink"><input class="mud-input-slot mud-input-root mud-input-root-text mud-input-root-adorned-end" min="1" step="100" type="text" value="400.0000" inputmode="numeric" pattern="[0-9,.\-]*" maxlength="524288" aria-invalid="false" /><div class="mud-input-slot mud-input-root mud-input-root-text mud-input-root-adorned-end" style="display:none" tabindex="-1"></div><div class="mud-input-adornment mud-input-adornment-end mud-text"><p tabindex="-1" class="mud-typography mud-typography-body1 mud-primary-text">px</p></div><div class="mud-input-numeric-spin"><button tabindex="-1" type="button" class="mud-button-root mud-button mud-button-text mud-button-text-default mud-button-text-size-medium mud-ripple" __internal_stopPropagation_onclick><span class="mud-button-label"><svg aria-label="Increment" class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"/><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg></span></button>
-            <button tabindex="-1" type="button" class="mud-button-root mud-button mud-button-text mud-button-text-default mud-button-text-size-medium mud-ripple" __internal_stopPropagation_onclick><span class="mud-button-label"><svg aria-label="Decrement" class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></span></button></div></div><label class="mud-input-label mud-input-label-animated mud-input-label-text mud-input-label-inputcontrol" for="mudinput-611c5f26-9b30-40fe-9c50-c9d060c89587">Width</label></div></div>
-            <div id="numericField_cd78ceea" class="mud-input-control mud-input-input-control mud-input-number-control mud-input-showspin mb-2"><div class="mud-input-control-input-container"><div class="mud-input mud-input-text mud-input-adorned-end mud-input-underline mud-shrink"><input class="mud-input-slot mud-input-root mud-input-root-text mud-input-root-adorned-end" min="1" step="100" type="text" value="400.0000" inputmode="numeric" pattern="[0-9,.\-]*" maxlength="524288" aria-invalid="false" /><div class="mud-input-slot mud-input-root mud-input-root-text mud-input-root-adorned-end" style="display:none" tabindex="-1"></div><div class="mud-input-adornment mud-input-adornment-end mud-text"><p tabindex="-1" class="mud-typography mud-typography-body1 mud-primary-text">px</p></div><div class="mud-input-numeric-spin"><button tabindex="-1" type="button" class="mud-button-root mud-button mud-button-text mud-button-text-default mud-button-text-size-medium mud-ripple" __internal_stopPropagation_onclick><span class="mud-button-label"><svg aria-label="Increment" class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"/><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg></span></button>
-            <button tabindex="-1" type="button" class="mud-button-root mud-button mud-button-text mud-button-text-default mud-button-text-size-medium mud-ripple" __internal_stopPropagation_onclick><span class="mud-button-label"><svg aria-label="Decrement" class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></span></button></div></div><label class="mud-input-label mud-input-label-animated mud-input-label-text mud-input-label-inputcontrol" for="mudinput-c6b667a7-7937-4421-b864-798d23e89e41">Height</label></div></div></div></div></div>
+    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-sm-4 mud-grid-item-md-4 mud-grid-item-lg-4"><div class="mud-paper mud-elevation-1 pa-2" style=""><div id="numericField_5e0f374e" class="mud-input-control mud-input-input-control mud-input-number-control mud-input-showspin mb-2"><div class="mud-input-control-input-container"><div class="mud-input mud-input-text mud-input-adorned-end mud-input-underline mud-shrink"><input class="mud-input-slot mud-input-root mud-input-root-text mud-input-root-adorned-end" min="1" step="100" type="text" value="400.0000" inputmode="numeric" pattern="[0-9,.\-]*" maxlength="524288" aria-invalid="false" /><div class="mud-input-slot mud-input-root mud-input-root-text mud-input-root-adorned-end" style="display:none" tabindex="-1"></div><div class="mud-input-adornment mud-input-adornment-end mud-text"><p tabindex="-1" class="mud-typography mud-typography-body1 mud-primary-text">px</p></div><div class="mud-input-numeric-spin"><button tabindex="-1" type="button" class="mud-button-root mud-button mud-button-text mud-button-text-default mud-button-text-size-medium mud-ripple" __internal_stopPropagation_onclick><span class="mud-button-label"><svg aria-label="Increment" class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"/><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg></span></button>
+            <button tabindex="-1" type="button" class="mud-button-root mud-button mud-button-text mud-button-text-default mud-button-text-size-medium mud-ripple" __internal_stopPropagation_onclick><span class="mud-button-label"><svg aria-label="Decrement" class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></span></button></div></div><label class="mud-input-label mud-input-label-animated mud-input-label-text mud-input-label-inputcontrol" for="mudinput-1d684abe-28a3-488f-b124-c4057b6346b1">Width</label></div></div>
+            <div id="numericField_72e65331" class="mud-input-control mud-input-input-control mud-input-number-control mud-input-showspin mb-2"><div class="mud-input-control-input-container"><div class="mud-input mud-input-text mud-input-adorned-end mud-input-underline mud-shrink"><input class="mud-input-slot mud-input-root mud-input-root-text mud-input-root-adorned-end" min="1" step="100" type="text" value="400.0000" inputmode="numeric" pattern="[0-9,.\-]*" maxlength="524288" aria-invalid="false" /><div class="mud-input-slot mud-input-root mud-input-root-text mud-input-root-adorned-end" style="display:none" tabindex="-1"></div><div class="mud-input-adornment mud-input-adornment-end mud-text"><p tabindex="-1" class="mud-typography mud-typography-body1 mud-primary-text">px</p></div><div class="mud-input-numeric-spin"><button tabindex="-1" type="button" class="mud-button-root mud-button mud-button-text mud-button-text-default mud-button-text-size-medium mud-ripple" __internal_stopPropagation_onclick><span class="mud-button-label"><svg aria-label="Increment" class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"/><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg></span></button>
+            <button tabindex="-1" type="button" class="mud-button-root mud-button mud-button-text mud-button-text-default mud-button-text-size-medium mud-ripple" __internal_stopPropagation_onclick><span class="mud-button-label"><svg aria-label="Decrement" class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></span></button></div></div><label class="mud-input-label mud-input-label-animated mud-input-label-text mud-input-label-inputcontrol" for="mudinput-d2ec74fc-06c0-44d9-bd38-aea65a734a21">Height</label></div></div></div></div></div>
 
 
 <style>
@@ -383,29 +383,29 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
     }
 </style></div></div><div class="docs-section-source outlined show-code"><div class="docs-section-source-container"><div class="mud-codeblock">
 <div class="html"><pre>
-<span class="atSign">@</span>using Cropper.Blazor.Models;
+<span class="at-sign">&#64;</span>using Cropper.Blazor.Models;
 
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudGrid</span><span class="htmlTagDelimiter">></span>
-    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudItem</span> <span class="htmlAttributeName">xs</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">12</span><span class="quot">"</span> <span class="htmlAttributeName">sm</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">8</span><span class="quot">"</span> <span class="htmlAttributeName">md</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">8</span><span class="quot">"</span> <span class="htmlAttributeName">lg</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">8</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-        <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudPaper</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">pa-2</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-            <span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">img-container</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-                <span class="htmlTagDelimiter"><</span><span class="htmlElementName">CropperComponent</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">big-img</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>ref</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropperComponent</span><span class="quot">"</span>
-                                  <span class="htmlAttributeName">Src</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">images/Rivne2.jpg</span><span class="quot">"</span> <span class="htmlAttributeName">Options</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropperOptions</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
-            <span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
-        <span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudPaper</span><span class="htmlTagDelimiter">></span>
-    <span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudItem</span><span class="htmlTagDelimiter">></span>
-    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudItem</span> <span class="htmlAttributeName">xs</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">12</span><span class="quot">"</span> <span class="htmlAttributeName">sm</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">4</span><span class="quot">"</span> <span class="htmlAttributeName">md</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">4</span><span class="quot">"</span> <span class="htmlAttributeName">lg</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">4</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-        <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudPaper</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">pa-2</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-            <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudNumericField</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">mb-2</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>bind-Value</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">CropBoxWidth</span><span class="quot">"</span> <span class="htmlAttributeName">Label</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">Width</span><span class="quot">"</span> <span class="htmlAttributeName">Step</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">100M</span><span class="quot">"</span> <span class="htmlAttributeName">Variant</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="enum">Variant</span><span class="enumValue">.Text</span><span class="quot">"</span> <span class="htmlAttributeName">Min</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">1</span><span class="quot">"</span>
-                             <span class="htmlAttributeName">Adornment</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="enum">Adornment</span><span class="enumValue">.End</span><span class="quot">"</span> <span class="htmlAttributeName">AdornmentText</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">px</span><span class="quot">"</span> <span class="htmlAttributeName">AdornmentColor</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="enum">Color</span><span class="enumValue">.Primary</span><span class="quot">"</span> <span class="htmlAttributeName">Format</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">N4</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
-            <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudNumericField</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">mb-2</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>bind-Value</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">CropBoxHeight</span><span class="quot">"</span> <span class="htmlAttributeName">Label</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">Height</span><span class="quot">"</span> <span class="htmlAttributeName">Step</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">100M</span><span class="quot">"</span> <span class="htmlAttributeName">Variant</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="enum">Variant</span><span class="enumValue">.Text</span><span class="quot">"</span> <span class="htmlAttributeName">Min</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">1</span><span class="quot">"</span>
-                             <span class="htmlAttributeName">Adornment</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="enum">Adornment</span><span class="enumValue">.End</span><span class="quot">"</span> <span class="htmlAttributeName">AdornmentText</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">px</span><span class="quot">"</span> <span class="htmlAttributeName">AdornmentColor</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="enum">Color</span><span class="enumValue">.Primary</span><span class="quot">"</span> <span class="htmlAttributeName">Format</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">N4</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
-        <span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudPaper</span><span class="htmlTagDelimiter">></span>
-    <span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudItem</span><span class="htmlTagDelimiter">></span>
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudGrid</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudGrid</span><span class="html-tag-delimiter">&gt;</span>
+    <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudItem</span> <span class="html-attribute-name">xs</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">12</span><span class="quot">&quot;</span> <span class="html-attribute-name">sm</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">8</span><span class="quot">&quot;</span> <span class="html-attribute-name">md</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">8</span><span class="quot">&quot;</span> <span class="html-attribute-name">lg</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">8</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+        <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudPaper</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">pa-2</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+            <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">div</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">img-container</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+                <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">CropperComponent</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">big-img</span><span class="quot">&quot;</span> <span class="html-attribute-name"><span class="at-sign">&#64;</span>ref</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">cropperComponent</span><span class="quot">&quot;</span>
+                                  <span class="html-attribute-name">Src</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">images/Rivne2.jpg</span><span class="quot">&quot;</span> <span class="html-attribute-name">Options</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">cropperOptions</span><span class="quot">&quot;</span> <span class="html-tag-delimiter">/&gt;</span>
+            <span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">div</span><span class="html-tag-delimiter">&gt;</span>
+        <span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">MudPaper</span><span class="html-tag-delimiter">&gt;</span>
+    <span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">MudItem</span><span class="html-tag-delimiter">&gt;</span>
+    <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudItem</span> <span class="html-attribute-name">xs</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">12</span><span class="quot">&quot;</span> <span class="html-attribute-name">sm</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">4</span><span class="quot">&quot;</span> <span class="html-attribute-name">md</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">4</span><span class="quot">&quot;</span> <span class="html-attribute-name">lg</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">4</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+        <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudPaper</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">pa-2</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+            <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudNumericField</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">mb-2</span><span class="quot">&quot;</span> <span class="html-attribute-name"><span class="at-sign">&#64;</span>bind-Value</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">CropBoxWidth</span><span class="quot">&quot;</span> <span class="html-attribute-name">Label</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">Width</span><span class="quot">&quot;</span> <span class="html-attribute-name">Step</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">100M</span><span class="quot">&quot;</span> <span class="html-attribute-name">Variant</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="enum">Variant</span><span class="enum-value">.Text</span><span class="quot">&quot;</span> <span class="html-attribute-name">Min</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">1</span><span class="quot">&quot;</span>
+                             <span class="html-attribute-name">Adornment</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="enum">Adornment</span><span class="enum-value">.End</span><span class="quot">&quot;</span> <span class="html-attribute-name">AdornmentText</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">px</span><span class="quot">&quot;</span> <span class="html-attribute-name">AdornmentColor</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="enum">Color</span><span class="enum-value">.Primary</span><span class="quot">&quot;</span> <span class="html-attribute-name">Format</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">N4</span><span class="quot">&quot;</span> <span class="html-tag-delimiter">/&gt;</span>
+            <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudNumericField</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">mb-2</span><span class="quot">&quot;</span> <span class="html-attribute-name"><span class="at-sign">&#64;</span>bind-Value</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">CropBoxHeight</span><span class="quot">&quot;</span> <span class="html-attribute-name">Label</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">Height</span><span class="quot">&quot;</span> <span class="html-attribute-name">Step</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">100M</span><span class="quot">&quot;</span> <span class="html-attribute-name">Variant</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="enum">Variant</span><span class="enum-value">.Text</span><span class="quot">&quot;</span> <span class="html-attribute-name">Min</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">1</span><span class="quot">&quot;</span>
+                             <span class="html-attribute-name">Adornment</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="enum">Adornment</span><span class="enum-value">.End</span><span class="quot">&quot;</span> <span class="html-attribute-name">AdornmentText</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">px</span><span class="quot">&quot;</span> <span class="html-attribute-name">AdornmentColor</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="enum">Color</span><span class="enum-value">.Primary</span><span class="quot">&quot;</span> <span class="html-attribute-name">Format</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">N4</span><span class="quot">&quot;</span> <span class="html-tag-delimiter">/&gt;</span>
+        <span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">MudPaper</span><span class="html-tag-delimiter">&gt;</span>
+    <span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">MudItem</span><span class="html-tag-delimiter">&gt;</span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">MudGrid</span><span class="html-tag-delimiter">&gt;</span>
 </pre></div>
 <div class="csharp"><pre>
-<span class="atSign">@</span>code {
+<span class="at-sign">&#64;</span>code {
     <span class="keyword">private</span> CropperComponent? cropperComponent = <span class="keyword">null</span>!;
 
     <span class="comment">// Setting up initial dimensions of crop area</span>
@@ -415,12 +415,12 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
         ViewMode = ViewMode.Vm3
     };
 
-    <span class="keyword">decimal</span> _cropBoxWidth = <span class="number">400</span>;
-    <span class="keyword">decimal</span> _cropBoxHeight = <span class="number">400</span>;
+    <span class="keyword">decimal</span> _cropBoxWidth = <span>400</span>;
+    <span class="keyword">decimal</span> _cropBoxHeight = <span>400</span>;
 
     <span class="keyword">private</span> <span class="keyword">decimal</span> CropBoxWidth
     {
-        <span class="keyword">get</span> => _cropBoxWidth;
+        <span class="keyword">get</span> =&gt; _cropBoxWidth;
         <span class="keyword">set</span>
         {
             _cropBoxWidth = value;
@@ -431,7 +431,7 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
 
     <span class="keyword">private</span> <span class="keyword">decimal</span> CropBoxHeight
     {
-        <span class="keyword">get</span> => _cropBoxHeight;
+        <span class="keyword">get</span> =&gt; _cropBoxHeight;
         <span class="keyword">set</span>
         {
             _cropBoxHeight = value;
@@ -441,18 +441,18 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
     }
 }
 
-<style>
+&lt;style&gt;
     .big-img {
         max-height: 400px;
-        <span class="comment">/* This rule is very important, please don't ignore this */</span>
-        max-width: <span class="number">100</span>%;
+        <span class="comment">/* This rule is very important, please don&#39;t ignore this */</span>
+        max-width: <span>100</span>%;
     }
 
     .img-container {
         max-height: 400px;
-        max-width: <span class="number">100</span>%;
+        max-width: <span>100</span>%;
     }
-</style>
+&lt;/style&gt;
 </pre></div>
 </div>
 </div>
@@ -485,37 +485,37 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
     }
 </style></div></div><div class="docs-section-source outlined show-code"><div class="docs-section-source-container"><div class="mud-codeblock">
 <div class="html"><pre>
-<span class="atSign">@</span>using Cropper.Blazor.Models;
+<span class="at-sign">&#64;</span>using Cropper.Blazor.Models;
 
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">img-container</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">CropperComponent</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">big-img</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>ref</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropperComponent</span><span class="quot">"</span> <span class="htmlAttributeName">Src</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">images/Rivne.jpg</span><span class="quot">"</span>
-                      <span class="htmlAttributeName">Options</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropperOptions</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">div</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">img-container</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+    <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">CropperComponent</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">big-img</span><span class="quot">&quot;</span> <span class="html-attribute-name"><span class="at-sign">&#64;</span>ref</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">cropperComponent</span><span class="quot">&quot;</span> <span class="html-attribute-name">Src</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">images/Rivne.jpg</span><span class="quot">&quot;</span>
+                      <span class="html-attribute-name">Options</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">cropperOptions</span><span class="quot">&quot;</span> <span class="html-tag-delimiter">/&gt;</span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">div</span><span class="html-tag-delimiter">&gt;</span>
 </pre></div>
 <div class="csharp"><pre>
-<span class="atSign">@</span>code {
+<span class="at-sign">&#64;</span>code {
     <span class="keyword">private</span> CropperComponent? cropperComponent = <span class="keyword">null</span>!;
 
     <span class="keyword">private</span> Options cropperOptions = <span class="keyword">new</span> Options
     {
-        InitialAspectRatio = (<span class="keyword">decimal</span>)<span class="number">1</span>,
-        AspectRatio = <span class="number">0</span>,
+        InitialAspectRatio = (<span class="keyword">decimal</span>)<span>1</span>,
+        AspectRatio = <span>0</span>,
         ViewMode = ViewMode.Vm3
     };
 }
 
-<style>
+&lt;style&gt;
     .big-img {
         max-height: 400px;
-        <span class="comment">/* This rule is very important, please don't ignore this */</span>
-        max-width: <span class="number">100</span>%;
+        <span class="comment">/* This rule is very important, please don&#39;t ignore this */</span>
+        max-width: <span>100</span>%;
     }
 
     .img-container {
         max-height: 400px;
         max-width: 800px;
     }
-</style>
+&lt;/style&gt;
 </pre></div>
 </div>
 </div>
@@ -533,12 +533,12 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
                         option is set to <code style="" class="docs-code docs-code-primary ">0</code> (free ratio).
                     </div></div></div></p></div>
             <div class="docs-section-content outlined show-code"><div class="mud-toolbar mud-toolbar-gutters docs-section-content-toolbar outlined"><div class="flex-grow-1"></div><button type="button" class="mud-button-root mud-button mud-button-text mud-button-text-default mud-button-text-size-small mud-ripple" __internal_stopPropagation_onclick><span class="mud-button-label"><span class="mud-button-icon-start mud-button-icon-size-small"><svg class="mud-icon-root mud-svg-icon mud-icon-size-small" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><rect fill="none" height="24" width="24"/><path d="M19.17,12l-3.88-3.88c-0.39-0.39-0.39-1.02,0-1.41l0,0c0.39-0.39,1.02-0.39,1.41,0l4.59,4.59c0.39,0.39,0.39,1.02,0,1.41 l-2.88,2.88L17,14.17L19.17,12z M2.1,4.93l3.49,3.49l-2.88,2.88c-0.39,0.39-0.39,1.02,0,1.41l4.59,4.59c0.39,0.39,1.02,0.39,1.41,0 l0,0c0.39-0.39,0.39-1.02,0-1.41L4.83,12L7,9.83L19.07,21.9c0.39,0.39,1.02,0.39,1.41,0l0,0c0.39-0.39,0.39-1.02,0-1.41L3.51,3.51 c-0.39-0.39-1.02-0.39-1.41,0l0,0C1.71,3.91,1.71,4.54,2.1,4.93z"/></svg></span>Hide code</span></button></div><div class="docs-section-content-inner relative d-flex flex-grow-1 flex-wrap justify-center align-center px-8 pb-8 pt-2"><div class="mud-grid mud-grid-spacing-xs-3 justify-start"><div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-sm-8 mud-grid-item-md-8 mud-grid-item-lg-8"><div class="mud-paper mud-elevation-1 pa-2" style=""><div class="img-container"><img class="big-img" src="images/Odesa.jpg" /></div></div></div>
-    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-sm-4 mud-grid-item-md-4 mud-grid-item-lg-4"><div class="mud-paper mud-elevation-1 pa-2" style=""><div id="numericField_c11fe87e" class="mud-input-control mud-input-input-control mud-input-number-control mud-input-nospin mb-2"><div class="mud-input-control-input-container"><div class="mud-input mud-input-text mud-input-underline mud-shrink"><input class="mud-input-slot mud-input-root mud-input-root-text" type="text" value="1" readonly inputmode="numeric" pattern="[0-9,.\-]*" maxlength="524288" aria-invalid="false" /><div class="mud-input-slot mud-input-root mud-input-root-text" style="display:none" tabindex="-1"></div></div><label class="mud-input-label mud-input-label-animated mud-input-label-text mud-input-label-inputcontrol" for="mudinput-863f24ab-e1ce-48d0-9890-28498b2378a6">Min aspect ratio</label></div></div>
-            <div id="numericField_12074192" class="mud-input-control mud-input-input-control mud-input-number-control mud-input-nospin mb-2"><div class="mud-input-control-input-container"><div class="mud-input mud-input-text mud-input-underline mud-shrink"><input class="mud-input-slot mud-input-root mud-input-root-text" type="text" value="2" readonly inputmode="numeric" pattern="[0-9,.\-]*" maxlength="524288" aria-invalid="false" /><div class="mud-input-slot mud-input-root mud-input-root-text" style="display:none" tabindex="-1"></div></div><label class="mud-input-label mud-input-label-animated mud-input-label-text mud-input-label-inputcontrol" for="mudinput-efb3eb6e-568a-4449-89dc-ec75b81fb928">Max aspect ratio</label></div></div>
+    <div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-sm-4 mud-grid-item-md-4 mud-grid-item-lg-4"><div class="mud-paper mud-elevation-1 pa-2" style=""><div id="numericField_0d9b35dc" class="mud-input-control mud-input-input-control mud-input-number-control mud-input-nospin mb-2"><div class="mud-input-control-input-container"><div class="mud-input mud-input-text mud-input-underline mud-shrink"><input class="mud-input-slot mud-input-root mud-input-root-text" type="text" value="1" readonly inputmode="numeric" pattern="[0-9,.\-]*" maxlength="524288" aria-invalid="false" /><div class="mud-input-slot mud-input-root mud-input-root-text" style="display:none" tabindex="-1"></div></div><label class="mud-input-label mud-input-label-animated mud-input-label-text mud-input-label-inputcontrol" for="mudinput-53e8e2f9-9291-4f7d-aa4c-f7484313d98a">Min aspect ratio</label></div></div>
+            <div id="numericField_bcb6b19e" class="mud-input-control mud-input-input-control mud-input-number-control mud-input-nospin mb-2"><div class="mud-input-control-input-container"><div class="mud-input mud-input-text mud-input-underline mud-shrink"><input class="mud-input-slot mud-input-root mud-input-root-text" type="text" value="2" readonly inputmode="numeric" pattern="[0-9,.\-]*" maxlength="524288" aria-invalid="false" /><div class="mud-input-slot mud-input-root mud-input-root-text" style="display:none" tabindex="-1"></div></div><label class="mud-input-label mud-input-label-animated mud-input-label-text mud-input-label-inputcontrol" for="mudinput-9b3a98f4-ed01-4ba3-941a-24f8d3ffacbf">Max aspect ratio</label></div></div>
             <div class="d-flex gap-x-6 align-end mb-2"><div tabindex="0" class="mud-chip mud-chip-outlined mud-chip-size-medium mud-chip-color-primary flex-1 ma-0 mt-4"><span class="mud-chip-content">
                     Current aspect ratio:
                 </span></div>
-                <div id="numericField_7db53347" class="mud-input-control mud-input-input-control mud-input-number-control mud-input-nospin flex-1"><div class="mud-input-control-input-container"><div class="mud-input mud-input-text mud-input-underline mud-shrink"><input class="mud-input-slot mud-input-root mud-input-root-text" type="text" value="1.0000" readonly inputmode="numeric" pattern="[0-9,.\-]*" maxlength="524288" aria-invalid="false" /><div class="mud-input-slot mud-input-root mud-input-root-text" style="display:none" tabindex="-1"></div></div></div></div></div></div></div></div>
+                <div id="numericField_654fbdf7" class="mud-input-control mud-input-input-control mud-input-number-control mud-input-nospin flex-1"><div class="mud-input-control-input-container"><div class="mud-input mud-input-text mud-input-underline mud-shrink"><input class="mud-input-slot mud-input-root mud-input-root-text" type="text" value="1.0000" readonly inputmode="numeric" pattern="[0-9,.\-]*" maxlength="524288" aria-invalid="false" /><div class="mud-input-slot mud-input-root mud-input-root-text" style="display:none" tabindex="-1"></div></div></div></div></div></div></div></div>
 
 
 <style>
@@ -554,74 +554,74 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
     }
 </style></div></div><div class="docs-section-source outlined show-code"><div class="docs-section-source-container"><div class="mud-codeblock">
 <div class="html"><pre>
-<span class="atSign">@</span>using Cropper.Blazor.Models;
-<span class="atSign">@</span>using Cropper.Blazor.Events;
-<span class="atSign">@</span>using Cropper.Blazor.Events.CropMoveEvent;
+<span class="at-sign">&#64;</span>using Cropper.Blazor.Models;
+<span class="at-sign">&#64;</span>using Cropper.Blazor.Events;
+<span class="at-sign">&#64;</span>using Cropper.Blazor.Events.CropMoveEvent;
 
-<span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudGrid</span><span class="htmlTagDelimiter">></span>
-    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudItem</span> <span class="htmlAttributeName">xs</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">12</span><span class="quot">"</span> <span class="htmlAttributeName">sm</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">8</span><span class="quot">"</span> <span class="htmlAttributeName">md</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">8</span><span class="quot">"</span> <span class="htmlAttributeName">lg</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">8</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-        <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudPaper</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">pa-2</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-            <span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">img-container</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-                <span class="htmlTagDelimiter"><</span><span class="htmlElementName">CropperComponent</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">big-img</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>ref</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropperComponent</span><span class="quot">"</span> <span class="htmlAttributeName">Src</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">images/Odesa.jpg</span><span class="quot">"</span>
-                                  <span class="htmlAttributeName">Options</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">cropperOptions</span><span class="quot">"</span> <span class="htmlAttributeName">OnCropMoveEvent</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">OnCropMoveEvent</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
-            <span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
-        <span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudPaper</span><span class="htmlTagDelimiter">></span>
-    <span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudItem</span><span class="htmlTagDelimiter">></span>
-    <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudItem</span> <span class="htmlAttributeName">xs</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">12</span><span class="quot">"</span> <span class="htmlAttributeName">sm</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">4</span><span class="quot">"</span> <span class="htmlAttributeName">md</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">4</span><span class="quot">"</span> <span class="htmlAttributeName">lg</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">4</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-        <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudPaper</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">pa-2</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-            <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudNumericField</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">mb-2</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>bind-Value</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">minAspectRatio</span><span class="quot">"</span> <span class="htmlAttributeName">Label</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">Min aspect ratio</span><span class="quot">"</span>
-                             <span class="htmlAttributeName">ReadOnly</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="keyword">true</span><span class="quot">"</span> <span class="htmlAttributeName">HideSpinButtons</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="keyword">true</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-            <span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudNumericField</span><span class="htmlTagDelimiter">></span>
-            <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudNumericField</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">mb-2</span><span class="quot">"</span> <span class="htmlAttributeName"><span class="atSign">@</span>bind-Value</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">maxAspectRatio</span><span class="quot">"</span> <span class="htmlAttributeName">Label</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">Max aspect ratio</span><span class="quot">"</span>
-                             <span class="htmlAttributeName">ReadOnly</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="keyword">true</span><span class="quot">"</span> <span class="htmlAttributeName">HideSpinButtons</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="keyword">true</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-            <span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudNumericField</span><span class="htmlTagDelimiter">></span>
-            <span class="htmlTagDelimiter"><</span><span class="htmlElementName">div</span> <span class="htmlAttributeName">class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">d-flex gap-x-6 align-end mb-2</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
-                <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudChip</span> <span class="htmlAttributeName">Variant</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="enum">Variant</span><span class="enumValue">.Outlined</span><span class="quot">"</span> <span class="htmlAttributeName">Color</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="enum">Color</span><span class="enumValue">.Primary</span><span class="quot">"</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">flex-1 ma-0 mt-4</span><span class="quot">"</span><span class="htmlTagDelimiter">></span>
+<span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudGrid</span><span class="html-tag-delimiter">&gt;</span>
+    <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudItem</span> <span class="html-attribute-name">xs</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">12</span><span class="quot">&quot;</span> <span class="html-attribute-name">sm</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">8</span><span class="quot">&quot;</span> <span class="html-attribute-name">md</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">8</span><span class="quot">&quot;</span> <span class="html-attribute-name">lg</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">8</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+        <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudPaper</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">pa-2</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+            <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">div</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">img-container</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+                <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">CropperComponent</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">big-img</span><span class="quot">&quot;</span> <span class="html-attribute-name"><span class="at-sign">&#64;</span>ref</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">cropperComponent</span><span class="quot">&quot;</span> <span class="html-attribute-name">Src</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">images/Odesa.jpg</span><span class="quot">&quot;</span>
+                                  <span class="html-attribute-name">Options</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">cropperOptions</span><span class="quot">&quot;</span> <span class="html-attribute-name">OnCropMoveEvent</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">OnCropMoveEvent</span><span class="quot">&quot;</span> <span class="html-tag-delimiter">/&gt;</span>
+            <span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">div</span><span class="html-tag-delimiter">&gt;</span>
+        <span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">MudPaper</span><span class="html-tag-delimiter">&gt;</span>
+    <span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">MudItem</span><span class="html-tag-delimiter">&gt;</span>
+    <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudItem</span> <span class="html-attribute-name">xs</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">12</span><span class="quot">&quot;</span> <span class="html-attribute-name">sm</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">4</span><span class="quot">&quot;</span> <span class="html-attribute-name">md</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">4</span><span class="quot">&quot;</span> <span class="html-attribute-name">lg</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">4</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+        <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudPaper</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">pa-2</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+            <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudNumericField</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">mb-2</span><span class="quot">&quot;</span> <span class="html-attribute-name"><span class="at-sign">&#64;</span>bind-Value</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">minAspectRatio</span><span class="quot">&quot;</span> <span class="html-attribute-name">Label</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">Min aspect ratio</span><span class="quot">&quot;</span>
+                             <span class="html-attribute-name">ReadOnly</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="keyword">true</span><span class="quot">&quot;</span> <span class="html-attribute-name">HideSpinButtons</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="keyword">true</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+            <span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">MudNumericField</span><span class="html-tag-delimiter">&gt;</span>
+            <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudNumericField</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">mb-2</span><span class="quot">&quot;</span> <span class="html-attribute-name"><span class="at-sign">&#64;</span>bind-Value</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">maxAspectRatio</span><span class="quot">&quot;</span> <span class="html-attribute-name">Label</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">Max aspect ratio</span><span class="quot">&quot;</span>
+                             <span class="html-attribute-name">ReadOnly</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="keyword">true</span><span class="quot">&quot;</span> <span class="html-attribute-name">HideSpinButtons</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="keyword">true</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+            <span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">MudNumericField</span><span class="html-tag-delimiter">&gt;</span>
+            <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">div</span> <span class="html-attribute-name">class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">d-flex gap-x-6 align-end mb-2</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
+                <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudChip</span> <span class="html-attribute-name">Variant</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="enum">Variant</span><span class="enum-value">.Outlined</span><span class="quot">&quot;</span> <span class="html-attribute-name">Color</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="enum">Color</span><span class="enum-value">.Primary</span><span class="quot">&quot;</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">flex-1 ma-0 mt-4</span><span class="quot">&quot;</span><span class="html-tag-delimiter">&gt;</span>
                     Current aspect ratio:
-                <span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudChip</span><span class="htmlTagDelimiter">></span>
-                <span class="htmlTagDelimiter"><</span><span class="htmlElementName">MudNumericField</span> <span class="htmlAttributeName"><span class="atSign">@</span>bind-Value</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">CurrentAspectRatio</span><span class="quot">"</span> <span class="htmlAttributeName">Format</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">N4</span><span class="quot">"</span> <span class="htmlAttributeName">Variant</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="enum">Variant</span><span class="enumValue">.Text</span><span class="quot">"</span>
-                                 <span class="htmlAttributeName">HideSpinButtons</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="keyword">true</span><span class="quot">"</span> <span class="htmlAttributeName">ReadOnly</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="keyword">true</span><span class="quot">"</span> <span class="htmlAttributeName">Class</span><span class="htmlOperator">=</span><span class="quot">"</span><span class="htmlAttributeValue">flex-1</span><span class="quot">"</span> <span class="htmlTagDelimiter">/></span>
-            <span class="htmlTagDelimiter"></</span><span class="htmlElementName">div</span><span class="htmlTagDelimiter">></span>
-        <span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudPaper</span><span class="htmlTagDelimiter">></span>
-    <span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudItem</span><span class="htmlTagDelimiter">></span>
-<span class="htmlTagDelimiter"></</span><span class="htmlElementName">MudGrid</span><span class="htmlTagDelimiter">></span>
+                <span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">MudChip</span><span class="html-tag-delimiter">&gt;</span>
+                <span class="html-tag-delimiter">&lt;</span><span class="html-element-name">MudNumericField</span> <span class="html-attribute-name"><span class="at-sign">&#64;</span>bind-Value</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">CurrentAspectRatio</span><span class="quot">&quot;</span> <span class="html-attribute-name">Format</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">N4</span><span class="quot">&quot;</span> <span class="html-attribute-name">Variant</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="enum">Variant</span><span class="enum-value">.Text</span><span class="quot">&quot;</span>
+                                 <span class="html-attribute-name">HideSpinButtons</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="keyword">true</span><span class="quot">&quot;</span> <span class="html-attribute-name">ReadOnly</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="keyword">true</span><span class="quot">&quot;</span> <span class="html-attribute-name">Class</span><span class="html-operator">=</span><span class="quot">&quot;</span><span class="html-attribute-value">flex-1</span><span class="quot">&quot;</span> <span class="html-tag-delimiter">/&gt;</span>
+            <span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">div</span><span class="html-tag-delimiter">&gt;</span>
+        <span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">MudPaper</span><span class="html-tag-delimiter">&gt;</span>
+    <span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">MudItem</span><span class="html-tag-delimiter">&gt;</span>
+<span class="html-tag-delimiter">&lt;/</span><span class="html-element-name">MudGrid</span><span class="html-tag-delimiter">&gt;</span>
 </pre></div>
 <div class="csharp"><pre>
-<span class="atSign">@</span>code {
+<span class="at-sign">&#64;</span>code {
     <span class="keyword">private</span> CropperComponent? cropperComponent = <span class="keyword">null</span>!;
     <span class="keyword">private</span> CropperData currentCropperData = <span class="keyword">null</span>!;
 
     <span class="comment">// Minimum and maximum aspect ratio settings</span>
-    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">decimal</span>? minAspectRatio = <span class="number">1</span>;
-    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">decimal</span>? maxAspectRatio = <span class="number">2</span>;
+    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">decimal</span>? minAspectRatio = <span>1</span>;
+    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">decimal</span>? maxAspectRatio = <span>2</span>;
 
-    <span class="keyword">public</span> <span class="keyword">decimal</span> CurrentAspectRatio { <span class="keyword">get</span>; <span class="keyword">set</span>; } = <span class="number">1</span>;
+    <span class="keyword">public</span> <span class="keyword">decimal</span> CurrentAspectRatio { <span class="keyword">get</span>; <span class="keyword">set</span>; } = <span>1</span>;
 
     <span class="keyword">private</span> Options cropperOptions = <span class="keyword">new</span> Options
     {
-        InitialAspectRatio = (<span class="keyword">decimal</span>)<span class="number">1</span>,
-        AspectRatio = <span class="number">0</span>,
+        InitialAspectRatio = (<span class="keyword">decimal</span>)<span>1</span>,
+        AspectRatio = <span>0</span>,
         ViewMode = ViewMode.Vm3
     };
 
-    <span class="keyword">public</span> <span class="keyword">async</span> <span class="keyword">void</span> OnCropMoveEvent(JSEventData<CropMoveEvent> cropMoveJSEvent)
+    <span class="keyword">public</span> <span class="keyword">async</span> <span class="keyword">void</span> OnCropMoveEvent(JSEventData&lt;CropMoveEvent&gt; cropMoveJSEvent)
     {
         CropBoxData cropBoxData = <span class="keyword">await</span> cropperComponent!.GetCropBoxDataAsync();
 
-        <span class="keyword">if</span> (cropBoxData.Height != <span class="number">0</span>)
+        <span class="keyword">if</span> (cropBoxData.Height != <span>0</span>)
         {
             CurrentAspectRatio = cropBoxData.Width / cropBoxData.Height;
 
             <span class="keyword">if</span> (minAspectRatio <span class="keyword">is</span> not <span class="keyword">null</span> || maxAspectRatio <span class="keyword">is</span> not <span class="keyword">null</span>)
             {
-                <span class="keyword">if</span> (CurrentAspectRatio < minAspectRatio)
+                <span class="keyword">if</span> (CurrentAspectRatio &lt; minAspectRatio)
                 {
                     cropperComponent!.SetCropBoxData(<span class="keyword">new</span> SetCropBoxDataOptions
                         {
                             Width = cropBoxData.Height * minAspectRatio
                         });
                 }
-                <span class="keyword">else</span> <span class="keyword">if</span> (CurrentAspectRatio > maxAspectRatio)
+                <span class="keyword">else</span> <span class="keyword">if</span> (CurrentAspectRatio &gt; maxAspectRatio)
                 {
                     cropperComponent!.SetCropBoxData(<span class="keyword">new</span> SetCropBoxDataOptions
                         {
@@ -632,24 +632,24 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
         }
         <span class="keyword">else</span>
         {
-            CurrentAspectRatio = <span class="number">0</span>;
+            CurrentAspectRatio = <span>0</span>;
         }
         StateHasChanged();
     }
 }
 
-<style>
+&lt;style&gt;
     .big-img {
         max-height: 400px;
-        <span class="comment">/* This rule is very important, please don't ignore this */</span>
-        max-width: <span class="number">100</span>%;
+        <span class="comment">/* This rule is very important, please don&#39;t ignore this */</span>
+        max-width: <span>100</span>%;
     }
 
     .img-container {
         max-height: 400px;
-        max-width: <span class="number">100</span>%;
+        max-width: <span>100</span>%;
     }
-</style>
+&lt;/style&gt;
 </pre></div>
 </div>
 </div>
@@ -664,40 +664,40 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
 <!-- %%-PRERENDERING-END-%% -->
 </div>
 
-    <div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
-    </div>
-    <script src="decode.min.js"></script>
-    <script src="_framework/blazor.webassembly.js" autostart="false"></script>
-    <script>
-        Blazor.start({
-            loadBootResource: function (type, name, defaultUri, integrity) {
-                // For framework resources, use the precompressed .br files for faster downloads
-                // This is needed only because GitHub pages doesn't natively support Brotli (or even gzip for .dll files)
-                if (type !== 'dotnetjs' && location.hostname !== 'localhost') {
-                    return (async function () {
-                        const response = await fetch(defaultUri + '.br', { cache: 'no-cache' });
-                        if (!response.ok) {
-                            throw new Error(response.statusText);
-                        }
-                        const originalResponseBuffer = await response.arrayBuffer();
-                        const originalResponseArray = new Int8Array(originalResponseBuffer);
-                        const decompressedResponseArray = BrotliDecode(originalResponseArray);
-                        const contentType = type === 'dotnetwasm' ? 'application/wasm' : 'application/octet-stream';
-                        return new Response(decompressedResponseArray, { headers: { 'content-type': contentType } });
-                    })();
-                }
-            }
-        });
-    </script>
-    <script src="_content/MudBlazor/MudBlazor.min.js"></script>
-    <script src="_content/Cropper.Blazor/cropper.min.js"></script>
-    <script src="overrideCropperJsInteropModule.min.js"></script>
-    <script src="jsObjectModule.min.js"></script>
-    <script src="helper.min.js"></script>
-    <script src="sw-registrator.min.js"></script>
+	<div id="blazor-error-ui">
+		An unhandled error has occurred.
+		<a href="" class="reload">Reload</a>
+		<a class="dismiss">🗙</a>
+	</div>
+	<script src="decode.min.js"></script>
+	<script src="_framework/blazor.webassembly.js" autostart="false"></script>
+	<script>
+		Blazor.start({
+			loadBootResource: function (type, name, defaultUri, integrity) {
+				// For framework resources, use the precompressed .br files for faster downloads
+				// This is needed only because GitHub pages doesn't natively support Brotli (or even gzip for .dll files)
+				if (type !== 'dotnetjs' && location.hostname !== 'localhost') {
+					return (async function () {
+						const response = await fetch(defaultUri + '.br', { cache: 'no-cache' });
+						if (!response.ok) {
+							throw new Error(response.statusText);
+						}
+						const originalResponseBuffer = await response.arrayBuffer();
+						const originalResponseArray = new Int8Array(originalResponseBuffer);
+						const decompressedResponseArray = BrotliDecode(originalResponseArray);
+						const contentType = type === 'dotnetwasm' ? 'application/wasm' : 'application/octet-stream';
+						return new Response(decompressedResponseArray, { headers: { 'content-type': contentType } });
+					})();
+				}
+			}
+		});
+	</script>
+	<script src="_content/MudBlazor/MudBlazor.min.js"></script>
+	<script src="_content/Cropper.Blazor/cropper.min.js"></script>
+	<script src="overrideCropperJsInteropModule.min.js"></script>
+	<script src="jsObjectModule.min.js"></script>
+	<script src="helper.min.js"></script>
+	<script src="sw-registrator.min.js"></script>
 
 
 
