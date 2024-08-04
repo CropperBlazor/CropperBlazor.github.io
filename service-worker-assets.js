@@ -93,7 +93,7 @@
       "url": "images\/underwater-magic-world.jpeg"
     },
     {
-      "hash": "sha256-OO27U6eu6kygW7n9V+\/tITsSg8\/B6H2hvIjfgthFtyU=",
+      "hash": "sha256-+\/pnL4r10Rqrodf5WnkNoV8Dz\/tq1Swu5WirsuhURSs=",
       "url": "index.html"
     },
     {
@@ -153,7 +153,7 @@
       "url": "service-worker.published.js"
     },
     {
-      "hash": "sha256-Jk+Lyk9laDRO9pzTs6G7i16re8Ttd7fa8qr2e4jzBOM=",
+      "hash": "sha256-hSJoCrbNsgUIfSvhvqZhpbW3Mp6WG+QVgLYMTrXBvyo=",
       "url": "sitemap.xml"
     },
     {
@@ -197,7 +197,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-evr1w9MQmtH0k5AGUwFbhtY68bfBulvLYEKh9UXTAeI=",
+      "hash": "sha256-PT8KCzMMfk+FHiWohu9Anv6hzN\/qrdvXMLIZeYwKaWU=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -205,15 +205,15 @@
       "url": "_framework\/Blazored.LocalStorage.wasm"
     },
     {
-      "hash": "sha256-HDd0ojY6KUYrLu2q1nEEOkWv9Btk74sYTmILKOCJnic=",
+      "hash": "sha256-wmr1Ib\/7jsLwpQJxwqLdhoTfXNalAKg2ul5In+4LivA=",
       "url": "_framework\/Cropper.Blazor.Client.wasm"
     },
     {
-      "hash": "sha256-WpeaL7bpbWYD2HzaXLjx5DaLR\/gwFsyfE2JALs9cx2g=",
+      "hash": "sha256-T8mplWmIO+rXirkmumTmxvAVKCC+l5DTvbh3In\/4S7s=",
       "url": "_framework\/Cropper.Blazor.Shared.wasm"
     },
     {
-      "hash": "sha256-gwbL5ZdIktPJHpJPWe1E0CEe5wFGEav4jslurV16fn0=",
+      "hash": "sha256-6+8dMU6VwOUa\/VR5Kzgkx2XiwuBaVnakGP\/i21UcazY=",
       "url": "_framework\/Cropper.Blazor.wasm"
     },
     {
@@ -437,10 +437,6 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     },
     {
-      "hash": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4\/sNPbaRUspOLefkCY=",
-      "url": "_content\/Cropper.Blazor\/background.png"
-    },
-    {
       "hash": "sha256-5\/Swo19FpDAT2U7T6341mK0LvufKfNaUuhUaQyzTi\/Q=",
       "url": "_content\/Cropper.Blazor\/cropper.min.css"
     },
@@ -457,7 +453,7 @@
       "url": "_content\/Cropper.Blazor\/cropperJsInterop.min.js"
     },
     {
-      "hash": "sha256-N1PI0mM\/xyz7HMuVqqeMLt2bb+65re5w4jop968bjI0=",
+      "hash": "sha256-K4t1QWptfywYcEa8hGQT7d8AGv62by9IfMhyuctij8U=",
       "url": "demo\/index.html"
     },
     {
@@ -465,7 +461,7 @@
       "url": "examples\/cropperusage\/index.html"
     },
     {
-      "hash": "sha256-90LNaS4j+dJ4PhtMFADR7Yl3ZjndC7mhSJhc0HqeN9U=",
+      "hash": "sha256-m1\/WD+gE8wqwTpD1x7xL6\/T8Pc6jlq8EEA5HR9zDDTY=",
       "url": "examples\/viewmodes\/index.html"
     },
     {
@@ -473,15 +469,15 @@
       "url": "examples\/preview\/index.html"
     },
     {
-      "hash": "sha256-tzYPyvOpSGVsAKnMU6qqn8qrbnPiyRiDEXXe3G3ZQto=",
+      "hash": "sha256-exC+4E5l8S32DbgN8D+RblLBW4eXOAQw1nU0meQAgsg=",
       "url": "examples\/dimensions\/index.html"
     },
     {
-      "hash": "sha256-1SN905MK8mIN17surNq34JiuKw4+4IUyPSFZgcWIfOY=",
+      "hash": "sha256-ofTa+eTsKXZ6lF6wbvN99i+LXSgdT\/k0gYM2vu41kLM=",
       "url": "examples\/aspectratio\/index.html"
     },
     {
-      "hash": "sha256-mFoSmfdncnJiydDTq1+NAvGOA7AucZnUQ71F7KXvOYQ=",
+      "hash": "sha256-wWK+JHJwCBgSxcrxIv3kV9d8hTxyhhDmvhoGz4aVXFA=",
       "url": "examples\/zooming\/index.html"
     },
     {
@@ -497,7 +493,7 @@
       "url": "examples\/rebuild\/index.html"
     },
     {
-      "hash": "sha256-iR1imBZbEcYQWPbl9VyQHG9yvMeK7LYHGDABa8FJ3O4=",
+      "hash": "sha256-5WlLP8FHS+98mE1GNBZBBe+xSfVUVpKvTlrT7d+CcoM=",
       "url": "api\/index.html"
     },
     {
@@ -513,7 +509,7 @@
       "url": "api\/CropperComponentType\/index.html"
     },
     {
-      "hash": "sha256-o7eWLfDo\/RvB9gtVh09ATPnMkh57Wh2J5\/kKeQFWvXk=",
+      "hash": "sha256-jdADQOn8M1w5zi8OerMemXbVjAZQn0w+91Aiez0\/h1Q=",
       "url": "api\/Options\/index.html"
     },
     {
@@ -577,7 +573,7 @@
       "url": "api\/JSEventData\/index.html"
     },
     {
-      "hash": "sha256-lNEAbL6jEB4NkMB6z88IyXyrMFTrRTkuvcwH8nNJuZI=",
+      "hash": "sha256-WuCvcUNz0fVO+s9zRtiifr3pY1k\/toe4wVmFubsEkNc=",
       "url": "about\/index.html"
     },
     {
@@ -585,5 +581,5 @@
       "url": "releases\/index.html"
     }
   ],
-  "version": "M4zyEdMR"
+  "version": "p9rDjR0g"
 };
