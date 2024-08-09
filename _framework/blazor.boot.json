@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Cropper.Blazor.Client",
   "resources": {
-    "hash": "sha256-LfE/e3Tj1F0IMvStw3sQQC54GGV6jx0AFtrJX2zyajY=",
+    "hash": "sha256-YQp0uDiQPMHwKxRPB73+v/slg3go1FhfWgo7kh2GgHM=",
     "jsModuleNative": {
       "dotnet.native.8.0.7.pvkr2na9g4.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
     },
@@ -18,9 +18,9 @@
     },
     "assembly": {
       "Blazored.LocalStorage.wasm": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=",
-      "Cropper.Blazor.Client.wasm": "sha256-ozIZxf8Rpry9hU0ZmE3puAV/Mv4V8Si0UyMnEAAlUlM=",
-      "Cropper.Blazor.Shared.wasm": "sha256-79bhd9uy6sdcbkl2H5VxUzgrsx/nal8sEz12sQ9nuns=",
-      "Cropper.Blazor.wasm": "sha256-SXG0ghEsW2z4pyuGjzKcEoW2JEQ2gwh0eiOVdp2PAe0=",
+      "Cropper.Blazor.Client.wasm": "sha256-w7SFDrJjfpmB8wGq9pmdb9xEkvkhO9b9O3MyiN/v9+c=",
+      "Cropper.Blazor.Shared.wasm": "sha256-qgMx0f+d6XvUUFXv1USONgSrrMBo4shXFvYdG4+IqqQ=",
+      "Cropper.Blazor.wasm": "sha256-m76CyVwX7fq8g4Dso6MrWKQtaBwEVd4+XWaXYMACqPI=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-TH9t55hhPiwEWEKPMgKzN713ohMRR0rxDyxMtjvf7GI=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-FObKAnaN9D0vOHVjplwKxGzD1r9Ky3WB6mmmqsxmVGM=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-lfzdXdK28hV+v3KMW5mE3gGuIa6yajwah5pDGQ+duxE=",
@@ -39,7 +39,7 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-Ms2HR5Gpug/0uRAzdk4SUNT76Ml3CjFv9Jo+dUIMGac=",
       "Microsoft.JSInterop.wasm": "sha256-nfQys9weVxvNEBDKOAhh2/HKuIPG0BYvz72aAdfaYnE=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-rhDkGvVEd5YGb2JsVk1xQC7gCF8TXNfpDfo9dGFhuyI=",
-      "MudBlazor.wasm": "sha256-zsl2ZgKSF9IHpnc/xX/pwzPpWBHUe3AT+E3Guu1Wbkk=",
+      "MudBlazor.wasm": "sha256-hTogJod2D29pVfUjB+bzt7Tr0zTi9OP8cZl5f+sFzvI=",
       "System.Collections.Concurrent.wasm": "sha256-ujVIxMdSrceBOuT1CBppK6ER1vAZA2bNeLGaBdTH6e4=",
       "System.Collections.Immutable.wasm": "sha256-MpsjpWfZ79dWh/kGW4lFNuB7LV4cLOisnGsHorTd0EM=",
       "System.Collections.NonGeneric.wasm": "sha256-IiRi9wktZyZQMFO3IwWik7BhxThbUF415WTnh9Qghuc=",
