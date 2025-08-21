@@ -63,9 +63,14 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
     .mud-chart-serie:hover {
         filter: url(#lighten);
     }
+
+    .mud-chart-serie-hovered 
+    {
+        filter: url(#lighten);
+    }
 </style>
 
-<style>
+<style class='mud-theme-provider'>
 :root{
 --mud-palette-black: rgba(17,14,45,1);
 --mud-palette-white: rgba(255,255,255,1);
@@ -147,6 +152,7 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
 --mud-palette-gray-darker: #616161;
 --mud-palette-overlay-dark: rgba(33,33,33,0.4980392156862745);
 --mud-palette-overlay-light: rgba(255,255,255,0.4980392156862745);
+--mud-palette-border-opacity: 1;
 --mud-ripple-color: var(--mud-palette-text-primary);
 --mud-ripple-opacity: 0.1;
 --mud-ripple-opacity-secondary: 0.2;
@@ -182,91 +188,85 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
 --mud-drawer-width-mini-left: 56px;
 --mud-drawer-width-mini-right: 56px;
 --mud-appbar-height: 64px;
---mud-typography-default-family: 'Roboto','Helvetica','Arial','sans-serif';
+--mud-typography-default-family: Roboto, Helvetica, Arial, sans-serif;
 --mud-typography-default-size: .875rem;
 --mud-typography-default-weight: 400;
 --mud-typography-default-lineheight: 1.43;
 --mud-typography-default-letterspacing: .01071em;
 --mud-typography-default-text-transform: none;
---mud-typography-h1-family: 'Roboto','Helvetica','Arial','sans-serif';
+--mud-typography-h1-family: Roboto, Helvetica, Arial, sans-serif;
 --mud-typography-h1-size: 6rem;
 --mud-typography-h1-weight: 300;
 --mud-typography-h1-lineheight: 1.167;
 --mud-typography-h1-letterspacing: -.01562em;
 --mud-typography-h1-text-transform: none;
---mud-typography-h2-family: 'Roboto','Helvetica','Arial','sans-serif';
+--mud-typography-h2-family: Roboto, Helvetica, Arial, sans-serif;
 --mud-typography-h2-size: 3.75rem;
 --mud-typography-h2-weight: 300;
 --mud-typography-h2-lineheight: 1.2;
 --mud-typography-h2-letterspacing: -.00833em;
 --mud-typography-h2-text-transform: none;
---mud-typography-h3-family: 'Roboto','Helvetica','Arial','sans-serif';
+--mud-typography-h3-family: Roboto, Helvetica, Arial, sans-serif;
 --mud-typography-h3-size: 3rem;
 --mud-typography-h3-weight: 400;
 --mud-typography-h3-lineheight: 1.167;
 --mud-typography-h3-letterspacing: 0;
 --mud-typography-h3-text-transform: none;
---mud-typography-h4-family: 'Roboto','Helvetica','Arial','sans-serif';
+--mud-typography-h4-family: Roboto, Helvetica, Arial, sans-serif;
 --mud-typography-h4-size: 2.125rem;
 --mud-typography-h4-weight: 400;
 --mud-typography-h4-lineheight: 1.235;
 --mud-typography-h4-letterspacing: .00735em;
 --mud-typography-h4-text-transform: none;
---mud-typography-h5-family: 'Roboto','Helvetica','Arial','sans-serif';
+--mud-typography-h5-family: Roboto, Helvetica, Arial, sans-serif;
 --mud-typography-h5-size: 1.5rem;
 --mud-typography-h5-weight: 400;
 --mud-typography-h5-lineheight: 1.334;
 --mud-typography-h5-letterspacing: 0;
 --mud-typography-h5-text-transform: none;
---mud-typography-h6-family: 'Roboto','Helvetica','Arial','sans-serif';
+--mud-typography-h6-family: Roboto, Helvetica, Arial, sans-serif;
 --mud-typography-h6-size: 1.25rem;
 --mud-typography-h6-weight: 500;
 --mud-typography-h6-lineheight: 1.6;
 --mud-typography-h6-letterspacing: .0075em;
 --mud-typography-h6-text-transform: none;
---mud-typography-subtitle1-family: 'Roboto','Helvetica','Arial','sans-serif';
+--mud-typography-subtitle1-family: Roboto, Helvetica, Arial, sans-serif;
 --mud-typography-subtitle1-size: 1rem;
 --mud-typography-subtitle1-weight: 400;
 --mud-typography-subtitle1-lineheight: 1.75;
 --mud-typography-subtitle1-letterspacing: .00938em;
 --mud-typography-subtitle1-text-transform: none;
---mud-typography-subtitle2-family: 'Roboto','Helvetica','Arial','sans-serif';
+--mud-typography-subtitle2-family: Roboto, Helvetica, Arial, sans-serif;
 --mud-typography-subtitle2-size: .875rem;
 --mud-typography-subtitle2-weight: 500;
 --mud-typography-subtitle2-lineheight: 1.57;
 --mud-typography-subtitle2-letterspacing: .00714em;
 --mud-typography-subtitle2-text-transform: none;
---mud-typography-body1-family: 'Roboto','Helvetica','Arial','sans-serif';
+--mud-typography-body1-family: Roboto, Helvetica, Arial, sans-serif;
 --mud-typography-body1-size: 1rem;
 --mud-typography-body1-weight: 400;
 --mud-typography-body1-lineheight: 1.5;
 --mud-typography-body1-letterspacing: .00938em;
 --mud-typography-body1-text-transform: none;
---mud-typography-body2-family: 'Roboto','Helvetica','Arial','sans-serif';
+--mud-typography-body2-family: Roboto, Helvetica, Arial, sans-serif;
 --mud-typography-body2-size: .875rem;
 --mud-typography-body2-weight: 400;
 --mud-typography-body2-lineheight: 1.43;
 --mud-typography-body2-letterspacing: .01071em;
 --mud-typography-body2-text-transform: none;
---mud-typography-input-family: 'Roboto','Helvetica','Arial','sans-serif';
---mud-typography-input-size: 1rem;
---mud-typography-input-weight: 400;
---mud-typography-input-lineheight: 1.1876;
---mud-typography-input-letterspacing: .00938em;
---mud-typography-input-text-transform: none;
---mud-typography-button-family: 'Roboto','Helvetica','Arial','sans-serif';
+--mud-typography-button-family: Roboto, Helvetica, Arial, sans-serif;
 --mud-typography-button-size: .875rem;
 --mud-typography-button-weight: 500;
 --mud-typography-button-lineheight: 1.75;
 --mud-typography-button-letterspacing: .02857em;
 --mud-typography-button-text-transform: uppercase;
---mud-typography-caption-family: 'Roboto','Helvetica','Arial','sans-serif';
+--mud-typography-caption-family: Roboto, Helvetica, Arial, sans-serif;
 --mud-typography-caption-size: .75rem;
 --mud-typography-caption-weight: 400;
 --mud-typography-caption-lineheight: 1.66;
 --mud-typography-caption-letterspacing: .03333em;
 --mud-typography-caption-text-transform: none;
---mud-typography-overline-family: 'Roboto','Helvetica','Arial','sans-serif';
+--mud-typography-overline-family: Roboto, Helvetica, Arial, sans-serif;
 --mud-typography-overline-size: .75rem;
 --mud-typography-overline-weight: 400;
 --mud-typography-overline-lineheight: 2.66;
@@ -291,10 +291,10 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
     <aside class="mud-drawer mud-drawer-fixed mud-drawer-pos-left mud-drawer--open mud-drawer--initial mud-drawer-lg mud-drawer-clipped-docked mud-elevation-0 mud-drawer-responsive" style=""><div class="mud-drawer-content">
         <nav class="mud-navmenu mud-navmenu-primary mud-navmenu-margin-dense mud-navmenu-dense mud-navmenu-rounded pa-2 overflow-auto mb-3"><p class="mud-typography mud-typography-subtitle1 mt-1 mb-2 ml-2 d-flex d-md-none"><b>Docs</b></p>
 <div class="mud-nav-item docs-single-link"><a href="demo" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Demo</div></a></div>
-<nav class="mud-nav-group" aria-label="Examples"><button tabindex="0" class="mud-nav-link mud-ripple" aria-controls="atfzcmnc0" aria-expanded="false" aria-label="Toggle Examples"><div Class="mud-nav-link-text">Examples</div><svg class="mud-icon-root mud-svg-icon mud-icon-size-medium mud-nav-link-expand-icon" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="img"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></button>
-    <div aria-hidden="true" class="mud-collapse-container mud-navgroup-collapse" style=""><div class="mud-collapse-wrapper"><div class="mud-collapse-wrapper-inner"><nav id="atfzcmnc0" class="mud-navmenu mud-navmenu-default mud-navmenu-margin-none"><div class="mud-nav-item"><a href="examples/cropperusage" rel="" tabindex="-1" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Basic Usage</div></a></div><div class="mud-nav-item"><a href="examples/viewmodes" rel="" tabindex="-1" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">View Modes</div></a></div><div class="mud-nav-item"><a href="examples/preview" rel="" tabindex="-1" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Preview</div></a></div><div class="mud-nav-item"><a href="examples/dimensions" rel="" tabindex="-1" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Crop Box Dimensions</div></a></div><div class="mud-nav-item"><a href="examples/aspectratio" rel="" tabindex="-1" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Aspect Ratio</div></a></div><div class="mud-nav-item"><a href="examples/zooming" rel="" tabindex="-1" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Zooming</div></a></div><div class="mud-nav-item"><a href="examples/cropping" rel="" tabindex="-1" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Cropping</div></a></div><div class="mud-nav-item"><a href="examples/replacing" rel="" tabindex="-1" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Replacing</div></a></div><div class="mud-nav-item"><a href="examples/rebuild" rel="" tabindex="-1" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Rebuild cropper</div></a></div></nav></div></div></div></nav>
-<nav class="mud-nav-group" aria-label="API"><button tabindex="0" class="mud-nav-link mud-ripple mud-expanded" aria-controls="amucqe38i" aria-expanded="true" aria-label="Toggle API"><div Class="mud-nav-link-text">API</div><svg class="mud-icon-root mud-svg-icon mud-icon-size-medium mud-nav-link-expand-icon mud-transform" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="img"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></button>
-    <div aria-hidden="false" class="mud-collapse-container mud-collapse-entered mud-navgroup-collapse" style="height:auto;"><div class="mud-collapse-wrapper"><div class="mud-collapse-wrapper-inner"><nav id="amucqe38i" class="mud-navmenu mud-navmenu-default mud-navmenu-margin-none"><div class="docs-css-api-header"></div><div class="mud-nav-item"><a href="api" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">CropperComponent</div></a></div><div class="mud-nav-item"><a href="api/ViewMode" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">ViewMode</div></a></div><div class="mud-nav-item"><a href="api/DragMode" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">DragMode</div></a></div><div class="mud-nav-item"><a href="api/CropperComponentType" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">CropperComponentType</div></a></div><div class="docs-css-api-header">Options</div><div class="mud-nav-item"><a href="api/Options" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Options</div></a></div><div class="mud-nav-item"><a href="api/GetCroppedCanvasOptions" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">GetCroppedCanvasOptions</div></a></div><div class="mud-nav-item"><a href="api/SetCropBoxDataOptions" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">SetCropBoxDataOptions</div></a></div><div class="mud-nav-item"><a href="api/SetCanvasDataOptions" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">SetCanvasDataOptions</div></a></div><div class="mud-nav-item"><a href="api/SetDataOptions" rel="" tabindex="0" class="mud-nav-link mud-ripple active" aria-current="page"><div class="mud-nav-link-text">SetDataOptions</div></a></div><div class="docs-css-api-header">Event</div><div class="mud-nav-item"><a href="api/CropEndEvent" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">CropEndEvent</div></a></div><div class="mud-nav-item"><a href="api/CropMoveEvent" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">CropMoveEvent</div></a></div><div class="mud-nav-item"><a href="api/CropStartEvent" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">CropStartEvent</div></a></div><div class="mud-nav-item"><a href="api/CropReadyEvent" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">CropReadyEvent</div></a></div><div class="mud-nav-item"><a href="api/ZoomEvent" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">ZoomEvent</div></a></div><div class="docs-css-api-header">Data</div><div class="mud-nav-item"><a href="api/CropperData" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">CropperData</div></a></div><div class="mud-nav-item"><a href="api/ImageData" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">ImageData</div></a></div><div class="mud-nav-item"><a href="api/ContainerData" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">ContainerData</div></a></div><div class="mud-nav-item"><a href="api/CanvasData" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">CanvasData</div></a></div><div class="mud-nav-item"><a href="api/CropBoxData" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">CropBoxData</div></a></div><div class="mud-nav-item"><a href="api/JSEventData" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">JSEventData</div></a></div></nav></div></div></div></nav></nav></div></aside>
+<nav class="mud-nav-group" aria-label="Examples"><button tabindex="0" class="mud-nav-link mud-ripple" aria-controls="aoex73z6p" aria-expanded="false" aria-label="Toggle Examples"><div Class="mud-nav-link-text">Examples</div><svg class="mud-icon-root mud-svg-icon mud-icon-size-medium mud-nav-link-expand-icon" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="img"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></button>
+    <div aria-hidden="true" class="mud-collapse-container mud-navgroup-collapse" style=""><div class="mud-collapse-wrapper"><div class="mud-collapse-wrapper-inner"><nav id="aoex73z6p" class="mud-navmenu mud-navmenu-default mud-navmenu-margin-none"><div class="mud-nav-item"><a href="examples/cropperusage" rel="" tabindex="-1" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Basic Usage</div></a></div><div class="mud-nav-item"><a href="examples/viewmodes" rel="" tabindex="-1" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">View Modes</div></a></div><div class="mud-nav-item"><a href="examples/preview" rel="" tabindex="-1" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Preview</div></a></div><div class="mud-nav-item"><a href="examples/dimensions" rel="" tabindex="-1" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Crop Box Dimensions</div></a></div><div class="mud-nav-item"><a href="examples/aspectratio" rel="" tabindex="-1" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Aspect Ratio</div></a></div><div class="mud-nav-item"><a href="examples/zooming" rel="" tabindex="-1" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Zooming</div></a></div><div class="mud-nav-item"><a href="examples/cropping" rel="" tabindex="-1" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Cropping</div></a></div><div class="mud-nav-item"><a href="examples/replacing" rel="" tabindex="-1" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Replacing</div></a></div><div class="mud-nav-item"><a href="examples/rebuild" rel="" tabindex="-1" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Rebuild cropper</div></a></div></nav></div></div></div></nav>
+<nav class="mud-nav-group" aria-label="API"><button tabindex="0" class="mud-nav-link mud-ripple mud-expanded" aria-controls="aplix6ypy" aria-expanded="true" aria-label="Toggle API"><div Class="mud-nav-link-text">API</div><svg class="mud-icon-root mud-svg-icon mud-icon-size-medium mud-nav-link-expand-icon mud-transform" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="img"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></button>
+    <div aria-hidden="false" class="mud-collapse-container mud-collapse-entering mud-navgroup-collapse" style=""><div class="mud-collapse-wrapper"><div class="mud-collapse-wrapper-inner"><nav id="aplix6ypy" class="mud-navmenu mud-navmenu-default mud-navmenu-margin-none"><div class="docs-css-api-header"></div><div class="mud-nav-item"><a href="api" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">CropperComponent</div></a></div><div class="mud-nav-item"><a href="api/ViewMode" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">ViewMode</div></a></div><div class="mud-nav-item"><a href="api/DragMode" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">DragMode</div></a></div><div class="mud-nav-item"><a href="api/CropperComponentType" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">CropperComponentType</div></a></div><div class="docs-css-api-header">Options</div><div class="mud-nav-item"><a href="api/Options" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">Options</div></a></div><div class="mud-nav-item"><a href="api/GetCroppedCanvasOptions" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">GetCroppedCanvasOptions</div></a></div><div class="mud-nav-item"><a href="api/SetCropBoxDataOptions" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">SetCropBoxDataOptions</div></a></div><div class="mud-nav-item"><a href="api/SetCanvasDataOptions" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">SetCanvasDataOptions</div></a></div><div class="mud-nav-item"><a href="api/SetDataOptions" rel="" tabindex="0" class="mud-nav-link mud-ripple active" aria-current="page"><div class="mud-nav-link-text">SetDataOptions</div></a></div><div class="docs-css-api-header">Event</div><div class="mud-nav-item"><a href="api/CropEndEvent" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">CropEndEvent</div></a></div><div class="mud-nav-item"><a href="api/CropMoveEvent" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">CropMoveEvent</div></a></div><div class="mud-nav-item"><a href="api/CropStartEvent" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">CropStartEvent</div></a></div><div class="mud-nav-item"><a href="api/CropReadyEvent" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">CropReadyEvent</div></a></div><div class="mud-nav-item"><a href="api/ZoomEvent" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">ZoomEvent</div></a></div><div class="docs-css-api-header">Data</div><div class="mud-nav-item"><a href="api/CropperData" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">CropperData</div></a></div><div class="mud-nav-item"><a href="api/ImageData" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">ImageData</div></a></div><div class="mud-nav-item"><a href="api/ContainerData" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">ContainerData</div></a></div><div class="mud-nav-item"><a href="api/CanvasData" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">CanvasData</div></a></div><div class="mud-nav-item"><a href="api/CropBoxData" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">CropBoxData</div></a></div><div class="mud-nav-item"><a href="api/JSEventData" rel="" tabindex="0" class="mud-nav-link mud-ripple"><div class="mud-nav-link-text">JSEventData</div></a></div></nav></div></div></div></nav></nav></div></aside>
 
     
 <div class="mud-main-content mb-8"><div class="mud-container mud-container-maxwidth-lg mud-container--gutters"><div id="docspage" class="docs-page"><div class="docs-page-header mt-6 mb-12"><h4 class="mud-typography mud-typography-h4">Cropper Component API</h4>
@@ -306,33 +306,33 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
 <div class="mud-table mud-sm-table mud-elevation-0 ma-0 mud-width-full"><div class="mud-table-container " style=" "><table class="mud-table-root"><thead class="mud-table-head"><tr class="mud-table-row"><th scope="col" class="mud-table-cell">Name</th>
                             <th scope="col" class="mud-table-cell">Type</th>
                             <td class="mud-table-cell">Default</td>
-                            <th scope="col" class="mud-table-cell">Description</th></tr></thead><tbody class="mud-table-body"><tr class="mud-table-row" style=""><td data-label="Name" class="mud-table-cell docs-content-api-cell"><code style="" class="docs-code docs-code-primary ">Height</code></td>
-                            <td data-label="Type" class="mud-table-cell docs-content-api-cell"><div style="display: inline-flex; flex-direction: row; align-items: center; white-space: nowrap;">decimal?</div></td>
-                            <td data-label="Default" class="mud-table-cell docs-content-api-cell">null</td>
+                            <th scope="col" class="mud-table-cell">Description</th></tr></thead><tbody class="mud-table-body"><tr class="mud-table-row" style=""><td data-label="Name" class="mud-table-cell  docs-content-api-cell"><code style="" class="docs-code docs-code-primary ">Height</code></td>
+                            <td data-label="Type" class="mud-table-cell  docs-content-api-cell"><div style="display: inline-flex; flex-direction: row; align-items: center; white-space: nowrap;">decimal?</div></td>
+                            <td data-label="Default" class="mud-table-cell  docs-content-api-cell">null</td>
                             
-                            </tr><tr class="mud-table-row" style=""><td data-label="Name" class="mud-table-cell docs-content-api-cell"><code style="" class="docs-code docs-code-primary ">Rotate</code></td>
-                            <td data-label="Type" class="mud-table-cell docs-content-api-cell"><div style="display: inline-flex; flex-direction: row; align-items: center; white-space: nowrap;">decimal?</div></td>
-                            <td data-label="Default" class="mud-table-cell docs-content-api-cell">null</td>
+                            </tr><tr class="mud-table-row" style=""><td data-label="Name" class="mud-table-cell  docs-content-api-cell"><code style="" class="docs-code docs-code-primary ">Rotate</code></td>
+                            <td data-label="Type" class="mud-table-cell  docs-content-api-cell"><div style="display: inline-flex; flex-direction: row; align-items: center; white-space: nowrap;">decimal?</div></td>
+                            <td data-label="Default" class="mud-table-cell  docs-content-api-cell">null</td>
                             
-                            </tr><tr class="mud-table-row" style=""><td data-label="Name" class="mud-table-cell docs-content-api-cell"><code style="" class="docs-code docs-code-primary ">ScaleX</code></td>
-                            <td data-label="Type" class="mud-table-cell docs-content-api-cell"><div style="display: inline-flex; flex-direction: row; align-items: center; white-space: nowrap;">decimal?</div></td>
-                            <td data-label="Default" class="mud-table-cell docs-content-api-cell">null</td>
+                            </tr><tr class="mud-table-row" style=""><td data-label="Name" class="mud-table-cell  docs-content-api-cell"><code style="" class="docs-code docs-code-primary ">ScaleX</code></td>
+                            <td data-label="Type" class="mud-table-cell  docs-content-api-cell"><div style="display: inline-flex; flex-direction: row; align-items: center; white-space: nowrap;">decimal?</div></td>
+                            <td data-label="Default" class="mud-table-cell  docs-content-api-cell">null</td>
                             
-                            </tr><tr class="mud-table-row" style=""><td data-label="Name" class="mud-table-cell docs-content-api-cell"><code style="" class="docs-code docs-code-primary ">ScaleY</code></td>
-                            <td data-label="Type" class="mud-table-cell docs-content-api-cell"><div style="display: inline-flex; flex-direction: row; align-items: center; white-space: nowrap;">decimal?</div></td>
-                            <td data-label="Default" class="mud-table-cell docs-content-api-cell">null</td>
+                            </tr><tr class="mud-table-row" style=""><td data-label="Name" class="mud-table-cell  docs-content-api-cell"><code style="" class="docs-code docs-code-primary ">ScaleY</code></td>
+                            <td data-label="Type" class="mud-table-cell  docs-content-api-cell"><div style="display: inline-flex; flex-direction: row; align-items: center; white-space: nowrap;">decimal?</div></td>
+                            <td data-label="Default" class="mud-table-cell  docs-content-api-cell">null</td>
                             
-                            </tr><tr class="mud-table-row" style=""><td data-label="Name" class="mud-table-cell docs-content-api-cell"><code style="" class="docs-code docs-code-primary ">Width</code></td>
-                            <td data-label="Type" class="mud-table-cell docs-content-api-cell"><div style="display: inline-flex; flex-direction: row; align-items: center; white-space: nowrap;">decimal?</div></td>
-                            <td data-label="Default" class="mud-table-cell docs-content-api-cell">null</td>
+                            </tr><tr class="mud-table-row" style=""><td data-label="Name" class="mud-table-cell  docs-content-api-cell"><code style="" class="docs-code docs-code-primary ">Width</code></td>
+                            <td data-label="Type" class="mud-table-cell  docs-content-api-cell"><div style="display: inline-flex; flex-direction: row; align-items: center; white-space: nowrap;">decimal?</div></td>
+                            <td data-label="Default" class="mud-table-cell  docs-content-api-cell">null</td>
                             
-                            </tr><tr class="mud-table-row" style=""><td data-label="Name" class="mud-table-cell docs-content-api-cell"><code style="" class="docs-code docs-code-primary ">X</code></td>
-                            <td data-label="Type" class="mud-table-cell docs-content-api-cell"><div style="display: inline-flex; flex-direction: row; align-items: center; white-space: nowrap;">decimal?</div></td>
-                            <td data-label="Default" class="mud-table-cell docs-content-api-cell">null</td>
+                            </tr><tr class="mud-table-row" style=""><td data-label="Name" class="mud-table-cell  docs-content-api-cell"><code style="" class="docs-code docs-code-primary ">X</code></td>
+                            <td data-label="Type" class="mud-table-cell  docs-content-api-cell"><div style="display: inline-flex; flex-direction: row; align-items: center; white-space: nowrap;">decimal?</div></td>
+                            <td data-label="Default" class="mud-table-cell  docs-content-api-cell">null</td>
                             
-                            </tr><tr class="mud-table-row" style=""><td data-label="Name" class="mud-table-cell docs-content-api-cell"><code style="" class="docs-code docs-code-primary ">Y</code></td>
-                            <td data-label="Type" class="mud-table-cell docs-content-api-cell"><div style="display: inline-flex; flex-direction: row; align-items: center; white-space: nowrap;">decimal?</div></td>
-                            <td data-label="Default" class="mud-table-cell docs-content-api-cell">null</td>
+                            </tr><tr class="mud-table-row" style=""><td data-label="Name" class="mud-table-cell  docs-content-api-cell"><code style="" class="docs-code docs-code-primary ">Y</code></td>
+                            <td data-label="Type" class="mud-table-cell  docs-content-api-cell"><div style="display: inline-flex; flex-direction: row; align-items: center; white-space: nowrap;">decimal?</div></td>
+                            <td data-label="Default" class="mud-table-cell  docs-content-api-cell">null</td>
                             
                             </tr></tbody></table></div></div></div></div></div></div></div></div><div class="mud-container mud-container-maxwidth-lg mud-container--gutters mt-8"><div role="toolbar" class="mud-toolbar mud-toolbar-dense mud-toolbar-wrap-content"><p class="mud-typography mud-typography-body1">Copyright © 2022-2025 <span class="text-gradient">Cropper.Blazor</span></p>
                 <div aria-hidden="true" class="flex-grow-1"></div>
