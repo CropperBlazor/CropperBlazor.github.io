@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Cropper.Blazor.Client",
   "resources": {
-    "hash": "sha256-2tx0VFPtuNQHvomYIEFtyiUT2DKivZJ4cJalZPZEc+I=",
+    "hash": "sha256-7p80jBRJoz+5+oISjcPCMrccS6q3FFPPA/WcBCnFWoc=",
     "fingerprinting": {
       "Blazored.LocalStorage.12n6dz54qr.wasm": "Blazored.LocalStorage.wasm",
       "Microsoft.AspNetCore.Components.7ledn0dnza.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -58,9 +58,9 @@
       "System.Xml.ReaderWriter.0odvv2554x.wasm": "System.Xml.ReaderWriter.wasm",
       "System.t4d4s3f398.wasm": "System.wasm",
       "System.Private.CoreLib.ctzteenp80.wasm": "System.Private.CoreLib.wasm",
-      "Cropper.Blazor.c6cbvcb2ls.wasm": "Cropper.Blazor.wasm",
-      "Cropper.Blazor.Shared.gona3bkym9.wasm": "Cropper.Blazor.Shared.wasm",
-      "Cropper.Blazor.Client.qzr3sq0y6o.wasm": "Cropper.Blazor.Client.wasm",
+      "Cropper.Blazor.12pceedofk.wasm": "Cropper.Blazor.wasm",
+      "Cropper.Blazor.Shared.hqvkhthnh1.wasm": "Cropper.Blazor.Shared.wasm",
+      "Cropper.Blazor.Client.vkjuipwhnr.wasm": "Cropper.Blazor.Client.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.noby4tlk4d.js": "dotnet.native.js",
       "dotnet.native.qe75a9vfqn.wasm": "dotnet.native.wasm",
@@ -141,9 +141,9 @@
       "System.Web.HttpUtility.74d46b50jh.wasm": "sha256-Zz20wTScGM5ekiwS41LJhS4heBxZl2VEwlHsFItobDQ=",
       "System.Xml.ReaderWriter.0odvv2554x.wasm": "sha256-EFKPEPuuPqT7t/MyqQTVBMbllybt0hbYYJjRtxjitOU=",
       "System.t4d4s3f398.wasm": "sha256-fVP2BxRRKpBA0PmBbKxmO45bXDrAXVn1GthlDclLbeU=",
-      "Cropper.Blazor.c6cbvcb2ls.wasm": "sha256-ZHGJ9FaSokoPMAosNWmIeAo/g36h0U6JyIEOvqPP5Ec=",
-      "Cropper.Blazor.Shared.gona3bkym9.wasm": "sha256-oLoK3+BqBSPOWCqDHKNVul7BPNNvRvUUTjAujxFUB30=",
-      "Cropper.Blazor.Client.qzr3sq0y6o.wasm": "sha256-dnSvE1YFeEJHiP37VxfqXxTiAfBS8uP5pNw5CqJej3w="
+      "Cropper.Blazor.12pceedofk.wasm": "sha256-J2CSH3R/vGO1AMohC7kIUIeyvlRTuWKI2oTNqLIW7rA=",
+      "Cropper.Blazor.Shared.hqvkhthnh1.wasm": "sha256-Vw387lC7Cc+lk/hIoI3KyQIpfphUmVBrQ1d1p6TiUnY=",
+      "Cropper.Blazor.Client.vkjuipwhnr.wasm": "sha256-n1REnh2UVeMGCBuCBqAxeue2ZjSW25Lmc/7J8Wi4Yw8="
     },
     "libraryInitializers": {
       "_content/BlazorWasmPreRendering.Build/BlazorWasmPreRendering.Build.lfyg69o9wu.lib.module.js": "sha256-UVy3L6kXaa89JN6tg+EbiLCuVLpkmxOoG6sAi7Bb9uc="
